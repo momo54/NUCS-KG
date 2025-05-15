@@ -7,19 +7,22 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS
 
 def export_to_rdf(ues, output_ttl):
-    EX = Namespace("http://example.org/ue/")
+    EX = Namespace("http://example.org/course/")
+    RFDS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
     g = Graph()
     g.bind("ex", EX)
 
     for ue in ues:
-        code = ue.get("Code", "Unknown")
+        code = ue.get("code", "Unknown")
         subj = URIRef(f"{EX}UE_{code}")
         g.add((subj, RDF.type, EX.UE))
         
         for k, v in ue.items():
-            if k == "Code":
+            if k == "code":
                 g.add((subj, EX.code, Literal(v)))
-            elif k == "Parcours":
+            elif k == "label":
+                g.add((subj, RDFS.label, Literal(v)))
+            elif k == "parcours":
                 for item in re.split(r",\s*", v):
                     g.add((subj, EX.parcours, Literal(item)))
             else:
@@ -140,27 +143,27 @@ def parse_bloc(bloc):
     first_line = lignes[0].strip()
     match = re.match(r"^((X|Y)[A-Z0-9]{4,})\s+(.*)", first_line)
     if match:
-        ue['Code'] = match.group(1)
-        ue['Titre'] = match.group(3).strip()
+        ue['code'] = match.group(1)
+        ue['label'] = match.group(3).strip()
     else:
-        ue['Code'] = "Inconnu"
-        ue['Titre'] = first_line  # fallback
+        ue['code'] = "Inconnu"
+        ue['label'] = first_line  # fallback
 
     champs = {
-        "Lieu d’enseignement": "Lieu",
-        "Niveau": "Niveau",
-        "Semestre": "Semestre",
-        "Responsable de l’UE": "Responsable",
-        "Volume horaire total": "Volume",
-        "UE pré-requise": "Pre_requis",
-        "Parcours d’études comprenant l’UE": "Parcours",
-        "Pondération pour chaque matière": "Evaluation",
-        "Obtention de l’UE": "Obtention",
-        "Objectifs": "Objectifs",
-        "Contenu": "Contenu",
-        "Méthodes d’enseignement": "Methodes",
-        "Langue d’enseignement": "Langue",
-        "Bibliographie": "Bibliographie"
+        "Lieu d’enseignement": "location",
+        "Niveau": "level",
+        "Semestre": "semester",
+        "Responsable de l’UE": "responsible",
+        "Volume horaire total": "hours",
+        "UE pré-requise": "prerequisite",
+        "Parcours d’études comprenant l’UE": "parcours",
+        "Pondération pour chaque matière": "evaluation",
+        "Obtention de l’UE": "obtention",
+        "Objectifs": "objective",
+        "Contenu": "content",
+        "Méthodes d’enseignement": "methods",
+        "Langue d’enseignement": "language",
+        "Bibliographie": "bibliography"
     }
 
     for champ_pdf, champ_clef in champs.items():

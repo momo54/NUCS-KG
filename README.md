@@ -9,3 +9,7 @@
 
 * `python extract_ues.py ./data/master2025/ALMA.PDF ./XP/master2025/ALMA.csv`
 * `python extract_ues.py ./data/licence2025/L3.pdf ./XP/licence2025/L3.csv`
+
+## Check TTL ok
+
+* `python -c "from rdflib import Graph; g = Graph(); g.parse('./XP/master2025/ALMA.ttl', format='turtle'); print(len(g))"`
