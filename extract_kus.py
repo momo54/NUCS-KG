@@ -214,7 +214,146 @@ def extract_knowledge_units_orig(pdf_path):
 
     return knowledge_units
 
+
 def extract_sections(ku_text):
+    section_labels = ["CS Core:", "KA Core:", "Non-core:", "Illustrative Learning Outcomes:"]
+    lines = ku_text.splitlines()
+    
+    sections = {}
+    current_section = None
+    in_ilo = False  # flag: are we inside ILO?
+    ilo_buffer = []  # temporary buffer when ILO is flat text
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        if stripped == "Illustrative Learning Outcomes:":
+            in_ilo = True
+            current_section = None
+            sections["Illustrative Learning Outcomes"] = {}
+            ilo_buffer = []
+            continue
+
+        if any(stripped.startswith(label) for label in section_labels if label != "Illustrative Learning Outcomes:"):
+            label = stripped.rstrip(":")
+            current_section = label
+            if in_ilo:
+                sections["Illustrative Learning Outcomes"][current_section] = ""
+            else:
+                sections[current_section] = ""
+            continue
+
+        # collect text
+        if in_ilo:
+            if current_section:
+                # nested mode
+                sections["Illustrative Learning Outcomes"][current_section] += line + "\n"
+            else:
+                # flat mode — no nested label
+                ilo_buffer.append(line)
+        else:
+            if current_section:
+                sections[current_section] += line + "\n"
+
+    # flush flat ILO if no sub-section found
+    if "Illustrative Learning Outcomes" in sections and isinstance(sections["Illustrative Learning Outcomes"], dict):
+        if not sections["Illustrative Learning Outcomes"] and ilo_buffer:
+            sections["Illustrative Learning Outcomes"] = "\n".join(ilo_buffer).strip()
+
+    # strip trailing newlines
+    for key in sections:
+        if isinstance(sections[key], str):
+            sections[key] = sections[key].strip()
+        elif isinstance(sections[key], dict):
+            for subkey in sections[key]:
+                sections[key][subkey] = sections[key][subkey].strip()
+
+    return sections
+
+
+def extract_sections_nested(ku_text):
+    section_labels = ["CS Core:", "KA Core:", "Non-core:", "Illustrative Learning Outcomes:"]
+    lines = ku_text.splitlines()
+    
+    sections = {}
+    current_section = None
+    in_ilo = False  # flag: are we inside Illustrative Learning Outcomes?
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        if stripped == "Illustrative Learning Outcomes:":
+            in_ilo = True
+            current_section = None
+            sections["Illustrative Learning Outcomes"] = {}
+            continue
+
+        if any(stripped.startswith(label) for label in section_labels if label != "Illustrative Learning Outcomes:"):
+            label = stripped.rstrip(":")
+            current_section = label
+            if in_ilo:
+                sections["Illustrative Learning Outcomes"][current_section] = ""
+            else:
+                sections[current_section] = ""
+            continue
+
+        # append line to the correct section
+        if current_section:
+            if in_ilo:
+                sections["Illustrative Learning Outcomes"][current_section] += (line + "\n")
+            else:
+                sections[current_section] += (line + "\n")
+
+    # strip extra newlines
+    for key in sections:
+        if isinstance(sections[key], str):
+            sections[key] = sections[key].strip()
+        elif isinstance(sections[key], dict):
+            for subkey in sections[key]:
+                sections[key][subkey] = sections[key][subkey].strip()
+
+    return sections
+
+
+
+def extract_sections_merge(ku_text):
+    section_titles = ["CS Core:", "KA Core:", "Non-core:", "Illustrative Learning Outcomes:"]
+    pattern = "|".join(re.escape(title) for title in section_titles)
+    section_pattern = re.compile(rf"({pattern})")
+
+    # Pattern to detect the start of a new KU (to truncate if embedded)
+    ku_title_pattern = re.compile(r'^[A-Z]{2,3}-[^:\n]+:\s?.+', re.MULTILINE)
+
+    sections = {}
+    matches = list(section_pattern.finditer(ku_text))
+
+    for i, match in enumerate(matches):
+        label = match.group(1).rstrip(":")
+        start = match.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(ku_text)
+
+        content_block = ku_text[start:end].strip()
+
+        # Truncate if a new KU title is embedded by mistake
+        ku_match = ku_title_pattern.search(content_block)
+        if ku_match:
+            content_block = content_block[:ku_match.start()].strip()
+
+        # Append or create the section
+        if content_block:
+            if label in sections:
+                sections[label] += "\n" + content_block
+            else:
+                sections[label] = content_block
+
+    return sections
+
+
+def extract_sections_nearly(ku_text):
     section_titles = ["CS Core:", "KA Core:", "Non-core:", "Illustrative Learning Outcomes:"]
     pattern = "|".join(re.escape(title) for title in section_titles)
     section_pattern = re.compile(rf"({pattern})")
