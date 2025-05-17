@@ -96,12 +96,40 @@ def extract_knowledge_units(pdf_path):
     for idx, start in enumerate(ku_indices):
         end = ku_indices[idx + 1] if idx + 1 < len(ku_indices) else len(lines)
         title = lines[start].strip()
-        ku_block = "\n".join(lines[start+1:end])
-        sections = extract_sections(ku_block)
-        knowledge_units.append({
-            "title": title,
-            **sections
-        })
+#        ku_block = "\n".join(lines[start+1:end])
+
+        ## intro management
+        ku_block_lines = lines[start+1:end]
+        section_start = None
+
+        # Look for first section label
+        section_pattern = re.compile(r'^(CS|KA|Non)[ -]?Core:|^Illustrative Learning Outcomes:', re.IGNORECASE)
+
+        for idx, line in enumerate(ku_block_lines):
+            if section_pattern.match(line.strip()):
+                section_start = idx
+                break
+
+        if section_start is not None:
+            intro = "\n".join(ku_block_lines[:section_start]).strip()
+            section_text = "\n".join(ku_block_lines[section_start:])
+        else:
+            intro = "\n".join(ku_block_lines).strip()
+            section_text = ""
+        # end of intro management
+
+        sections = extract_sections(section_text)
+        ku_dict = {"title": title, **sections}
+        if intro:
+            ku_dict["intro"] = intro
+
+        knowledge_units.append(ku_dict)
+
+        # sections = extract_sections(ku_block)
+        # knowledge_units.append({
+        #     "title": title,
+        #     **sections
+        # })
 
     print(f"[✔] Total valid KUs found: {len(knowledge_units)}")
     return knowledge_units
