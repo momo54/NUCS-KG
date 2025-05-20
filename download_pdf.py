@@ -23,21 +23,21 @@ PDF_URLS = [
 
 
     # Masters M1
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-alma", "./data/master2025/M1/ALMA_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-atal", "./data/master2025/M1/ATAL_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-oro", "./data/master2025/M1/ORO_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-data-sciences-ds", "./data/master2025/M1/DS_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-visual-computing-vico", "./data/master2025/M1/VICO_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-m1-cmi-optim", "./data/master2025/M1/CMI_M1.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/medias/fichier/m1-smart-computing-mention-informatique_1732713726216-pdf?ID_FICHE=2080272&INLINE=FALSE", "./data/master2025/M1/CMD_M1.PDF"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-alma", "./data/master2025/M1/ALMA_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-atal", "./data/master2025/M1/ATAL_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-oro", "./data/master2025/M1/ORO_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-data-sciences-ds", "./data/master2025/M1/DS_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m1-visual-computing-vico", "./data/master2025/M1/VICO_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-m1-cmi-optim", "./data/master2025/M1/CMI_M1.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/medias/fichier/m1-smart-computing-mention-informatique_1732713726216-pdf?ID_FICHE=2080272&INLINE=FALSE", "./data/master2025/M1/CMD_M1.pdf"),
 
     # Masters M2
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-atal", "./data/master2025/M2/ATAL_M2.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-alma", "./data/master2025/M2/ALMA_M2.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-oro", "./data/master2025/M2/ORO_M2.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-data-sciences-ds-polytech", "./data/master2025/M2/DS_M2.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-visual-computing-vico-polytech", "./data/master2025/M2/VICO_M2.PDF"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-m2-cmi-optim", "./data/master2025/M2/CMI_M2.PDF")
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-atal", "./data/master2025/M2/ATAL_M2.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-alma", "./data/master2025/M2/ALMA_M2.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-oro", "./data/master2025/M2/ORO_M2.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-data-sciences-ds-polytech", "./data/master2025/M2/DS_M2.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-du-m2-visual-computing-vico-polytech", "./data/master2025/M2/VICO_M2.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-m2-cmi-optim", "./data/master2025/M2/CMI_M2.pdf")
 ]
 
 def download_pdf(url, filepath):

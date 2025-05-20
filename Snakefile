@@ -5,11 +5,15 @@ PDF_DIR = Path("data")
 CSV_DIR = Path("XP")
 
 # Récupère tous les fichiers PDF sous data/
-pdf_files = list(PDF_DIR.rglob("*.PDF"))
+pdf_files = list(PDF_DIR.rglob("*.pdf"))
+
+print(pdf_files)
 
 # Crée une liste des fichiers cibles CSV en conservant la hiérarchie
 relative_paths = [f.relative_to(PDF_DIR) for f in pdf_files]
 csv_paths = [CSV_DIR / p.with_suffix(".csv") for p in relative_paths]
+
+print(csv_paths)
 
 rule all:
     input:
