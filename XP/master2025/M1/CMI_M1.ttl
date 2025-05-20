@@ -20,10 +20,10 @@ ex:UE_XMS1AU000 a ex:UE ;
 • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée
 lors des séances d’entrainement.""" ;
     ex:obtention "Programme" ;
-    ex:parcours "",
-        "M1 Travaux Publics",
-        "Maritimes et Maintenance - Mention GC",
-        "bâtiments" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "bâtiments,M1 Travaux Publics, Maritimes et Maintenance - Mention GC,M1 Travaux Publics," ;
     ex:prerequisite "(s)" ;
     ex:responsible "LABARBE LAURIE" ;
     ex:semester "1" .
@@ -41,10 +41,10 @@ ex:UE_XMS1AU010 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ORO)",
-        "M1 Apprentissage et Traitement",
-        "M1 Data Science (DS) ",
-        "M1 Visual Computing (VICO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "1" .
@@ -71,13 +71,11 @@ théorie des graphes : parcours, connexité, plus courts chemins, recherche de c
 les graphes
 3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.""" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique." ;
-    ex:parcours "(ALMA)",
-        "M1 CMI-OPTIM",
-        """M1 Data Science
-(DS) """,
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing",
-        "M1 Visual Computing (VICO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """(ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science
+(DS) ,M1 Visual Computing (VICO),M1 Smart Computing""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "1" .
@@ -95,11 +93,11 @@ ex:UE_XMS1IU050 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "L'examen pourra être écrit ou oral." ;
-    ex:parcours """M1 Apprentissage et Traitement Automatique de
-la Langue (ATAL)""",
-        "M1 CMI-OPTIM",
-        "M1 Smart Computing",
-        "Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de
+la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "1" .
@@ -117,10 +115,10 @@ ex:UE_XMS1IU060 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ORO)",
-        "M1",
-        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M1 CMI-OPTIM" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "LE CAPITAINE HOEL" ;
     ex:semester "1" .
@@ -138,9 +136,10 @@ ex:UE_XMS1IU080 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Computing (VICO)",
-        "M1 Apprentissage et Traitement Automatique de la",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "1" .
@@ -173,9 +172,10 @@ résolution initiale (A)
 1) Rappels : résolution graphique de programmes linéaires, algorithme primal simplexe
 2) Dualité en programmation linéaire : définition, principales propriétés, interprétation économique""" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
-    ex:parcours "M1 CMI-OPTIM",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "1" .
@@ -197,9 +197,10 @@ problématiques/méthodes.
 4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise
 en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées""" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique." ;
-    ex:parcours "M1 CMI-OPTIM",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "RUSU Irena" ;
     ex:semester "1" .
@@ -234,9 +235,10 @@ quadratiques d’une fonction à plusieurs variables
 - Méthode de la descente de gradient, analyse de convergence
 - Méthode des gradients conjugués, orthogonalité""" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
-    ex:parcours "M1 CMI-OPTIM",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GOLDSZTEJN ALEXANDRE" ;
     ex:semester "1" .
@@ -254,9 +256,10 @@ ex:UE_XMS1IU230 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "L'examen pourra être écrit ou oral." ;
-    ex:parcours "M1 CMI-OPTIM",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GANDIBLEUX XAVIER" ;
     ex:semester "1" .
@@ -274,10 +277,10 @@ ex:UE_XMS1TU010 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1 CMI-ICM",
-        "M1 CMI-INA",
-        "M1 CMI-IS",
-        "M1 CMI-OPTIM" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 CMI-INA,M1 CMI-IS,M1 CMI-OPTIM,M1 CMI-ICM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 22h Répartition : CM : 0h TD : 0h CI : 22h TP : 0h EAD : 0h" ;
     ex:semester "1" .
@@ -301,10 +304,10 @@ d’une publication scientifique
 d’abstracts et d’articles, peer-reviewing, présentation orale
 • Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel""" ;
     ex:obtention "Programme" ;
-    ex:parcours "Analyse numérique et Calcul",
-        "M1 Modélisation",
-        "M1 Sciences & Santé",
-        "Mention Bioinformatique" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Mention Bioinformatique,M1 Sciences & Santé,M1 Modélisation, Analyse numérique et Calcul" ;
     ex:prerequisite "(s) Aucune" ;
     ex:responsible "TOWNEND ALICE" ;
     ex:semester "2" .
@@ -323,10 +326,10 @@ ex:UE_XMS2IU010 a ex:UE ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention """Programme
 - Professionnalisation (XMS2IE011)""" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)",
-        "M1 Data",
-        "M1 Visual Computing (VICO)",
-        "Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -344,12 +347,11 @@ ex:UE_XMS2IU020 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours """M1 Apprentissage et Traitement Automatique de
-la Langue (ATAL)""",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 CMI-OPTIM",
-        "M1 Smart Computing",
-        "Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de
+la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DE LA HIGUERA COLIN" ;
     ex:semester "2" .
@@ -367,9 +369,10 @@ ex:UE_XMS2IU030 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1",
-        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "Visual Computing (VICO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -390,9 +393,10 @@ prospective
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ORO)",
-        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M1 Architecture" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -410,9 +414,10 @@ ex:UE_XMS2IU060 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M1 CMI-OPTIM",
-        "Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DE LA HIGUERA COLIN" ;
     ex:semester "2" .
@@ -432,10 +437,10 @@ ex:UE_XMS2IU070 a ex:UE ;
 l'étude d'un cas pratique au travers d'un mini projet.""" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(VICO)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERREIRA DA SILVA MATTHIEU" ;
     ex:semester "2" .
@@ -453,11 +458,11 @@ ex:UE_XMS2IU080 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GUREVSKY EVGENY" ;
     ex:semester "2" .
@@ -475,10 +480,10 @@ ex:UE_XMS2IU090 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(VICO)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "2" .
@@ -500,11 +505,11 @@ ciblé grâce au techniques actuels d'intelligence artificielle adaptées au lan
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DUFOUR RICHARD" ;
     ex:semester "2" .
@@ -522,10 +527,10 @@ ex:UE_XMS2IU110 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ATAL)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HAMMA SALIMA" ;
     ex:semester "2" .
@@ -546,11 +551,11 @@ d'approximation et complexité paramétrée (à exponentielle faible)""" ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "2" .
@@ -568,11 +573,11 @@ ex:UE_XMS2IU130 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -590,8 +595,10 @@ ex:UE_XMS2IU200 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
-    ex:parcours "M1 CMI-OPTIM",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "2" .
@@ -619,9 +626,10 @@ lequel il est adapté
 • Compare les avantages et les inconvénients de chacune des méthodes d’optimisation précédentes.""" ;
     ex:obtention """La note obtenue à l’évaluation de remplacement viendra se substituer à la ou aux notes d’absences
 justifiées.""" ;
-    ex:parcours "(MACS)",
-        "M1 CMI-IS",
-        "M1 CMI-OPTIM" ;
+    ex:parcours_code "CMI" ;
+    ex:parcours_file "CMI_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(MACS),M1 CMI-IS,M1 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PHILIPPE ANNE" ;
     ex:semester "2" .

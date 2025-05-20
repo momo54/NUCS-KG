@@ -16,7 +16,10 @@ ex:UE_Inconnu a ex:UE ;
 guidelines
 of the teaching unit to their work.""" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Data Science (DS)" ;
+    ex:parcours_code "DS" ;
+    ex:parcours_file "DS_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Data Science (DS)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
     ex:semester "3" .

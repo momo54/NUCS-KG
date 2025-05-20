@@ -14,10 +14,10 @@ ex:UE_XMS1AU010 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ORO)",
-        "M1 Apprentissage et Traitement",
-        "M1 Data Science (DS) ",
-        "M1 Visual Computing (VICO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "1" .
@@ -44,13 +44,11 @@ théorie des graphes : parcours, connexité, plus courts chemins, recherche de c
 les graphes
 3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.""" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique." ;
-    ex:parcours "(ALMA)",
-        "M1 CMI-OPTIM",
-        """M1 Data Science
-(DS) """,
-        "M1 Optimisation en Recherche Opérationnelle (ORO)",
-        "M1 Smart Computing",
-        "M1 Visual Computing (VICO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """(ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science
+(DS) ,M1 Visual Computing (VICO),M1 Smart Computing""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "1" .
@@ -75,10 +73,10 @@ ex:UE_XMS1IU070 a ex:UE ;
 • Evaluer la fiabilité d'une appllication dans le contexte de cloud""" ;
     ex:obtention """Programme
 - Données massives et cloud (XMS1IE071)""" ;
-    ex:parcours "(ATAL)",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Data Science (DS) ",
-        "M1 Smart Computing" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "1" .
@@ -96,9 +94,10 @@ ex:UE_XMS1IU080 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Computing (VICO)",
-        "M1 Apprentissage et Traitement Automatique de la",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "1" .
@@ -174,8 +173,10 @@ problèmes
 • Qualité d'une suite de tests et méthodes pour la mesurer (couverture, analyse de mutation)""" ;
     ex:obtention """Programme
 - Test logiciel (XMS1IE301)""" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 47.98h Répartition : CM : 19.99h TD : 6.66h CI : 0h TP : 21.33h EAD : 0h" ;
     ex:semester "1" .
@@ -199,8 +200,10 @@ theorem proving.
 vérification formelle à l'aide d'outils adaptés, par ex. Uppaal et CoQ.""" ;
     ex:obtention """Programme
 - Preuves et Constructions Formelles (XMS1IE313)""" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "1" .
@@ -218,8 +221,10 @@ ex:UE_XMS1IU320 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)",
-        "M1 Smart Computing" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "1" .
@@ -245,10 +250,10 @@ ex:UE_XMS2AU000 a ex:UE ;
 • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée
 lors des séances d’entrainement.""" ;
     ex:obtention "Programme" ;
-    ex:parcours "Automatique de la Langue (ATAL)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "2" .
@@ -267,10 +272,10 @@ ex:UE_XMS2IU010 a ex:UE ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention """Programme
 - Professionnalisation (XMS2IE011)""" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)",
-        "M1 Data",
-        "M1 Visual Computing (VICO)",
-        "Opérationnelle (ORO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -288,12 +293,11 @@ ex:UE_XMS2IU020 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours """M1 Apprentissage et Traitement Automatique de
-la Langue (ATAL)""",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 CMI-OPTIM",
-        "M1 Smart Computing",
-        "Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de
+la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DE LA HIGUERA COLIN" ;
     ex:semester "2" .
@@ -311,9 +315,10 @@ ex:UE_XMS2IU030 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1",
-        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "Visual Computing (VICO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -334,9 +339,10 @@ prospective
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ORO)",
-        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M1 Architecture" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -356,10 +362,10 @@ ex:UE_XMS2IU070 a ex:UE ;
 l'étude d'un cas pratique au travers d'un mini projet.""" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(VICO)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERREIRA DA SILVA MATTHIEU" ;
     ex:semester "2" .
@@ -377,11 +383,11 @@ ex:UE_XMS2IU080 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GUREVSKY EVGENY" ;
     ex:semester "2" .
@@ -399,10 +405,10 @@ ex:UE_XMS2IU090 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(VICO)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "2" .
@@ -424,11 +430,11 @@ ciblé grâce au techniques actuels d'intelligence artificielle adaptées au lan
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DUFOUR RICHARD" ;
     ex:semester "2" .
@@ -446,10 +452,10 @@ ex:UE_XMS2IU110 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "(ATAL)",
-        "M1",
-        "M1 Architecture Logicielle (ALMA)",
-        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "(ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HAMMA SALIMA" ;
     ex:semester "2" .
@@ -470,11 +476,11 @@ d'approximation et complexité paramétrée (à exponentielle faible)""" ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "2" .
@@ -492,11 +498,11 @@ ex:UE_XMS2IU130 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        """M1 Architecture Logicielle
-(ALMA)""",
-        "M1 CMI-OPTIM",
-        "M1 Data Science (DS) " ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string """Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle
+(ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM""" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -514,7 +520,10 @@ ex:UE_XMS2IU310 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Architecture Logicielle (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .
@@ -532,7 +541,10 @@ ex:UE_XMS2IU320 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M1 Architecture Logicielle (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M1" ;
+    ex:parcours_level "M1" ;
+    ex:parcours_string "M1 Architecture Logicielle (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "2" .

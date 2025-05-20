@@ -30,8 +30,10 @@ optimization problem (A)
 - To be able to apply a dynamic programming algorithm for multi-objective combinatorial
 optimization problem, application to the shortest path problem (A)""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "3" .
@@ -59,8 +61,10 @@ approach for various combinatorial optimization problems (M)
 -To know how matheuristics work for both exact methods using approximate methods, and
 heuristics taking advantage of exact approaches (M)""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "ROSSI ANDRE" ;
     ex:semester "3" .
@@ -83,8 +87,10 @@ ex:UE_XMS3IU320 a ex:UE ;
     ex:objective """(résultats d'apprentissage) • Connaître les stratégies de recherche usuelles
 • Mettre en oeuvre un solveur de problèmes d'optimisation non linéaires""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GRANVILLIERS LAURENT" ;
     ex:semester "3" .
@@ -102,8 +108,10 @@ ex:UE_XMS3IU330 a ex:UE ;
     ex:methods "Présentiel." ;
     ex:objective "(résultats d'apprentissage) Comprendre, reproduire et adapter les algorithmes de recherche de motifs" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "RUSU Irena" ;
     ex:semester "3" .
@@ -124,8 +132,10 @@ optimization problems (Analysis) ;
 * model a variety of robotic problems as numerical constrained optimization problems and solve
 them using an appropriate method (Synthesis) ;""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "JERMANN CHRISTOPHE" ;
     ex:semester "3" .
@@ -143,8 +153,10 @@ ex:UE_XMS3IU350 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "TONNEAU QUENTIN" ;
     ex:semester "3" .
@@ -166,8 +178,10 @@ ex:UE_XMS3IU360 a ex:UE ;
 métaheuristique multiobjectif.
 • Appréhender et conduire des cas d'étude.""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GANDIBLEUX XAVIER" ;
     ex:semester "3" .
@@ -185,8 +199,10 @@ ex:UE_XMS3WU370 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Bellenguez Odile" ;
     ex:semester "3" .
@@ -209,8 +225,10 @@ ex:UE_XMS3WU380 a ex:UE ;
 + Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean
 relaxation, column generation) I.""" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "LEHUEDE Fabien" ;
     ex:semester "3" .
@@ -228,8 +246,10 @@ ex:UE_XMS3WU390 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
-    ex:parcours "M2 CMI-OPTIM",
-        "M2 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "BELDICEANU Nicolas" ;
     ex:semester "3" .
@@ -249,8 +269,10 @@ ex:UE_XMS4IU010 a ex:UE ;
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
 convaincante.""" ;
     ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M2 CMI-OPTIM" ;
+    ex:parcours_code "ORO" ;
+    ex:parcours_file "ORO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERRIN MATTHIEU" ;
     ex:semester "4" .

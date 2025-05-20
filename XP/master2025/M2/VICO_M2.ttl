@@ -2,22 +2,69 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:UE_Inconnu a ex:UE ;
-    rdfs:label "Research methodology and case study" ;
-    ex:bibliography "Semantic knowledge representation" ;
+    rdfs:label "Advanced image and video processing",
+        "YG9U15- Machine learning for computer vision",
+        "YG9U17- Perceptual computing" ;
+    ex:bibliography "",
+        "3D Computer Graphics" ;
     ex:code "Inconnu" ;
-    ex:content "Ethics of research" ;
-    ex:evaluation "Research methodology and case study 100%" ;
-    ex:hours "TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
+    ex:content """- Structure recognition (spatial relation analysis, 1D / 2D grammar based system, CYK parsing)
+- Data set properties (size, diversity, labeling cost)
+• Applications :
+- Offline and Online Handwriting recognition
+- Visual object recognition""",
+        """2. Visual Experiments and modeling
+• Fundamentals of psychophysics, visual perception experiments with humans
+• Visual attention and eytracking experiments, cognitive aspects
+3. Applications: perceptual based processing
+• Perceptual watermarking, Video and image quality assessment, Perceptual image and video
+coding
+• 3D, stereo and autostereo applications""",
+        "• Discrete reconstruction" ;
+    ex:evaluation "Advanced image and video processing 100%",
+        "Machine learning for computer vision 100%",
+        "Perceptual computing 100%" ;
+    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "Polytech Nantes" ;
     ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage)
-guidelines
-of the teaching unit to their work.""" ;
-    ex:obtention "Programme" ;
-    ex:parcours "M2 Data Science (DS)" ;
+    ex:objective """(résultats d'apprentissage) - choose the appropriate datasets, apply necessary preprocessings
+- train, optimize and use classical machine learning tools (GMM, MLP, SVM, deeplearning)
+- evaluate the spatial relations between objects
+- understand a grammar based system to parse complex objects
+• Data preprocessing (normalization), Feature extraction
+• Classification :
+- Mixture models (GMM), Bayesienne decision
+- Neural Networks (from MLP to deep-learning), Kernel Machines (SVM), Semi-supervised
+learning""",
+        """(résultats d'apprentissage) image problem via these tools
+• Manipulate the discrete geometry concepts in a real applicative environment either for medical
+imaging (image acquisition, tomography, quantizing image information) or for image analysis
+(medical, materials, ...). A large set of examples is available from the teams projects and are applied
+with the previous concepts in real time constraints environments""",
+        """(résultats d'apprentissage) theoretical and practical knowledge acquired during this course in order to design and evaluate
+image and video processing algorithms that take into account the properties of the human visual
+system.
+1. Visual perception: physiology and theories
+• The physics of vision and physiological basis of visual perception (retina, visual pathways, visual
+cortex)
+• Spatial vision, Color perception, Depth perception, Visual motion perception
+• Shape and object perception. Visual perception theories: Gestalt, Brunswik's probabilistic
+functionalism, neurophysiological approach, Gregory's theory, Gibson's theory, Marr's
+computationnal approach""" ;
+    ex:obtention "Programme",
+        "The continuous assessment is also done through scientific articles presentations (oral skills).",
+        """quality of the work done. Final exam is an individual presentation of a scientific article that the
+student has to study beforehand.""" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_file "VICO_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Visual Computing (VICO)",
+        "M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
-    ex:responsible "Volume horaire total TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
+    ex:responsible "GUEDON JEAN-PIERRE",
+        "MOUCHERE HAROLD",
+        "PEIRRERA DA SILVA MATTHIEU" ;
     ex:semester "3" .
 

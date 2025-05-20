@@ -20,7 +20,10 @@ ex:UE_XMS3IU020 a ex:UE ;
 big data.
 • To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
 • To know how to program with Map-Reduce, resilient data structures, and stream processing ie.""" ;
-    ex:parcours "(ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "(ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "3" .
@@ -45,7 +48,10 @@ ex:UE_XMS3IU200 a ex:UE ;
 génératif, multimodalité, compression)
 • Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning,""" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HERNANDEZ NICOLAS" ;
     ex:semester "3" .
@@ -87,7 +93,10 @@ scalability, reliability, and easy management. https://www.elastic.co/fr/downloa
 référence, classification d'énoncés, alignement)
 • Applications/tâches génératives (résumé, question/réponse, traduction, génération de code, agent""" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DUFOUR RICHARD" ;
     ex:semester "3" .
@@ -111,7 +120,10 @@ ex:UE_XMS3IU220 a ex:UE ;
 de références...) et de lexiques
 • Annotation (procédure, guide d'annotation, outils, mesure d'accord)""" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DAILLE BEATRICE" ;
     ex:semester "3" .
@@ -131,7 +143,10 @@ acculturation, chiffrage, planification, industrialisation, packaging, performan
     ex:objective """(résultats d'apprentissage)
 * Agilité et gestion de projets""" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HERNANDEZ NICOLAS" ;
     ex:semester "3" .
@@ -154,7 +169,10 @@ sur l’acquisition lexicale monolingue et multilingue. GLOTTOPOL :8, 22-44.""" 
     ex:methods "Méthodes d'enseignement" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DE LA HIGUERA COLIN" ;
     ex:semester "3" .
@@ -174,7 +192,10 @@ ex:UE_XMS3IU250 a ex:UE ;
 * Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
 * Participation à séminaires "Petit Séminaires ATAL\"""" ;
     ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "QUINIOU SOLEN" ;
     ex:semester "3" .
@@ -192,7 +213,10 @@ ex:UE_XMS3IU260 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HERNANDEZ NICOLAS" ;
     ex:semester "3" .
@@ -210,7 +234,10 @@ ex:UE_XMS3IU270 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HERNANDEZ NICOLAS" ;
     ex:semester "3" .
@@ -230,8 +257,10 @@ ex:UE_XMS4IU010 a ex:UE ;
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
 convaincante.""" ;
     ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M2 CMI-OPTIM" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERRIN MATTHIEU" ;
     ex:semester "4" .
@@ -249,7 +278,10 @@ ex:UE_XMS4IU200 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "QUINIOU SOLEN" ;
     ex:semester "4" .
@@ -270,8 +302,10 @@ and organize them in a bibliography.""" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention """Programme
 - Initiation to scientific research (XEATTENTE11)""" ;
-    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HERNANDEZ NICOLAS" ;
     ex:semester "3" .
@@ -291,7 +325,10 @@ ex:UE_XUATTENTE20 a ex:UE ;
     ex:objective """(résultats d'apprentissage)
 • Cours : MLP, CNN, RNN""" ;
     ex:obtention "Programme" ;
-    ex:parcours "de la Langue (ATAL)" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_file "ATAL_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "de la Langue (ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOUCHERE HAROLD" ;
     ex:semester "3" .

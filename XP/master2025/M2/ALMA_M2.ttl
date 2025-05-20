@@ -22,7 +22,10 @@ ex:UE_XMS3IU010 a ex:UE ;
 - Comprendre les architecture n-tiers (e.g. J2E) et les technologies associées
 - Connaître les limites théoriques des applications distribuées
 - Etre capable de mettre en place une architecture client/serveur utilisant des objets distants""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOSTEFAOUI ACHOUR" ;
     ex:semester "3" .
@@ -46,7 +49,10 @@ ex:UE_XMS3IU020 a ex:UE ;
 big data.
 • To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
 • To know how to program with Map-Reduce, resilient data structures, and stream processing ie.""" ;
-    ex:parcours "(ATAL)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "(ATAL)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "3" .
@@ -64,7 +70,10 @@ ex:UE_XMS3IU030 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 24h Répartition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h" ;
     ex:semester "3" .
@@ -88,7 +97,10 @@ ex:UE_XMS3IU040 a ex:UE ;
 • To understand the vision of the decentralized web
 • To understand data integration problems
 • To know how to build distributed data integration systems with GAV (Global as View), LAV, GLAV""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "3" .
@@ -117,7 +129,10 @@ logiciel.
 3. Comprendre les différences entre les langages spécifiques au domaine et les langages
 génériques.
 4. Connaître les différences entre la syntaxe abstraite , la syntaxe concrète et la sémantique d'un""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "3" .
@@ -139,7 +154,10 @@ ex:UE_XMS3IU060 a ex:UE ;
     ex:obtention """Programme
 - Etre capable d'appliquer les méthodes et outils pour développer un "Senior Capstone Project" t (A)
 - Etre capable d'identifier les différentes étapes de gestion d'un projet (M)""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "3" .
@@ -164,7 +182,10 @@ orientée services
 - Connaître les principes SOA et son implémentation modulaire via les web-services
 - Connaître les technologies relatives aux web-services (e.g. SOAP, WSDL, UDI)
 - Connaître les changements induits par la notion de service à tous les niveaux""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MOSTEFAOUI ACHOUR" ;
     ex:semester "3" .
@@ -182,7 +203,10 @@ ex:UE_XMS3IU080 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "JABER GUILHEM" ;
     ex:semester "3" .
@@ -216,7 +240,10 @@ logicielles
 différents modes de représentation, leurs supports de conception et leurs mécanismes
 d'adaptation (M)
 - Etre capable d'identifier et de développer différents styles architecturaux (A)""" ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "OUSSALAH MOURAD" ;
     ex:semester "3" .
@@ -234,7 +261,10 @@ ex:UE_XMS3IU100 a ex:UE ;
     ex:methods "Langue d’enseignement Anglais" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
-    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "M2 Architectures Logicielles (ALMA)" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "3" .
@@ -254,8 +284,10 @@ ex:UE_XMS4IU010 a ex:UE ;
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
 convaincante.""" ;
     ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
-    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
-        "M2 CMI-OPTIM" ;
+    ex:parcours_code "ALMA" ;
+    ex:parcours_file "ALMA_M2" ;
+    ex:parcours_level "M2" ;
+    ex:parcours_string "Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERRIN MATTHIEU" ;
     ex:semester "4" .

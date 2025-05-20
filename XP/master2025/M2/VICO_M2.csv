@@ -1,4 +1,36 @@
 code,label,location,level,semester,responsible,hours,prerequisite,parcours,evaluation,obtention,objective,content,methods,language,bibliography
-Inconnu,Research methodology and case study,Polytech Nantes,Master,3,Volume horaire total TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h,TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h,(s),M2 Data Science (DS),Research methodology and case study 100%,Programme,"(résultats d'apprentissage)
-guidelines
-of the teaching unit to their work.",Ethics of research,Langue d’enseignement Anglais,Anglais,Semantic knowledge representation
+Inconnu,Advanced image and video processing,Polytech Nantes,Master,3,GUEDON JEAN-PIERRE,TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h,(s),M2 Visual Computing (VICO),Advanced image and video processing 100%,Programme,"(résultats d'apprentissage) image problem via these tools
+• Manipulate the discrete geometry concepts in a real applicative environment either for medical
+imaging (image acquisition, tomography, quantizing image information) or for image analysis
+(medical, materials, ...). A large set of examples is available from the teams projects and are applied
+with the previous concepts in real time constraints environments",• Discrete reconstruction,Langue d’enseignement Anglais,Anglais,
+Inconnu,YG9U17- Perceptual computing,Polytech Nantes,Master,3,PEIRRERA DA SILVA MATTHIEU,TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h,(s),"M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)",Perceptual computing 100%,"quality of the work done. Final exam is an individual presentation of a scientific article that the
+student has to study beforehand.","(résultats d'apprentissage) theoretical and practical knowledge acquired during this course in order to design and evaluate
+image and video processing algorithms that take into account the properties of the human visual
+system.
+1. Visual perception: physiology and theories
+• The physics of vision and physiological basis of visual perception (retina, visual pathways, visual
+cortex)
+• Spatial vision, Color perception, Depth perception, Visual motion perception
+• Shape and object perception. Visual perception theories: Gestalt, Brunswik's probabilistic
+functionalism, neurophysiological approach, Gregory's theory, Gibson's theory, Marr's
+computationnal approach","2. Visual Experiments and modeling
+• Fundamentals of psychophysics, visual perception experiments with humans
+• Visual attention and eytracking experiments, cognitive aspects
+3. Applications: perceptual based processing
+• Perceptual watermarking, Video and image quality assessment, Perceptual image and video
+coding
+• 3D, stereo and autostereo applications",Langue d’enseignement Anglais,Anglais,
+Inconnu,YG9U15- Machine learning for computer vision,Polytech Nantes,Master,3,MOUCHERE HAROLD,TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h,(s),"M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)",Machine learning for computer vision 100%,The continuous assessment is also done through scientific articles presentations (oral skills).,"(résultats d'apprentissage) - choose the appropriate datasets, apply necessary preprocessings
+- train, optimize and use classical machine learning tools (GMM, MLP, SVM, deeplearning)
+- evaluate the spatial relations between objects
+- understand a grammar based system to parse complex objects
+• Data preprocessing (normalization), Feature extraction
+• Classification :
+- Mixture models (GMM), Bayesienne decision
+- Neural Networks (from MLP to deep-learning), Kernel Machines (SVM), Semi-supervised
+learning","- Structure recognition (spatial relation analysis, 1D / 2D grammar based system, CYK parsing)
+- Data set properties (size, diversity, labeling cost)
+• Applications :
+- Offline and Online Handwriting recognition
+- Visual object recognition",Langue d’enseignement Anglais,Anglais,3D Computer Graphics

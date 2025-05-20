@@ -6,7 +6,12 @@ import sys
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS
 
+#file_name under process...
+parcours_file_name = None
+
+
 def export_to_rdf(ues, output_ttl):
+    global parcours_file_name
     EX = Namespace("http://example.org/course/")
     RFDS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
     g = Graph()
@@ -16,19 +21,29 @@ def export_to_rdf(ues, output_ttl):
         code = ue.get("code", "Unknown")
         subj = URIRef(f"{EX}UE_{code}")
         g.add((subj, RDF.type, EX.UE))
-        
+        g.add((subj, EX.parcours_file, Literal(parcours_file_name)))
+        if parcours_file_name:
+            parcours_parts = parcours_file_name.split("_")
+            if len(parcours_parts) == 2:
+                parcours_code, parcours_level = parcours_parts
+                g.add((subj, EX.parcours_code, Literal(parcours_code)))
+                g.add((subj, EX.parcours_level, Literal(parcours_level)))
+            else:
+                raise RuntimeError(f"Invalid parcours_file_name format: {parcours_file_name}")
+
         for k, v in ue.items():
             if k == "code":
                 g.add((subj, EX.code, Literal(v)))
             elif k == "label":
                 g.add((subj, RDFS.label, Literal(v)))
             elif k == "parcours":
-                for item in re.split(r",\s*", v):
-                    g.add((subj, EX.parcours, Literal(item)))
+                g.add((subj, EX.parcours_string, Literal(v)))
             else:
                 pred = EX[k.lower().replace(" ", "_").replace("-", "_")\
                                 .replace("é", "e").replace("è", "e").replace("ê", "e")]
                 g.add((subj, pred, Literal(v)))
+    
+
     
     g.serialize(destination=output_ttl, format="turtle")
     print(f"Export RDF terminé : {output_ttl}")
@@ -209,7 +224,11 @@ def parse_bloc_licence(bloc):
     return ue
 
 def main(pdf_path, output_csv):
+    global parcours_file_name
     blocs = extract_text_blocks(pdf_path)
+
+    parcours_file_name = pdf_path.split("/")[-1].split(".")[0]
+
     ues = [parse_bloc(bloc) for bloc in blocs if bloc.strip()]
     df = pd.DataFrame(ues)
     df.to_csv(output_csv, index=False)
