@@ -109,13 +109,13 @@ possible une interaction normale avec un locuteur natif, sans recours excessif a
 • your project work""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s) Anglais 3 et 4, ou équivalent." ;
     ex:responsible "BOURDON JEREMIE" ;
@@ -165,13 +165,13 @@ complexité temporelle
     ex:obtention "La note de contrôle continu peut contenir éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "RAMPON JEAN-XAVIER" ;
@@ -201,13 +201,13 @@ calculer la complexité d'un algorithme en fonction des structures de données c
     ex:obtention "éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-" ;
     ex:prerequisite """(s)
 • Logique pour l'informatique (913 17 LG 4 INF UE 819)""" ;
@@ -236,13 +236,13 @@ fini et inversement""" ;
     ex:obtention "éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERRIN MATTHIEU" ;
@@ -267,11 +267,11 @@ ex:UE_X31I040 a ex:UE ;
 • Comprendre les mécanismes de base des protocoles de l’Internet (http, tcp, ip, arp);
 • Connaître les défis techniques et sociétaux liés aux déploiements des réseaux;""" ;
     ex:obtention "éventuellement une composante distancielle." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L3",
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "HAMMA SALIMA" ;
@@ -301,11 +301,11 @@ de son jeu d'instructions;
 • connaître la notion de cache mémoire et ses différentes implémentations, et en connaître les
 impacts sur les algorithmes.""" ;
     ex:obtention "éventuellement une composante distancielle." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L3",
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "GOUALARD FREDERIC" ;
@@ -384,13 +384,13 @@ s’intégrer et de s’adapter dans un nouveau milieu professionnel
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERCEVAUX MARIE-CHRISTINE" ;
@@ -421,13 +421,13 @@ utilisé dans les tests TOEIC)
 • your project work""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s) Anglais 3 et 4, ou équivalent." ;
     ex:responsible "Volume horaire total TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h" ;
@@ -481,13 +481,13 @@ ex:UE_X32I010 a ex:UE ;
     ex:obtention "éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "ENGUEHARD CHANTAL" ;
@@ -514,13 +514,13 @@ employer la programmation par filtrage de motifs pour les traitements symbolique
     ex:obtention "éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite """(s) • Etude des algorithmes (913 17 LG 5 INF UE 820)
 • Langage et automates (913 17 LG 5 INF UE 1165)""" ;
@@ -567,13 +567,13 @@ variables mixtes (A)""" ;
     ex:obtention "éventuellement une composante distancielle." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
-        "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info / mineure CMI OPTIM,L3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
@@ -601,11 +601,11 @@ ex:UE_X32I040 a ex:UE ;
 • Comprendre un plan d’exécution d’une requête
 • Connaître les structures accélératrices d’accès aux données (indexes)""" ;
     ex:obtention "éventuellement une composante distancielle." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L3",
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SERRANO-ALVARADO PATRICIA" ;
@@ -637,11 +637,11 @@ préventive.
 • Être capable d'utiliser la gestion d'exception, ainsi que d'autre techniques spécifiques aux
 langages de programmation pour améliorer la tolérance aux fautes.""" ;
     ex:obtention "éventuellement une composante distancielle." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L3",
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "SUNYE GERSON" ;
@@ -738,11 +738,11 @@ ex:UE_X32T060 a ex:UE ;
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "encadrants du stage." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L3",
-        "INFO_L3AS" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L3",
+        "INFO_L3" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "JEAN GERALDINE" ;
@@ -1594,13 +1594,13 @@ ex:UE_XLG3AU010 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "Physique-Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2" ;
     ex:prerequisite "(s)" ;
     ex:responsible "KERVISION SYLVIE" ;
@@ -1627,13 +1627,13 @@ maximal, amorti)
     ex:obtention "une ou plusieurs composantes orales." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "option santé" ;
     ex:prerequisite """(s)
 • Fonctionnement des ordinateurs (913 17 LG 2 INF UE 1266)""" ;
@@ -1678,13 +1678,13 @@ formules logiques.
 plusieurs composantes orales.""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "option santé,L2 Maths CMI Ingénierie Statistique" ;
     ex:prerequisite "(s)" ;
     ex:responsible "JABER GUILHEM" ;
@@ -1705,13 +1705,13 @@ ex:UE_XLG3IU030 a ex:UE ;
     ex:obtention "une ou plusieurs composantes orales." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "OPT/IM" ;
     ex:prerequisite """(s)
 • Introduction au développement logiciel (913 17 LG 2 INF UE 1495)""" ;
@@ -1733,11 +1733,11 @@ ex:UE_XLG3IU040 a ex:UE ;
     ex:methods "L’enseignement se fait en CM, TD et TP en présentiel." ;
     ex:objective "(résultats d'apprentissage) Programmer en un langage procédurale lié à une base de données, par exemple PL/SQL ou" ;
     ex:obtention "une ou plusieurs composantes orales." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s)" ;
     ex:responsible "MONTOYA Gabriela" ;
@@ -1808,11 +1808,11 @@ ex:UE_XLG3MU050 a ex:UE ;
 •""" ;
     ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
 plusieurs composantes orales.""" ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s)" ;
     ex:responsible "PERRIN MATTHIEU" ;
@@ -1833,13 +1833,13 @@ ex:UE_XLG3TU010 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "Chimie,L2 MIASHS, Economie,L2 Informatique,L2 Physique,L2 Physique, Physique-" ;
     ex:prerequisite "(s)" ;
     ex:responsible "LABBE LUCILE" ;
@@ -1861,13 +1861,13 @@ ex:UE_XLG3TU020 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "Chimie,L2 MIASHS, Economie,L2 Informatique,L2 Physique,L2 Physique, Physique-" ;
     ex:prerequisite "(s)" ;
     ex:responsible "DUMAY JUSTINE" ;
@@ -1888,13 +1888,13 @@ ex:UE_XLG3TU030 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string """option Santé,L2 LAS Mathématiques option Santé,L2 Informatique, Info-Maths,L2 LAS Informatique
 option santé,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique,L2 MIASHS,""" ;
     ex:prerequisite "(s)" ;
@@ -1916,11 +1916,11 @@ ex:UE_XLG3TU040 a ex:UE ;
     ex:objective """(résultats d'apprentissage)
 l’entreprise dans son environnement)""" ;
     ex:obtention "une ou plusieurs composantes orales." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s)" ;
     ex:responsible "CATALO MARIE" ;
@@ -1984,13 +1984,13 @@ ex:UE_XLG4AU010 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "LAS SVT Biologie Ecologie option Santé,L2 SVT, Sciences de l'environnement,L2 SVT," ;
     ex:prerequisite "(s)" ;
     ex:responsible "KERVISION SYLVIE" ;
@@ -2013,13 +2013,13 @@ données (itératifs et récursifs)""" ;
     ex:obtention "une ou plusieurs composantes orales." ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "OPT/IM" ;
     ex:prerequisite """(s) • Informatique fondamentale 1 (913 17 LG 3 INF UE 814)
 • Programmation orientée objets (913 17 LG 3 INF UE 1160)""" ;
@@ -2051,13 +2051,13 @@ ex:UE_XLG4IU020 a ex:UE ;
 plusieurs composantes orales.""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "OPT/IM" ;
     ex:prerequisite "(s)" ;
     ex:responsible "BECHET Denis" ;
@@ -2085,13 +2085,13 @@ mutexes, signaux) (Application)
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "OPT/IM" ;
     ex:prerequisite "(s) Fonctionnement des ordinateurs (X12I020)" ;
     ex:responsible "PERRIN MATTHIEU" ;
@@ -2139,11 +2139,11 @@ présenter un framework de développement web écrit en TypeScript, comme Angula
     ex:methods "Langue d’enseignement Français" ;
     ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "Programme" ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 40h Répartition : CM : 13.34h TD : 13.33h CI : 0h TP : 13.33h EAD : 0h" ;
@@ -2171,11 +2171,11 @@ découpes, impressions, machine outils numériques,etc.);
 charges (Application) ;
 - concevoir un algorithme engendrant une création dans un format imposé (Application) ;""" ;
     ex:obtention "une ou plusieurs composantes orales." ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite """(s) • Mathématiques pour l'informatique 1 (913 17 LG 3 MA UE 919)
 • Logique, dénombrement et suites numériques (913 17 LG 2 MA UE 725)
@@ -2203,11 +2203,11 @@ fines nuances de sens en rapport avec les sujets abordés.
 • Être capable de raisonner par soi-même.""" ;
     ex:obtention """des pratiques fera l’objet d’un rapport écrit et d’une soutenance orale expliquant le pourquoi et le
 comment du niveau de performance atteint par leur entreprise.""" ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s) Module « connaissance d’entreprise »" ;
     ex:responsible "CATALO MARIE" ;
@@ -2276,11 +2276,11 @@ ex:UE_XLG4MU060 a ex:UE ;
 •""" ;
     ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
 plusieurs composantes orales.""" ;
-    ex:parcours_code "INFO" ;
-    ex:parcours_file "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+    ex:parcours_code "INFO",
+        "INFOLAAS" ;
+    ex:parcours_file "INFOLAAS_L2",
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "L2 Informatique,L2 LAS Informatique option santé" ;
     ex:prerequisite "(s)" ;
     ex:responsible "CANTIN GUILLAUME" ;
@@ -2312,13 +2312,13 @@ les étudiants, en groupe de 3 à 4, doivent en faire une restitution avec suppo
 orale).""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS SVT Biologie Ecologie option" ;
     ex:prerequisite "(s)" ;
     ex:responsible "LABBE LUCILE" ;
@@ -2347,13 +2347,13 @@ ex:UE_XLG4TU020 a ex:UE ;
 - Publication scientifique et mécaniques du livre (XLG4TE107)""" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "MIASHS, Economie,L2 LAS Chimie option Santé,L2 Chimie,L2 Chimie, Chimie-Biologie,L2" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 16h Répartition : CM : 0h TD : 0h CI : 16h TP : 0h EAD : 0h" ;
@@ -2377,13 +2377,13 @@ ex:UE_XLG4TU030 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH" ;
     ex:parcours_file "CMI_L2",
+        "INFOLAAS_L2",
         "INFOMATH_L2",
-        "INFO_L2",
-        "INFO_L2AS" ;
-    ex:parcours_level "L2",
-        "L2AS" ;
+        "INFO_L2" ;
+    ex:parcours_level "L2" ;
     ex:parcours_string "option Santé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Info-Maths CMI" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
@@ -2820,15 +2820,15 @@ ex:UE_XLG5TU200 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH",
         "MIAGE" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
         "INFO_L3",
-        "INFO_L3AS",
         "MIAGE_L3" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string "Environnement BGE / mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3" ;
     ex:prerequisite "(s)" ;
     ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
@@ -3241,15 +3241,15 @@ ex:UE_XLG6TU200 a ex:UE ;
     ex:obtention "Programme" ;
     ex:parcours_code "CMI",
         "INFO",
+        "INFOLAAS",
         "INFOMATH",
         "MIAGE" ;
     ex:parcours_file "CMI_L3",
+        "INFOLAAS_L3",
         "INFOMATH_L3",
         "INFO_L3",
-        "INFO_L3AS",
         "MIAGE_L3" ;
-    ex:parcours_level "L3",
-        "L3AS" ;
+    ex:parcours_level "L3" ;
     ex:parcours_string """de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie
 Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique""" ;
     ex:prerequisite "(s)" ;

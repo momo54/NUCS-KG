@@ -12,14 +12,14 @@ PDF_URLS = [
     ("https://sciences-techniques.univ-nantes.fr/programme-l2-informatique-parcours-informatique", "./data/licence2025/INFO_L2.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l2-informatique-parcours-math-informatique", "./data/licence2025/INFOMATH_L2.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l2-informatique-parcours-cmi-optim", "./data/licence2025/CMI_L2.pdf"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-2-info", "./data/licence2025/INFO_L2AS.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-2-info", "./data/licence2025/INFOLAAS_L2.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l3-informatique-parcours-informatique", "./data/licence2025/INFO_L3.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l3-informatique-parcours-math-informatique", "./data/licence2025/INFOMATH_L3.pdf"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-3-info", "./data/licence2025/INFO_L3AS.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-3-info", "./data/licence2025/INFOLAAS_L3.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l3-cmi-optim", "./data/licence2025/CMI_L3.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l3-informatique-parcours-miage-classique", "./data/licence2025/MIAGE_L3.pdf"),
     ("https://sciences-techniques.univ-nantes.fr/programme-l3-informatique-parcours-miage-alternance", "./data/licence2025/MIAGEALTERNANCE_L3.pdf"),
-    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-3-info", "./data/licence2025/INFO_L3AS.pdf"),
+    ("https://sciences-techniques.univ-nantes.fr/programme-l-as-3-info", "./data/licence2025/INFOLAAS_L3.pdf"),
 
 
     # Masters M1
