@@ -1,175 +1,234 @@
 @prefix ex: <http://example.org/course/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+ex:UE_XLG1AE051 a ex:UE ;
+    rdfs:label "1st year English: Lower Intermediate S1" ;
+    ex:code "XLG1AE051" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "KERVISION SYLVIE" .
+
+ex:UE_XLG1AE052 a ex:UE ;
+    rdfs:label "1st year English: intermediate S1" ;
+    ex:code "XLG1AE052" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "KERVISION SYLVIE" .
+
+ex:UE_XLG1AE053 a ex:UE ;
+    rdfs:label "1st year English: Upper Intermediate S1" ;
+    ex:code "XLG1AE053" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" .
+
+ex:UE_XLG1AE054 a ex:UE ;
+    rdfs:label "1st year English S1" ;
+    ex:code "XLG1AE054" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "KERVISION SYLVIE" .
+
 ex:UE_XLG1AU050 a ex:UE ;
     rdfs:label "1st year English S1" ;
-    ex:bibliography "XLG1AE052 1st year English: intermediate S1" ;
     ex:code "XLG1AU050" ;
-    ex:content "Méthodes d’enseignement" ;
-    ex:evaluation """1st year English: Upper Intermediate S1 0%
+    ex:evaluation """1st year English: Lower Intermediate S1 0%
+1st year English: intermediate S1 0%
+1st year English: Upper Intermediate S1 0%
 1st year English S1 100%""" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
-    ex:language "Anglais" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Bibliographie" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention """Programme
-- 1st year English: Lower Intermediate S1 (XLG1AE051)
-- 1st year English: intermediate S1 (XLG1AE052)""" ;
+    ex:liste_des_matières """- 1st year English: Lower Intermediate S1 (XLG1AE051)
+- 1st year English: intermediate S1 (XLG1AE052)
+- 1st year English: Upper Intermediate S1 (XLG1AE053)
+- 1st year English S1 (XLG1AE054)""" ;
+    ex:parcours "L1 Chimie,L1 LAS Chimie option Santé,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 Chimie-Biologie,L1 Maths CMI Ingénierie Statistique,L1 Info-Maths CMI OPT/IM,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 INFO Info Maths - parcours accompagne,L1 INFO Informatique,L1 INFO Informatique - parcours accompagne,L1 Mathematiques,L1 LAS Mathematiques option sante,L1 Physique, Parcours Scientifique   Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique - Mathématiques,L1 LAS Physique option Santé,L1 Physique - parcours accompagne,L1 Physique, Chimie,L1 Physique Chimie - parcours accompagne,L1 Sciences de la Vie,L1 LAS Sciences de la Vie option Santé,L1 SPI,L1 SPI - option santé,L1 SPI - parcours accompagne,L1 SVT Geosciences,L1  SVT option Sante,L1 SVT Sciences de la Vie et de la Terre,L1 INFO option sante" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique -" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "KERVISION SYLVIE" ;
     ex:semester "1" .
 
 ex:UE_XLG1IU010 a ex:UE ;
     rdfs:label "Informatique" ;
-    ex:bibliography "" ;
     ex:code "XLG1IU010" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Informatique 100%" ;
     ex:hours "TOTAL : 80h Répartition : CM : 16h TD : 36h CI : 0h TP : 28h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "LANGUENOU ERIC" ;
+    ex:responsible "ARDOUREL GILLES BOUDIN FLORIAN LANGUENOU ERIC JEAN GERALDINE" ;
     ex:semester "1" .
 
 ex:UE_XLG1MU010 a ex:UE ;
     rdfs:label "Mathematiques generales" ;
-    ex:bibliography "" ;
     ex:code "XLG1MU010" ;
-    ex:content """Ensembles et applications : Généralités sur les ensembles (ensembles, sous-ensembles, opérations
-sur les ensembles). Lien avec le vocabulaire probabiliste. Applications entre ensembles, images
-directe et réciproque, injectivité, surjectivité, bijectivité. Application à la notion de cardinal.
+    ex:content """1.
+Logique et raisonnement : Quantificateurs, opérateurs logiques élémentaires, conditions nécessaires et suffisantes, différents types de raisonnement (disjonction de cas, contraposée, absurde, analyse-synthèse, récurrence).
+2.
+Nombres réels : Résolution d’équations (second degré, trigonométriques,...) et d’inéquations, majorants et minorants, bornes supérieure et inférieure, valeur absolue, partie entière.
+3.
+Nombres complexes   : Forme algébrique, module et argument, rappels de trigonométrie, formes trigonométrique et exponentielle, racines carrés de nombre complexes et application à la résolution d’équations du second degré, racines n-ième. Applications des nombres complexes à la résolution d’EDO du second ordre à coefficients constants.
+4.
+Ensembles et applications : Généralités sur les ensembles (ensembles, sous-ensembles, opérations sur les ensembles). Lien avec le vocabulaire probabiliste. Applications entre ensembles, images directe et réciproque, injectivité, surjectivité, bijectivité. Application à la notion de cardinal.
 5.
-Étude de fonctions : Notions de limites (intuitive et introduction de la définition avec les
-quantificateurs), continuité (intuitive et avec quantificateurs), dérivabilité en un point, tangente à la
-courbe et fonction dérivée sur un intervalle. Étude de fonctions (domaine de définition, symétrie,
-étude des variations, tangentes et asymptotes, allure de la courbe). Fonctions de référence et
-introduction des fonc-tions trigonométriques réciproques.
-6.""" ;
+Étude de fonctions : Notions de limites (intuitive et introduction de la définition avec les quantificateurs), continuité (intuitive et avec quantificateurs), dérivabilité en un point, tangente à la courbe et fonction dérivée sur un intervalle. Étude de fonctions (domaine de définition, symétrie, étude des variations, tangentes et asymptotes, allure de la courbe). Fonctions de référence et introduction des fonc-tions trigonométriques réciproques.
+6.
+Intégration : Primitives, intégration par parties, changement de variable, intégration de fonctions trigonométrique, intégration de fractions rationnelles. Applications à la résolutions d’EDO linéaires du premier ordre.""" ;
     ex:evaluation "Mathematiques generales 100%" ;
     ex:hours "TOTAL : 80h Répartition : CM : 0h TD : 0h CI : 80h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage)
-1.""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 Physique, Physique - Mathématiques,L1 Mathematiques,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique, Chimie,L1 Maths CMI Ingénierie Statistique,L1 LAS Mathematiques option sante,L1 CMI Physique Mecanique,L1 LAS Physique option Santé,L1 SPI - option santé,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours accompagne,L1 Physique,L1 SPI" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Ingénierie Statistique,L1 LAS Mathematiques option sante,L1 CMI Physique Mecanique,L1 LAS" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "GOBIN DAMIEN" ;
     ex:semester "1" .
 
 ex:UE_XLG1PU020 a ex:UE ;
     rdfs:label "Electricité et outils mathématiques associés" ;
-    ex:bibliography "" ;
     ex:code "XLG1PU020" ;
-    ex:content """2. Les conducteurs ohmiques ou résistances
+    ex:content """Le contenu de cet enseignement est le suivant :
+Chapitre 1 : Généralités et notions de base en électricité
+1. Notions de tension et de courant
+2. Différents régimes
+électriques                                                                                                                                                                3. Eléments
+d’un circuit électrique et définitions
+4. Lois de Kirchhoff
+5. Convention générateur et convention récepteur
+6. Puissance - Energie
+7. Appareils de mesure de courants et de tensions
+Chapitre 2 : Dipôles et circuits linéaires
+1. Les différents dipôles
+2. Les conducteurs ohmiques ou résistances
 3. Les générateurs
 4. Les récepteurs
-5. Méthodes de résolution de circuits électriques""" ;
+5. Méthodes de résolution de circuits électriques
+Chapitre 3 : Le régime sinusoïdal
+1. Caractéristiques d’un signal sinusoïdal
+2. Signaux et oscilloscope
+3. Représentation complexe
+4. Impédances complexes et loi d’Ohm en complexe
+5. Résolution des circuits en régime sinusoïdal
+6. Puissance en régime sinusoïdal
+7. Etude des phénomènes de résonance""" ;
     ex:evaluation "Electricite et outils math associes 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 0h CI : 40h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage)
-chimique, énergie mécanique).
-● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son expression
-mathématique : amplitude, valeur efficace, période, fréquence, pulsation, phase à l'origine
+    ex:objective """A l’issue   de cet enseignement, l’étudiant   :
+● exploitera, dans le cadre d’un exercice, la loi d’Ohm, la loi des nœuds et la loi des mailles pour déterminer les tensions et les intensités   dans les différentes branches d’un circuit électrique.
+●   saura utiliser, dans le cadre d’un exercice,   les lois de fonctionnement et les caractéristiques des dipôles de base (générateur, récepteur, résistance).
+● saura déterminer la résistance équivalente d'un groupement de résistances en série et/ou en parallèle
+● saura déterminer le générateur de Thévenin équivalent à plusieurs générateurs de Thévenin en série
+● saura déterminer le générateur de Norton équivalent à plusieurs générateurs de Norton en parallèle
+● connaîtra les représentations et les transformations Thévenin – Norton
+● reconnaîtra la topologie des circuits diviseurs de tension ou de courant
+● saura donner sans calcul la tension aux bornes d'une résistance d'un diviseur de tension ou le courant traversant une résistance d'un diviseur de courant
+● appliquera le principe de conservation de l’énergie pour effectuer un bilan énergétique dans un circuit électrique   mettant en jeu différentes formes d’énergie (énergie électrique, énergie chimique, énergie mécanique).
+● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son expression mathématique   : amplitude, valeur efficace, période, fréquence, pulsation, phase à l'origine
 ● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son oscillogramme
-● saura déterminer les déphasages entre deux signaux synchrones à partir de leurs expressions
-mathématiques ou à partir de leurs oscillogrammes
-● saura déterminer l'impédance complexe équivalente d'un groupement d'impédances en série
-et/ou en parallèle
-● saura déterminer par la méthode des nombres complexes les tensions et les courants dans un
-circuit en régime sinusoïdal
-● saura effectuer un calcul de puissance active par une méthode directe ou à partir du théorème de""" ;
-    ex:obtention "Programme" ;
+● saura déterminer les déphasages entre deux signaux synchrones à partir de leurs expressions mathématiques ou à partir de leurs oscillogrammes
+● saura déterminer l'impédance complexe équivalente d'un groupement d'impédances en série et/ou en parallèle
+● saura déterminer par la méthode des nombres complexes les tensions et les courants dans un circuit en régime sinusoïdal
+● saura effectuer un calcul de puissance active par une méthode directe ou à partir du théorème de Boucherot
+● saura expliquer le phénomène de résonance dans un circuit RLC
+● saura déterminer à partir d'une courbe de résonance, les fréquences de coupure et la bande passante du circuit
+● saura expliquer le phénomène de surtension aux bornes d'un condensateur""" ;
+    ex:parcours "L1 Physique, Physique - Mathématiques,L1 Mathematiques,L1 Chimie,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique - parcours accompagne,L1 Physique, Chimie,L1 Maths CMI Ingénierie Statistique,L1 CMI Physique Mecanique,L1 LAS Physique option Santé,L1 SPI - option santé,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Chimie parcours accompagné,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Mecanique,L1 LAS Physique option Santé,L1 SPI - option santé,L1 INFO Informatique,L1" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "MORSLI SABER" ;
     ex:semester "1" .
 
 ex:UE_XLG1PU030 a ex:UE ;
     rdfs:label "Base de logique numérique" ;
-    ex:bibliography "" ;
     ex:code "XLG1PU030" ;
-    ex:content """• Identité de fonctions logiques par analyse de leur table de vérité
+    ex:content """Programme:
+I. Introduction
+II. Algèbre de Boole
+• Opérateurs élémentaires
+• Réalisation des opérateurs élémentaires avec des composants électroniques de base
+• Règles de priorités
+• Théorèmes fondamentaux
+• Réduction d’une fonction logique
+• Opérateurs complets
+• Opérateurs exclusifs
+III. Tables de vérité et chronogrammes
+• Tables de vérité et chronogrammes des opérateurs élémentaires, complets et exclusifs
+• Détermination de la table de vérité d’une fonction logique à partir de son expression booléenne
+• Identité de fonctions logiques par analyse de leur table de vérité
 • Détermination de l’expression booléenne d’une fonction logique à partir de sa table de vérité
-• Tables de Karnaugh""" ;
+• Tables de Karnaugh
+IV. Portes et circuits logiques
+• Détermination d’un circuit associé à une fonction logique à partir de son expression booléenne
+• Détermination de l’expression booléenne d’une fonction logique à partir de son circuit
+V. Codage des nombres
+• Codage des nombres décimaux/binaires
+• Généralisation du codage dans une base b
+• Codages octal et hexadécimal
+VI. Applications de logique numérique combinatoire
+• Multiplexeur et démultiplexeur
+• Problèmes de logique combinatoire""" ;
     ex:evaluation "Base de logique numérique 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 0h TD : 0h CI : 14.67h TP : 5.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "UFR sciences et techniques" ;
-    ex:methods "bien préparer la séance et/ou la terminer plus tard si besoin." ;
-    ex:objective """(résultats d'apprentissage)
+    ex:methods """Cette UE est composée de séances en CTDi et TP.
+Les CTDi sont enseignés en mode comodal, c'est à dire que l'étudiant choisit à chaque séance s'il veut y assister en présentiel et/ou la préparer à son rythme à la maison grâce au cours/vidéos/tests en ligne disponibles sur la plateforme MADOC (l'un n'empêchant pas l'autre). Seules les séances consacrées aux CC sur table sont obligatoires en présentiel.
+Les TP sont enseignés en mode présentiel, mais le logiciel utilisé est disponible à distance pour bien préparer la séance et/ou la terminer plus tard si besoin.
+Dans cette UE sera réalisé un atelier de correction par les pairs, consistant en la correction par les étudiants d'un devoir maison.
+Dans cette UE sera réalisé un atelier de création d'énigme d'escape game, ainsi qu' un escape game pédagogique (un vrai, pas numérique!) portant sur les différents résultats d'apprentissage de l'UE.""" ;
+    ex:objective """Au terme de cette UE, l’étudiant est capable de concevoir le schéma du circuit  électronique permettant de réaliser une fonction logique combinatoire. Pour cela, il est en mesure de :
+- Déterminer le nombre d’entrées et sorties nécessaires à la conception d’un circuit permettant la réalisation d’une fonction logique combinatoire désirée
+- écrire la table de vérité d’une sortie d’un circuit par analyse de la fonction logique combinatoire désirée
+- déterminer l’expression booléenne d’une sortie d’un circuit à partir de sa table de vérité
 - simplifier au maximum une expression booléenne en utilisant l’algèbre de Boole
 - simplifier au maximum une expression booléenne en utilisant la méthode de Karnaugh
-- dessiner un circuit à base de portes logiques élémentaires à partir des fonctions booléennes des
-sorties du circuit
-- redessiner un circuit composé de portes logiques élémentaires en n’utilisant qu’un seul type de
-porte logique (opérateur complet, porte synonyme)
+- dessiner un circuit à base de portes logiques élémentaires à partir des fonctions booléennes des sorties du circuit
+- redessiner un circuit composé de portes logiques élémentaires en n’utilisant qu’un seul type de porte logique (opérateur complet, porte synonyme)
 - faire une simulation d’un circuit avec le logiciel Quartus Prime
 - implanter un circuit dans une carte électronique à partir du logiciel Quartus Prime""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string """Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours
-accompagne,L1 INFO Info Maths - parcours accompagne""" ;
-    ex:prerequisite "(s) aucune UE n'est pré-requise" ;
+    ex:prerequisite "aucune UE n'est pré-requise" ;
     ex:responsible "SEVENO Raynald" ;
     ex:semester "1" .
 
 ex:UE_XLG1TU050 a ex:UE ;
     rdfs:label "Stage libre" ;
-    ex:bibliography "" ;
     ex:code "XLG1TU050" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 Chimie,L1 Chimie-Biologie,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique, Physique - Mathématiques,L1 Sciences de la Vie,L1 SVT Geosciences,L1 LAS Sciences de la Vie option Santé,L1 SVT option Sante,L1 LAS Physique option Santé,L1 SPI - option santé,L1 LAS Chimie option Santé,L1 INFO option sante,L1 SVT Sciences de la Vie et de la Terre,L1 Physique, Chimie,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne,L1 Physique - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "santé,L1 LAS Chimie option Santé,L1 INFO option sante,L1 SVT Sciences de la Vie et de la Terre,L1" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:semester "1" .
 
 ex:UE_XLG1TU060 a ex:UE ;
     rdfs:label "Méthodologie et insertion professionnelle S1" ;
-    ex:bibliography "" ;
     ex:code "XLG1TU060" ;
-    ex:content """- la gestion du temps et du stress
+    ex:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+-   3CM sur le fonctionnement cérébral et la mérmoire
+- 6 TD :
+- outils numériques
+- prise et reprise de notes
+- attention focalisée
+- la gestion du temps et du stress
 - le travail de groupe et le travail en équipe
 - serious game à la BU
 sur le second semestre :
@@ -179,51 +238,78 @@ sur le second semestre :
     ex:hours "TOTAL : 12h Répartition : CM : 4h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "ressources CARé)" ;
-    ex:objective """(résultats d'apprentissage) distanciel, portfolio
-- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le
-fonctionnement
+    ex:methods """Utilisation de ressources numériques (supports de cours et de TD, capsules numériques de la BU, ressources CARé)
+Serious game et jeux de simulation""" ;
+    ex:objective """A l'issu du cours, l'étudiant sera capable :
+- de développer et utiliser des méthodes d'apprentissage : techniques de prises de notes et de mémorisation, de gestion du temps et du stress
+- d'utiliser des outils numériques de communication de l'université : messagerie, enseignement en distanciel, portfolio
+- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le fonctionnement
 - de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
 - de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs""" ;
     ex:obtention "L'assiduité fait partie de l'évaluation (faite sur le second semestre)." ;
+    ex:parcours "Maquette_bloc transversal,L1 Chimie,L1 LAS Chimie option Santé,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 Chimie-Biologie,L1 Maths CMI Ingénierie Statistique,L1 Info-Maths CMI OPT/IM,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 INFO Info Maths - parcours accompagne,L1 INFO Informatique,L1 INFO Informatique - parcours accompagne,L1 Mathematiques,L1 LAS Mathematiques option sante,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique - Mathématiques,L1 LAS Physique option Santé,L1 Physique - parcours accompagne,L1 Physique, Chimie,L1 Physique Chimie - parcours accompagne,L1 Sciences de la Vie,L1 LAS  Sciences de la Vie option Santé,L1 SPI,L1 SPI - option santé,L1 SPI - parcours accompagne,L1 SVT Geosciences,L1 SVT option Sante,L1 SVT Sciences de la Vie et de la Terre,L1 INFO option sante" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique," ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "SCHAFFHAUSER ALICE" ;
+    ex:responsible "LABBE LUCILE SCHAFFHAUSER ALICE" ;
     ex:semester "1" .
+
+ex:UE_XLG2AE051 a ex:UE ;
+    rdfs:label "1st year English: Lower Intermediate S2" ;
+    ex:code "XLG2AE051" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" .
+
+ex:UE_XLG2AE052 a ex:UE ;
+    rdfs:label "1st year English: intermediate S2" ;
+    ex:code "XLG2AE052" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" .
+
+ex:UE_XLG2AE053 a ex:UE ;
+    rdfs:label "1st year English: Upper Intermediate S2" ;
+    ex:code "XLG2AE053" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" .
+
+ex:UE_XLG2AE054 a ex:UE ;
+    rdfs:label "1st year English S2" ;
+    ex:code "XLG2AE054" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "KERVISION SYLVIE" .
 
 ex:UE_XLG2AU050 a ex:UE ;
     rdfs:label "1st year English S2" ;
-    ex:bibliography "XLG2AE052 1st year English: intermediate S2" ;
     ex:code "XLG2AU050" ;
-    ex:content "Méthodes d’enseignement" ;
-    ex:evaluation """1st year English: Lower Intermediate S2 0%
+    ex:evaluation """1st year English S2 100%
+1st year English: intermediate S2 0%
+1st year English: Lower Intermediate S2 0%
 1st year English: Upper Intermediate S2 0%""" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
-    ex:language "Anglais" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Bibliographie" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention """Programme
-- 1st year English S2 (XLG2AE054)
-- 1st year English: intermediate S2 (XLG2AE052)""" ;
+    ex:liste_des_matières """- 1st year English S2 (XLG2AE054)
+- 1st year English: intermediate S2 (XLG2AE052)
+- 1st year English: Lower Intermediate S2 (XLG2AE051)
+- 1st year English: Upper Intermediate S2 (XLG2AE053)""" ;
+    ex:parcours "L1 Chimie,L1 LAS Chimie option Santé,L1 Chimie parcours accompagné,L1 Chimie-Biologie,L1 Chimie-Biologie accompagné,L1 Maths CMI Ingénierie Statistique,L1 Info-Maths CMI OPT/IM,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 INFO Info Maths - parcours accompagne,L1 INFO Informatique,L1 INFO Informatique - parcours accompagne,L1 Mathematiques,L1 LAS Mathematiques option sante,L1 Physique, Parcours Scientifique  Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique - Mathématiques,L1 LAS Physique option Santé,L1 Physique - parcours accompagne,L1 Physique, Chimie,L1 Physique Chimie - parcours accompagne,L1 Sciences de la Vie,L1 LAS Sciences de la Vie option Santé,L1 SPI,L1 SPI - option santé,L1 SPI - parcours accompagne,L1 SVT Geosciences,L1 SVT option Sante,L1 SVT Sciences de la Vie et de la Terre,L1 INFO option sante" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique -" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "KERVISION SYLVIE" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU010 a ex:UE ;
     rdfs:label "HST : Histoire des algorithmes" ;
-    ex:bibliography "" ;
     ex:code "XLG2HU010" ;
-    ex:content """Histoire des algorithmes sur le temps long où sont abordées les thématiques suivantes :
+    ex:content """Les algorithmes, vus comme des combinaisons structurées d’opérations élémentaires, ont existé dans toutes les cultures et dans différents domaines de savoirs. Ce cours abordera l’histoire des algorithmes sur le temps long. Des éléments sur la question de l’automatisation du calcul, sur des projets de machines (chez Leibniz et Babbage par exemple) jusqu’à l’avènement de l’ordinateur seront également apportés. Cela permettra également de réfléchir sur la place des sciences et des techniques dans la société.
+Histoire des algorithmes sur le temps long où sont abordées les thématiques suivantes :
 • Des algorithmes dans l’Antiquité ? Les cas de la Mésopotamie, l’Égypte et la Grèce
 • Algorithmes et mathématiques arabes
 • Algorithmes de calcul et numération du Moyen Âge au XIXe s.
@@ -235,291 +321,257 @@ ex:UE_XLG2HU010 a ex:UE ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Pédagogie inversée avec utilisation de supports en distanciel" ;
-    ex:objective """(résultats d'apprentissage)
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:methods """Cours Magistral
+Pédagogie inversée avec utilisation de supports en distanciel""" ;
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
 - Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
-- Être actif face aux changements et agir en acteur socialement responsable""" ;
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "L1 Physique, Parcours Scientifique Renforcé,Maquette_bloc transversal,Maquette_bloc transversal,Maquette_bloc transversal,Maquette_bloc transversal,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info- Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne,L1 SPI,L1 SPI - parcours accompagne,L1 Mathematiques" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-" ;
-    ex:prerequisite "(s) Aucune" ;
+    ex:prerequisite "Aucune" ;
     ex:responsible "BOUCARD JENNY" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU020 a ex:UE ;
     rdfs:label "HST : Matière et énergie" ;
-    ex:bibliography "" ;
     ex:code "XLG2HU020" ;
-    ex:content """scolastique médiévale, sciences expérimentales à l’époque moderne, conceptions de la matière pour
-les naturalistes du XIXe siècle. Plusieurs séances développeront des aspects appliqués des "techno-
-sciences" à travers les techniques de l’énergie : machines à vapeur et révolution industrielle au""" ;
+    ex:content "Cette unité d’enseignement envisage l’histoire des sciences de la nature en Occident à partir des relations entre matière et énergie. Elle analyse l’histoire des sciences et des techniques sur le   temps long comme la succession de régimes de pensée changeants suivant les époques et les sociétés concernées. Chaque régime, depuis l’Antiquité grecque jusqu’à nos jours, emprunte aux régimes antérieurs de rationalité tout en les modifiant. Seront ainsi abordées et comparées diverses rationalités scientifiques de la matière : atomisme des Grecs, transmutations alchimiques, scolastique médiévale, sciences expérimentales à l’époque moderne, conceptions de la matière pour les naturalistes du XIXe siècle. Plusieurs séances développeront des aspects appliqués des \"techno- sciences\" à travers les techniques de l’énergie : machines à vapeur et révolution industrielle au   XIXe siècle, bombe atomique et énergie solaire au XXe siècle. La question du changement  climatique conclura l'enseignement en évoquant un problème de société actuel." ;
     ex:evaluation "HST : Matière et énergie 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Pédagogie inversée avec support en distanciel" ;
-    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:methods """Cours magistral
+Pédagogie inversée avec support en distanciel""" ;
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
-- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "L1 Chimie,L1 Physique, Physique - Mathématiques,L1 Physique, Parcours Scientifique Renforcé,Maquette_bloc transversal,Maquette_bloc transversal,L1 Physique, Chimie,Maquette_bloc transversal,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 Info-Maths CMI OPT/IM,L1 Physique - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne,L1 Chimie-Biologie" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "de la Vie et de la Terre,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "TEISSIER PIERRE" ;
+    ex:responsible "BOUCARD JENNY TEISSIER PIERRE" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU030 a ex:UE ;
     rdfs:label "HST : Savoir-faire et innovation" ;
-    ex:bibliography "acutalisation, 2015" ;
+    ex:bibliography "JACOMY, Bruno, Une histoire des techniques, Paris : Seuil, Point Sciences, 1990, mise à jour et acutalisation, 2015" ;
     ex:code "XLG2HU030" ;
-    ex:content "contexte de l’époque où les acteurs (savants ou ingénieurs) et les institutions jouent un rôle majeur." ;
+    ex:content """Cette UE a pour objectif de montrer, sur la longue durée de l’histoire, la complexité des processus à l’œuvre dans les savoir-faire et les innovations techniques.
+Les thèmes choisis, pour illustrer ces différents processus, seront mis en perspective dans le contexte de l’époque où les acteurs (savants ou ingénieurs) et les institutions jouent un rôle majeur. Ils mettront également en relief l’évolution des interactions entre sciences et techniques au cours  de l’histoire, en insistant aussi sur les notions d’usage.""" ;
     ex:evaluation "HST : savoir-faire et innovation 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
-- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "L1 Chimie,L1 Physique, Physique - Mathématiques,L1 Physique, Parcours Scientifique Renforcé,Maquette_bloc transversal,Maquette_bloc transversal,L1 Physique, Chimie,Maquette_bloc transversal,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 Sciences de la Vie,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 Info-Maths CMI OPT/IM,L1 Physique - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne,L1 Chimie-Biologie" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Statistique,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Chimie parcours accompagné,L1" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "BOUCARD JENNY" ;
+    ex:responsible "KEROUANTON JEAN-LOUIS BOUCARD JENNY" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU040 a ex:UE ;
     rdfs:label "HST : Styles de raisonnement scientifiques" ;
-    ex:bibliography "" ;
     ex:code "XLG2HU040" ;
-    ex:content """Le cours présente l'émergence des cadres d'objectivité, dont le calcul
+    ex:content """- Histoire et philosophie des styles de raisonnement scientifiques.
+- Philosophie des sciences exactes.
+Le cours présente l'émergence des cadres d'objectivité, dont le calcul
 des probabilités, la modélisation et l'expérience, de l'Antiquité à nos jours.""" ;
     ex:evaluation "HST : Styles de raisonnement scientifique 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
     ex:methods "Cours magistral" ;
-    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production
-- Histoire et philosophie des styles de raisonnement scientifiques.
-- Philosophie des sciences exactes.""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
-- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "L1 Chimie,L1 Physique, Physique - Mathématiques,L1 Physique, Parcours Scientifique Renforcé,Maquette_bloc transversal,Maquette_bloc transversal,L1 Physique, Chimie,Maquette_bloc transversal,Maquette_bloc transversal,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 Sciences de la Vie,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info- Maths,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne,L1 Physique - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne,L1 Chimie-Biologie,L1 Mathematiques" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "BOUCARD JENNY" ;
+    ex:responsible "WALTER SCOTT BOUCARD JENNY" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU060 a ex:UE ;
     rdfs:label "HST : Histoire des mathématiques" ;
-    ex:bibliography "" ;
     ex:code "XLG2HU060" ;
-    ex:content """- « Révolution scientifique » et essor des sciences « modernes »
-- Probabilités et statistiques aux époques modernes et contemporaines : sciences de l’état, lois de la
-nature et lois de la société
-- Une histoire de la cryptologie, du Moyen Âge au XXe siècle""" ;
+    ex:content """Ce cours d’histoire des sciences et des techniques est une initiation à l’histoire des mathématiques sur le temps long, où les thématiques suivantes seront étudiées :
+- Pratiques « rationnelles » dans l’Antiquité : résolution de problèmes, démonstration et algorithmes
+- Numération et arithmétique de l’Antiquité au XIXe siècle
+- De la résolution de problèmes aux équations : quelques éléments d’histoire de l’algèbre
+- Mathématiques et société à la Renaissance : marchands, artistes et ingénieurs
+- « Révolution scientifique » et essor des sciences « modernes »
+- Probabilités et statistiques aux époques modernes et contemporaines : sciences de l’état, lois de la nature et lois de la société
+- Une histoire de la cryptologie, du Moyen Âge au XXe siècle
+Ces différents exemples permettront d’étudier la conception et la transformation des mathématiques et de leurs objets dans différentes cultures et périodes historiques, ainsi que leur place dans la société.""" ;
     ex:evaluation "HST : Histoire des mathématiques 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Pédagogie inversée avec support en distanciel" ;
-    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:methods """Cours magistral
+Pédagogie inversée avec support en distanciel""" ;
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
-- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "Maquette_bloc transversal,Maquette_bloc transversal,Maquette_bloc transversal,Maquette_bloc transversal,L1 MIASHS - parcours economie,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 LAS Mathematiques option sante,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours accompagne,L1 SPI,L1 SPI - parcours accompagne,L1 Mathematiques" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Terre,L1 LAS Mathematiques option sante,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie" ;
-    ex:prerequisite "(s) Aucune" ;
+    ex:prerequisite "Aucune" ;
     ex:responsible "BOUCARD JENNY" ;
     ex:semester "2" .
 
 ex:UE_XLG2HU070 a ex:UE ;
     rdfs:label "HST : Hist. des classif. & théories de l’évolution" ;
-    ex:bibliography "" ;
     ex:code "XLG2HU070" ;
-    ex:content "- Histoires des théories de l’évolution : Lamarck, Darwin, théorie synthétique…" ;
+    ex:content """- Histoire des méthodes de classifications et conceptions sur les êtres vivants de l’antiquité au XVIIIe siècle (Linné et Buffon).
+- Histoires des théories de l’évolution : Lamarck, Darwin, théorie synthétique… Le cours traite des aspects conceptuels et des implications sociales.""" ;
     ex:evaluation "HST : Hist. des classif. & théories de l’évolution 100%" ;
     ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Pédagogie inversée, avec support en distanciel" ;
-    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
-• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
-d'une même source en fonction du contexte
-• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
-humaines et, par conséquence, s'y adapter
-• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
-sociaux, culturels et temporels de leur production
-- Histoire des méthodes de classifications et conceptions sur les êtres vivants de l’antiquité au""" ;
-    ex:obtention """Programme
-- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
-• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
-sur des notions scientifiques enseignées
+    ex:methods """Cours Magistral
+Pédagogie inversée, avec support en distanciel""" ;
+    ex:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
 • Introduction aux sciences humaines et sociales
 - Être autonome dans les apprentissages dans des contextes diversifiés
-- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production""" ;
+    ex:parcours "Maquette_bloc transversal,Maquette_bloc transversal,L1 SVT Geosciences,L1 SVT Sciences de la Vie et de la Terre,L1 LAS Mathematiques option sante,L1 Sciences de la Vie,L1 Informatique, Info- Maths" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Vie et de la Terre,L1 LAS Mathematiques option sante,L1 Sciences de la Vie,L1 Informatique, Info-" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "TIRARD STEPHANE" ;
     ex:semester "2" .
 
+ex:UE_XLG2IE011 a ex:UE ;
+    rdfs:label "Algorithmique" ;
+    ex:code "XLG2IE011" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 8h TD : 20h CI : 0h TP : 12h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "CANTIN GUILLAUME JERMANN CHRISTOPHE" .
+
+ex:UE_XLG2IE012 a ex:UE ;
+    rdfs:label "Developpement logiciel" ;
+    ex:code "XLG2IE012" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 8h TD : 16h CI : 0h TP : 16h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:parcours_code "INFOMATH" ;
+    ex:parcours_level "L1" ;
+    ex:responsible "SUNYE GERSON LANGUENOU ERIC" .
+
 ex:UE_XLG2IU010 a ex:UE ;
     rdfs:label "Algorithmique et developpement" ;
-    ex:bibliography "XLG2IE012 Developpement logiciel" ;
     ex:code "XLG2IU010" ;
-    ex:content "Méthodes d’enseignement" ;
-    ex:evaluation "Developpement logiciel 50%" ;
+    ex:evaluation """Algorithmique 50%
+Developpement logiciel 50%""" ;
     ex:hours "TOTAL : 80h Répartition : CM : 16h TD : 36h CI : 0h TP : 28h EAD : 0h" ;
-    ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Bibliographie" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention """Programme
-- Algorithmique (XLG2IE011)""" ;
+    ex:liste_des_matières """- Algorithmique (XLG2IE011)
+- Developpement logiciel (XLG2IE012)""" ;
+    ex:parcours "L1 INFO Informatique,L1 Informatique, Info-Maths,L1 INFO option sante,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "SUNYE GERSON" ;
+    ex:responsible "CANTIN GUILLAUME JERMANN CHRISTOPHE SUNYE GERSON LANGUENOU ERIC JEAN GERALDINE" ;
     ex:semester "2" .
 
 ex:UE_XLG2IU030 a ex:UE ;
     rdfs:label "Fonctionnement des ordinateurs" ;
-    ex:bibliography "" ;
     ex:code "XLG2IU030" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Fonctionnement des ordinateurs 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 20h TD : 20h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
     ex:obtention "La note de CCE peut contenir une ou plusieurs composantes pratiques." ;
+    ex:parcours "L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Info- Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string """Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours
-accompagne""" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "TANGUY ERIC" ;
+    ex:responsible """GANDIBLEUX XAVIER TANGUY ERIC
+JEAN GERALDINE""" ;
     ex:semester "2" .
 
 ex:UE_XLG2IU040 a ex:UE ;
     rdfs:label "Bases theoriques de l'informatique" ;
-    ex:bibliography "" ;
     ex:code "XLG2IU040" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Bases theoriques de l'informatique 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 12h TD : 28h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 INFO Informatique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "JEAN GERALDINE" ;
+    ex:responsible "RAMPON JEAN-XAVIER JEAN GERALDINE MOSTEFAOUI ACHOUR" ;
     ex:semester "2" .
 
 ex:UE_XLG2MU050 a ex:UE ;
     rdfs:label "Fonctions variable reelle et courbes parametrees" ;
     ex:bibliography "F. Liret & D. Martinais : Analyse, 1ère année : Cours et exercices avec solutions (Dunod)" ;
     ex:code "XLG2MU050" ;
-    ex:content """Dérivabilité : définition et rappels des propriétés usuelles, théorèmes de Rolle et des
-accroissements finis. Applications.""" ;
+    ex:content """Programme : Le but de cette unité est de donner aux étudiant(e)s les outils de base de l'analyse : limites, dérivées, développements limités d'une fonction numérique
+et d’utiliser ensuite ces outils dans un contexte géométrique (courbes paramétrées).
+•
+Fonctions d’une variable réelle :
+Limites et continuité : définition de la limite avec les epsilons, propriétés algébriques usuelles des limites, continuité des fonctions, propriétés algébriques usuelles de la continuité, théorème des valeurs intermédiaires, théorème des bornes atteintes, théorème de la bijection continue.
+Dérivabilité : définition et rappels des propriétés usuelles, théorèmes de Rolle et des accroissements finis. Applications.
+Développements limités : définition, existence, unicité et propriétés algébriques usuelles, formule de Taylor. Applications au calcul des limites, à la recherche des extrema locaux et à la détermination de la position relative d'une courbe par rapport à son asymptote.
+•
+Courbes paramétrées :
+Courbe paramétrée : définition et exemples.
+Etude d’une courbe paramétrée : domaine d’étude, tableau de variation, étude des points stationnaires et des aymptotes, représentation.""" ;
     ex:evaluation "Fonctions variable reelle et courbes parametrees 100%" ;
     ex:hours "TOTAL : 54h Répartition : CM : 18h TD : 36h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage) fonction dérivable
-•""" ;
-    ex:obtention "Programme" ;
+    ex:objective """Au terme de cette unité d'enseignement, l'étudiant(e) devra :
+•
+Savoir utiliser la définition quantifiée de limite pour une fonction numérique
+•
+Savoir utiliser les théorèmes des valeurs intermédiaires et des bornes atteintes pour prédire le comportement qualitatif d’une fonction continue
+•
+Savoir utiliser les théorèmes de Rolle et des accroissements finis pour étudier les variations d’une fonction dérivable
+•
+Calculer des développements limités et les utiliser pour étudier le comportement local ou asymptotique des fonctions numériques (position par rapport à la tangente, extrema locaux, asymptotes)
+•
+Savoir mener l’étude complète d’une courbe paramétrée plane en utilisant les développements limités pour prédire le comportement local ou asymptotique de la courbe.
+L'étudiant(e) utilisera tout au long de cette unité les techniques de base du calcul algébrique ainsi que les principes de base du raisonnement pour résoudre les problèmes demandés.""" ;
+    ex:parcours "L1 MIASHS - parcours economie,L1 Physique, Physique - Mathématiques,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string """Mecanique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours
-accompagne""" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "PETIT ROBERT" ;
     ex:semester "2" .
 
@@ -527,77 +579,98 @@ ex:UE_XLG2MU060 a ex:UE ;
     rdfs:label "Algebre lineaire 1 et polynomes" ;
     ex:bibliography "F. Liret & D. Martinais : Algèbre, 1ère année : Cours et exercices avec solutions (Dunod)" ;
     ex:code "XLG2MU060" ;
-    ex:content """Base et dimension d’un espace vectoriel ou d’un sous-espace vectoriel, théorème sur la dimension
-d'une somme de sous-espaces vectoriels de R^n.
-•""" ;
+    ex:content """Programme : Le but de cette unité est d'initier les étudiants aux concepts de base de l'algèbre linéaire : espaces vectoriels, sous-espaces vectoriels, applications linéaires et matrices.
+•
+Résolution des systèmes linéaires par la méthode du pivot de Gauss.
+•
+Matrices : définition et calculs (somme, produit, transposition, trace, inversion, interprétation matricielle de la méthode du pivot de Gauss).
+•
+Espaces vectoriels et sous-espaces vectoriels: définition et exemples ; étude des sous-espaces vectoriels de R^n (présentation sous forme de vect, par système d'équations cartésiennes et passage d'une présentation à l'autre).
+•
+Base et dimension d’un espace vectoriel ou d’un sous-espace vectoriel, théorème sur la dimension d'une somme de sous-espaces vectoriels de R^n.
+•
+Applications linéaires, noyau, image, théorème du rang.
+•
+Représentation matricielle d'une application linéaire. Théorème du changement de base.
+•
+Déterminants des matrices 2x2 et 3x3.
+•
+Polynômes à coefficients réels et complexes :
+Définition, divisibilité, division euclidienne ;
+Racines et factorisations des polynômes : théorème de d'Alembert-Gauss, racines multiples, polynômes irréductibles sur R et C et factorisation des polynômes en produit de polynômes irréductibles.""" ;
     ex:evaluation "Algebre lineaire 1 et polynomes 100%" ;
     ex:hours "TOTAL : 54h Répartition : CM : 18h TD : 36h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage) Savoir déterminer les caractéristiques d’une applications linéaire (noyau, image et rang)
-•""" ;
-    ex:obtention "Programme" ;
+    ex:objective """Au terme de cette unité d'enseignement, l'étudiant(e) devra :
+•
+Savoir résoudre un système linéaire par la méthode du pivot de Gauss
+•
+Savoir pratiquer les opérations matricielles usuelles (addition, multiplication, tranposition, inversion)
+•
+Savoir caractériser des sous-espaces vectoriels de R^n par la donnée d'une base ou d'équations
+•
+Savoir déterminer les caractéristiques d’une applications linéaire   (noyau, image et rang)
+•
+Déterminer la matrice d’une application linéaire dans une base donnée
+•
+Calculer des déterminants de matrices 2x2 et 3x3
+•
+Savoir trouver les racines d’un polynôme et décomposer le polynôme en produit de polynômes irréductibles .
+L'étudiant(e) utilisera tout au long de cette unité les techniques de base du calcul algébrique ainsi que les principes de base du raisonnement pour résoudre les problèmes demandés.""" ;
+    ex:parcours "L1 MIASHS - parcours economie,L1 Physique, Physique - Mathématiques,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string """Mecanique,L1 Informatique, Info-Maths,L1 Info-Maths CMI OPT/IM,L1 INFO Info Maths - parcours
-accompagne""" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "PETIT ROBERT" ;
     ex:semester "2" .
 
 ex:UE_XLG2TU060 a ex:UE ;
     rdfs:label "Stage libre" ;
-    ex:bibliography "Dernière modification par PATRICIA BERTONCINI, le 2024-05-14 19:39:34" ;
     ex:code "XLG2TU060" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "L1 Chimie,L1 Chimie-Biologie,L1 Info-Maths CMI OPT/IM,L1 Informatique, Info-Maths,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique, Physique - Mathématiques,L1 Sciences de la Vie,L1 SVT Geosciences,L1 LAS Sciences de la Vie option Santé,L1 SVT option Sante,L1 LAS Physique option Santé,L1 SPI - option santé,L1 LAS Chimie option Santé,L1 INFO option sante,L1 SVT Sciences de la Vie et de la Terre,L1 Physique, Chimie,L1 CMI Physique Mecanique,L1 Maths CMI Ingénierie Statistique,L1 INFO Informatique,L1 Chimie parcours accompagné,L1 Chimie-Biologie accompagné,L1 INFO Informatique - parcours accompagne,L1 INFO Info Maths - parcours accompagne,L1 Physique - parcours accompagne,L1 Physique Chimie - parcours accompagne,L1 Physique,L1 SPI,L1 SPI - parcours accompagne" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "Chimie option Santé,L1 INFO option sante,L1 SVT Sciences de la Vie et de la Terre,L1 Physique," ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:semester "2" .
 
 ex:UE_XLG2TU090 a ex:UE ;
     rdfs:label "Méthodologie et insertion professionnelle S2" ;
-    ex:bibliography "" ;
     ex:code "XLG2TU090" ;
-    ex:content """- le travail de groupe et le travail en équipe
+    ex:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+-   3CM sur le fonctionnement cérébral et la mérmoire
+- 6 TD :
+- outils numériques
+- prise et reprise de notes
+- prise de parole et éloquence
+- la gestion du temps (et du stress)
+- le travail de groupe et le travail en équipe
 - serious game à la BU
 sur le second semestre, 3 TD :
 - identifier ses préférences de fonctionnement avec ses compétences et points de vigilance
 - se projeter en prenant en compte ce que l'étudiant apprécie, sait faire et veut faire/vivre
 - réaliser un CV complet et identifier les éléments constitutifs indispensables""" ;
-    ex:evaluation "Méthodologie et insertion professionnelle 100%" ;
+    ex:evaluation """Se developper en tant qu'étudiant - S2 %
+Méthodologie et insertion professionnelle 100%""" ;
     ex:hours "TOTAL : 4h Répartition : CM : 0h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:location "Niveau Licence" ;
-    ex:methods "Test simplifié sur la personnalité" ;
-    ex:objective """(résultats d'apprentissage)
-fonctionnement
+    ex:methods """Utilisation de ressources numériques (supports de cours et de TD, capsules numériques de la BU, ressources CARé)
+Serious game et jeux de simulation Test simplifié sur la personnalité Visionboard et Ikigaï""" ;
+    ex:objective """A l'issu du cours, l'étudiant sera capable :
+- de développer et utiliser des méthodes d'apprentissage : techniques de prises de notes et de mémorisation, de gestion du temps (et du stress), prise de parole et éloquence
+- d'utiliser des outils numériques de communication de l'université : messagerie, enseignement en distanciel, portfolio
+- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le fonctionnement
 - de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
 - de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs
 - d'expliquer ses principaux points forts et points de vigilance
-- de réaliser une première version de Curriculum Vitae pour chercher un job étudiant ou un
-premier stage""" ;
-    ex:obtention "Programme" ;
+- de réaliser une première version de Curriculum Vitae pour chercher un job étudiant ou un premier stage""" ;
+    ex:parcours "Maquette_bloc transversal,L1 Chimie,L1 MIASHS - parcours economie,L1 LAS Chimie option Santé,L1 Chimie parcours accompagné,L1 Chimie-Biologie,L1 Chimie-Biologie accompagné,L1 Maths CMI Ingénierie Statistique,L1 Info-Maths CMI OPT/IM,L1 CMI Physique Mecanique,L1 Informatique, Info-Maths,L1 INFO Info Maths - parcours accompagne,L1 INFO Informatique,L1 INFO Informatique - parcours accompagne,L1 Mathematiques,L1 LAS Mathematiques option sante,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur Polytech,L1 Physique,L1 Physique, Physique - Mathématiques,L1 LAS Physique option Santé,L1 Physique - parcours accompagne,L1 Physique, Chimie,L1 Physique Chimie - parcours accompagne,L1 Sciences de la Vie,L1 LAS Sciences de la Vie option Santé,L1 SPI,L1 SPI - option santé,L1 SPI - parcours accompagne,L1 SVT Geosciences,L1 SVT option Sante,L1 SVT Sciences de la Vie et de la Terre,L1 INFO option sante" ;
     ex:parcours_code "INFOMATH" ;
-    ex:parcours_file "INFOMATH_L1" ;
     ex:parcours_level "L1" ;
-    ex:parcours_string "sante,L1 Physique, Parcours Scientifique Renforcé,L1 PEIP 1 - Parcours étudiant ingénieur" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "SCHAFFHAUSER ALICE" ;
+    ex:responsible "LABBE LUCILE SCHAFFHAUSER ALICE" ;
     ex:semester "2" .
 

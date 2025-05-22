@@ -1,39 +1,67 @@
 @prefix ex: <http://example.org/course/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+ex:UE_XEATTENTE11 a ex:UE ;
+    rdfs:label "Initiation to scientific research" ;
+    ex:code "XEATTENTE11" ;
+    ex:content "The first block of the Research Methodology teaching unit is dedicated to understanding what scientific knowledge production means, how scientific knowledge develops with scientific publishing, what scientific disciplines are and to discuss the relations between science and society. Then we focus on the content of scientific documents, how to read them, and how to write scientific material, before addressing the topic of how to search for scientific material with the tools at hand and organize them in a bibliography." ;
+    ex:hours "TOTAL : 9h Répartition : CM : 4.5h TD : 4.5h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:location "Polytech Nantes" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_level "M2" ;
+    ex:responsible "PRIE YANNICK" .
+
+ex:UE_XEATTENTE12 a ex:UE ;
+    rdfs:label "Open science sustainability and ethics" ;
+    ex:code "XEATTENTE12" ;
+    ex:content "The second block of the Research Methodology teaching unit deals with open science, sustainability and general ethics." ;
+    ex:hours "TOTAL : 4.5h Répartition : CM : 0h TD : 0h CI : 4.5h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:location "Polytech Nantes" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_level "M2" ;
+    ex:responsible "HERNANDEZ NICOLAS" .
+
+ex:UE_XEATTENTE13 a ex:UE ;
+    rdfs:label "Experimental methodology and statistics" ;
+    ex:code "XEATTENTE13" ;
+    ex:content "The third block of the Research Methodology teaching unit offers a comprehensive exploration of experimental methodologies, starting with the hypothetico-deductive method and extending to exploratory science and data collection aimed at modeling and prediction. Students will gain an understanding of both qualitative and quantitative variables, as well as dependent variables (VD) and factors influencing experiments. The curriculum delves into experimental design plans, covering both between-subjects and within-subjects designs. Additionally, the course provides a solid foundation in descriptive statistics, including the examination of various distributions such as Poisson and Bernoulli. To equip students with the tools for rigorous data analysis, the course also covers inferential statistics tailored for experimental data." ;
+    ex:hours "TOTAL : 10.5h Répartition : CM : 5h TD : 0h CI : 5.5h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:location "Polytech Nantes" ;
+    ex:parcours_code "ATAL" ;
+    ex:parcours_level "M2" ;
+    ex:responsible "VIGIER TOINON" .
+
 ex:UE_XMS3IU020 a ex:UE ;
     rdfs:label "Gestion des données distribuées à large échelle" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU020" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Gestion des données distribuées à large échelle 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
-    ex:location "Niveau Master" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention """Programme
-• To understand how big are big data and how distributed infrastructures are able to handle them
+    ex:objective """• To understand how big are big data and how distributed infrastructures are able to handle them
 • To understand why traditional databases cannot handle big data
-• To know online transaction processing, online analytical processing and streaming processing on
-big data.
+• To know online transaction processing, online analytical processing and streaming processing on big data.
 • To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
-• To know how to program with Map-Reduce, resilient data structures, and stream processing ie.""" ;
+• To know how to program with Map-Reduce, resilient data structures, and stream processing ie. Hadoop, SPARK, Flink
+• To know consistent hashing, linear hashing, distributed linear hashing, sharding
+• To know multi-version concurrency control and consistency issues in large scale datastore
+• To be able to understand how current datastore are built, what they can do and what are their limitations.
+• To be able to use large scale datastore for OLTP, OLAP and stream processing.""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "(ATAL)" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU200 a ex:UE ;
     rdfs:label "Modélisation des langues" ;
-    ex:bibliography """Linguistics. Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers
-2015""" ;
+    ex:bibliography "Jeffrey Heinz, Colin de la Higuera, Menno van Zaanen: Grammatical Inference for Computational Linguistics. Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers 2015" ;
     ex:code "XMS3IU200" ;
-    ex:content """adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
+    ex:content """• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et génératif, multimodalité, compression)
+• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning, adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
 • Représentation profonde des mots, des phrases, des séquences longues
 • Injection de connaissances, augmentation de données
 • Analyse et interprétabilité (biais)""" ;
@@ -43,69 +71,52 @@ ex:UE_XMS3IU200 a ex:UE ;
     ex:level "Master" ;
     ex:location "Nantes" ;
     ex:methods "Cours magistraux, travaux tirigés et mini projets" ;
-    ex:objective """(résultats d'apprentissage)
-• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et
-génératif, multimodalité, compression)
-• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning,""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:responsible "QUINIOU SOLEN HERNANDEZ NICOLAS" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU210 a ex:UE ;
     rdfs:label "Traitement automatique des langues" ;
-    ex:bibliography "• Jimmy Lin and Chris Dyer. Data-Intensive Text Processing with MapReduce. Morgan & Claypool" ;
+    ex:bibliography """• Tika a content analysis toolkit https://tika.apache.org/
+• Hadoop, a distributed computing platform http://hadoop.apache.org/
+• Storm a distributed realtime computation system http://storm.apache.org/
+• Mahout an environment for quickly creating scalable performant machine learning applications https://mahout.apache.org/
+•   Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
+• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2 March 2009, http://docs.oasis-open.org/uima
+• UIMA framework for the development and deployment of multi-modal analytics for the analysis of unstructured information content such as text, audio and video https://uima.apache.org/
+• Jimmy Lin and Chris Dyer. Data-Intensive Text Processing with MapReduce. Morgan & Claypool Publishers, 2013. http://lintool.github.io/MapReduceAlgorithms/
+• Torque   distributed resource manager providing control over batch jobs and distributed compute nodes http://www.adaptivecomputing.com/products/open-source/torque/
+• The Voice Browser Working Group's mission is to support browsing the web by voice https://www.w3.org/Voice/
+• Media Resource Control Protocol https://fr.wikipedia.org/wiki/MRCP
+• DKPro, a community of projects focussing on re-usable Natural Language Processing software https://dkpro.github.io
+• Platform for building Python programs to work with human language data http://www.nltk.org/
+• Stanford CoreNLP – a suite of core NLP tools http://stanfordnlp.github.io/CoreNLP/""" ;
     ex:code "XMS3IU210" ;
-    ex:content """conversationnel/chatbot) - protocole, données, approches état de l'art et évaluation
+    ex:content """• Paradigmes de résolution des problématiques de TAL
+• Applications/tâches d'analyse (extraction d'information e.g. NE/relations, résolution de la co- référence, classification d'énoncés, alignement)
+• Applications/tâches génératives (résumé, question/réponse, traduction, génération de code, agent conversationnel/chatbot) - protocole, données, approches état de l'art et évaluation
 • Recherche d'information
-• Domaine de spécialités : problématiques et approches (médical et santé, légal, scientifique,
-éducation)
+• Domaine de spécialités : problématiques et approches (médical et santé, légal, scientifique, éducation)
 • Exploitation de GPU/supercalcultateur""" ;
     ex:evaluation "Traitement automatique des langues 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
-    ex:language """Français
-• Tika a content analysis toolkit https://tika.apache.org/
-• Hadoop, a distributed computing platform http://hadoop.apache.org/
-• Storm a distributed realtime computation system http://storm.apache.org/
-• Mahout an environment for quickly creating scalable performant machine learning applications
-https://mahout.apache.org/
-• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
-scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
-• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2""" ;
+    ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
-    ex:methods """Langue d’enseignement Français
-• Tika a content analysis toolkit https://tika.apache.org/
-• Hadoop, a distributed computing platform http://hadoop.apache.org/
-• Storm a distributed realtime computation system http://storm.apache.org/
-• Mahout an environment for quickly creating scalable performant machine learning applications
-https://mahout.apache.org/
-• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
-scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
-• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2""" ;
-    ex:objective """(résultats d'apprentissage)
-• Paradigmes de résolution des problématiques de TAL
-• Applications/tâches d'analyse (extraction d'information e.g. NE/relations, résolution de la co-
-référence, classification d'énoncés, alignement)
-• Applications/tâches génératives (résumé, question/réponse, traduction, génération de code, agent""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "DUFOUR RICHARD" ;
+    ex:responsible "HERNANDEZ NICOLAS DUFOUR RICHARD" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU220 a ex:UE ;
     rdfs:label "Ressources linguistiques" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU220" ;
-    ex:content """• Valorisation (diffusion de jeux de données/modèles, licence)
+    ex:content """• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données de références...) et de lexiques
+• Annotation (procédure, guide d'annotation, outils, mesure d'accord)
+• Valorisation (diffusion de jeux de données/modèles, licence)
 • Evaluation, métriques, campagnes
 • Prompting for LLM application development
 • Retrieval Augmented Generation (RAG)""" ;
@@ -114,222 +125,164 @@ ex:UE_XMS3IU220 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage)
-• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données
-de références...) et de lexiques
-• Annotation (procédure, guide d'annotation, outils, mesure d'accord)""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "DAILLE BEATRICE" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU230 a ex:UE ;
     rdfs:label "Développement logiciel et IA dans les entreprises" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU230" ;
-    ex:content """* Processus en amont et aval de la construction de modèles (recueil besoins, trajectoire client,
-acculturation, chiffrage, planification, industrialisation, packaging, performance)""" ;
+    ex:content """* Agilité et gestion de projets
+* Processus en amont et aval de la construction de modèles (recueil besoins, trajectoire client, acculturation, chiffrage, planification, industrialisation, packaging, performance)""" ;
     ex:evaluation "Développement logiciel et IA dans les entreprises 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage)
-* Agilité et gestion de projets""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:responsible "QUINIOU SOLEN HERNANDEZ NICOLAS" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU240 a ex:UE ;
     rdfs:label "Algorithmique du texte et inférence grammaticale" ;
-    ex:bibliography """Pierre Zweigenbaum et Benoit Habert (2006). Faire se rencontrer les parallèles : regards croisés
-sur l’acquisition lexicale monolingue et multilingue. GLOTTOPOL :8, 22-44.""" ;
+    ex:bibliography """M. Crochemore, C. Hancart, T. Lecroq - Algorithms on strings, Cambridge University Press 2007.
+M. Crochemore, W. Rytter - Jewels of Stringology, World Scientific Publishing, 2002
+D. Gusfield - Algorithms on Strings, Trees, and Sequences, Cambridge University Press, 1997. Pierre Zweigenbaum et Benoit Habert (2006). Faire se rencontrer les parallèles : regards croisés sur l’acquisition lexicale monolingue et multilingue. GLOTTOPOL :8, 22-44.
+Gale, William A.; Church, Kenneth W. (1993), "A Program for Aligning Sentences in Bilingual Corpora" (PDF), Computational Linguistics, 19 (1): 75–102""" ;
     ex:code "XMS3IU240" ;
-    ex:content """Contenu de la partie "Algorithmique du Texte":
+    ex:content """Partie "Algorithmique du Texte"
+Connaissance et acquisition des principales techniques de recherche de motifs dans les textes de grande taille, avec pré-traitement sur le texte et/ou le motif
+Connaissance et acquisition des algorithmes associés et de leur complexité.
+Comparaison des avantages/inconvénients des techniques présentées, en fonction du contexte d'utilisation.
+Contenu de la partie "Algorithmique du Texte":
 1. Automate déterministe de reconnaissance du motif
 2. Arbre des Suffixes
 3. Tableau des Suffixes
-4. Transformée de Burrows-Wheeler et FM-index""" ;
+4. Transformée de Burrows-Wheeler et FM-index
+Ces techniques seront illustrées d'exemples d'applications au traitement des séquences d'ADN.""" ;
     ex:evaluation "Algorithmique du texte et inférence grammaticale 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
     ex:methods "Méthodes d'enseignement" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "DE LA HIGUERA COLIN" ;
+    ex:responsible "FERTIN GUILLAUME DE LA HIGUERA COLIN" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU250 a ex:UE ;
     rdfs:label "Communication scientifique" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU250" ;
-    ex:content "* Construction de poster, rédaction en latex, gestion bibliographique" ;
+    ex:content """* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
+* Participation à séminaires "Petit Séminaires ATAL"
+* Construction de poster, rédaction en latex, gestion bibliographique""" ;
     ex:evaluation "Communication scientifique 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 4h TD : 20h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective """(résultats d'apprentissage)
-* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
-* Participation à séminaires "Petit Séminaires ATAL\"""" ;
     ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "QUINIOU SOLEN" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU260 a ex:UE ;
     rdfs:label "Projet (M2 ATAL)" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU260" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Projet (M2 ATAL) 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
-    ex:location "Niveau Master" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:responsible "QUINIOU SOLEN HERNANDEZ NICOLAS" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU270 a ex:UE ;
     rdfs:label "Périodes de formation alternées en milieu professionnel (M2 ATAL)" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU270" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Périodes de formation alternées en milieu professionnel (M2 ATAL) 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
-    ex:location "Niveau Master" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:responsible "QUINIOU SOLEN HERNANDEZ NICOLAS" ;
     ex:semester "3" .
 
 ex:UE_XMS4IU010 a ex:UE ;
     rdfs:label "Stage" ;
-    ex:bibliography "" ;
     ex:code "XMS4IU010" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Stage 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Mixte" ;
     ex:level "Master" ;
     ex:location "Soutenance à la faculté des sciences et techniques" ;
-    ex:methods "Langue d’enseignement Mixte" ;
-    ex:objective """(résultats d'apprentissage) - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
-- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
-convaincante.""" ;
-    ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:objective """- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
+- Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
+    ex:obtention "Il n'y a pas de seconde session pour le stage.  Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:parcours "M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche Opérationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "PERRIN MATTHIEU" ;
+    ex:responsible "SKAF-MOLLI HALA PERRIN MATTHIEU" ;
     ex:semester "4" .
 
 ex:UE_XMS4IU200 a ex:UE ;
     rdfs:label "Période de suivi en formation par alternance (M2 ATAL)" ;
-    ex:bibliography "Dernière modification par SOLEN QUINIOU, le 2024-06-18 18:19:34" ;
     ex:code "XMS4IU200" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Période de suivi en formation par alternance (M2 ATAL) 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
-    ex:location "Niveau Master" ;
-    ex:methods "Langue d’enseignement Français" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "QUINIOU SOLEN" ;
+    ex:responsible "HERNANDEZ NICOLAS QUINIOU SOLEN" ;
     ex:semester "4" .
 
 ex:UE_XUATTENTE10 a ex:UE ;
     rdfs:label "Research methodology" ;
-    ex:bibliography "XEATTENTE12 Open science sustainability and ethics" ;
     ex:code "XUATTENTE10" ;
-    ex:content """Then we focus on the content of scientific documents, how to read them, and how to write scientific
-material, before addressing the topic of how to search for scientific material with the tools at hand
-and organize them in a bibliography.""" ;
-    ex:evaluation "Open science sustainability and ethics 20%" ;
+    ex:evaluation """Initiation to scientific research 35%
+Open science sustainability and ethics 20%
+Experimental methodology and statistics 45%""" ;
     ex:hours "TOTAL : 24h Répartition : CM : 9.5h TD : 4.5h CI : 10h TP : 0h EAD : 0h" ;
-    ex:language "Anglais" ;
     ex:level "Master" ;
+    ex:liste_des_matières """- Initiation to scientific research (XEATTENTE11)
+- Open science sustainability and ethics (XEATTENTE12)
+- Experimental methodology and statistics (XEATTENTE13)""" ;
     ex:location "Polytech Nantes" ;
-    ex:methods "Bibliographie" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention """Programme
-- Initiation to scientific research (XEATTENTE11)""" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:responsible "VIGIER TOINON HERNANDEZ NICOLAS" ;
     ex:semester "3" .
 
 ex:UE_XUATTENTE20 a ex:UE ;
     rdfs:label "Deep learning" ;
-    ex:bibliography "" ;
     ex:code "XUATTENTE20" ;
-    ex:content """• TD : Nombre de poids, tailles des CNN, étude d'architechtures classiques, CTC
+    ex:content """• Cours : MLP, CNN, RNN
+• TD : Nombre de poids, tailles des CNN, étude d'architechtures classiques, CTC
 • TP : IRIS, MINST, Seq""" ;
     ex:evaluation "Deep learning 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 5h TD : 7.5h CI : 0h TP : 11.5h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "Polytech Nantes" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage)
-• Cours : MLP, CNN, RNN""" ;
-    ex:obtention "Programme" ;
+    ex:parcours "M2 Data Science (DS) ,M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ATAL" ;
-    ex:parcours_file "ATAL_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "de la Langue (ATAL)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "MOUCHERE HAROLD" ;
+    ex:responsible "HERNANDEZ NICOLAS MOUCHERE HAROLD QUINIOU SOLEN" ;
     ex:semester "3" .
 

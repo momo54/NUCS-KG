@@ -1,31 +1,31 @@
 import os
 from pathlib import Path
 
-PDF_DIR = Path("data")
-CSV_DIR = Path("XP")
+DATA_DIR = Path("data")
+OUT_DIR = Path("XP")
 
 # Récupère tous les fichiers PDF sous data/
-pdf_files = list(PDF_DIR.rglob("*.pdf"))
+xlsx_files = list(DATA_DIR.rglob("*.xlsx"))
 
-print(pdf_files)
+print(xlsx_files)
 
 # Crée une liste des fichiers cibles CSV en conservant la hiérarchie
-relative_paths = [f.relative_to(PDF_DIR) for f in pdf_files]
-csv_paths = [CSV_DIR / p.with_suffix(".csv") for p in relative_paths]
+relative_paths = [f.relative_to(DATA_DIR) for f in xlsx_files]
+ttl_paths = [OUT_DIR / p.with_suffix(".ttl") for p in relative_paths]
 
-print(csv_paths)
+print(ttl_paths)
 
 rule all:
     input:
-        [str(p) for p in csv_paths]
+        [str(p) for p in ttl_paths]
 
 rule extract_ues:
     input:
-        "data/{path}.PDF"
+        "data/{path}.xlsx"
     output:
-        "XP/{path}.csv"
+        "XP/{path}.ttl"
     shell:
         """
         mkdir -p $(dirname {output})
-        python extract_ues.py {input} {output}
+        python extract_ue_xlsx.py  {input} {output}
         """

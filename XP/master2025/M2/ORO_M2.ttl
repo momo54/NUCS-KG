@@ -3,9 +3,12 @@
 
 ex:UE_XMS3IU300 a ex:UE ;
     rdfs:label "Optimisation multi-objectif" ;
-    ex:bibliography "" ;
+    ex:bibliography "Ehrgott, M. (2005) Multicriteria Optimization. 2nd Edition, Springer, Berlin." ;
     ex:code "XMS3IU300" ;
-    ex:content """* Multi-objective combinatorial optimization - main definitions and properties
+    ex:content """This course is composed of 5 chapters.
+* Introduction to multi-objective optimization
+* Multi-objective linear programming
+* Multi-objective combinatorial optimization - main definitions and properties
 * Multi-objective combinatorial optimization - main solution methods
 * Multi-objective shortest path problem""" ;
     ex:evaluation "Optimisation multi-objectif 100%" ;
@@ -13,267 +16,271 @@ ex:UE_XMS3IU300 a ex:UE ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des sciences et des techniques" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage)
-problems (M)
-- To be able to apply the e-constraint algorithm with adaptive step to solve a bi-objective
-combinatorial problem (A)
-- To be able to apply the weighted sum scalarization to compute a complete set of extreme
-supported solution of a bi-objective combinatorial optimization problem (A)
-- To be able to define and update the search area of a bi-objective combinatorial optimization
-problem (Phase 2 of the two phase method) (A)
-- To know the main strategies (variable fixing, ranking, branch and bound) to explore the search
-area (A)
+    ex:objective """- To know the notion of feasible set, outcome set, solution, point, (weakly) efficient, (weakly) nondominated point, lexicographically optimal solution (M)
+- To know the ideal point and the nadir point, the way to compute these points and the difficulty in their computation (M)
+- To know the main scalarization methods (weighted sum, e-constraint, weighted tchebychev method) and their properties (A)
+- To know the geometrical properties of the feasible set and the outcome set of a MOLP (M)
+- To know the geometrical and topological properties of the efficient set and the nondominated set of a MOLP (M)
+- To be able to apply the parametric simplex algorithm to solve a bi-objective linear programme (A)
+- To know the topological property of the feasible, outcome, efficient, nondominated sets of a Multi- objective Combinatorial Optimization (MOCO) problem (M)
+- To know the classification of efficient solutions and nondominated points, and the notion of complete set (M)
+- To know results about connectedness and non-connectedness of efficient solutions of MOCO problems (M)
+- To be able to apply the e-constraint algorithm with adaptive step to solve a bi-objective combinatorial problem (A)
+- To be able to apply the weighted sum scalarization to compute a complete set of extreme supported solution of a bi-objective combinatorial optimization problem (A)
+- To be able to define and update the search area of a bi-objective combinatorial optimization problem (Phase 2 of the two phase method) (A)
+- To know the main strategies (variable fixing, ranking, branch and bound) to explore the search area (A)
 - To know the notion of bound sets (M)
-- To be able to apply a branch and bound algorithm to solve a bi-objective combinatorial
-optimization problem (A)
-- To be able to apply a dynamic programming algorithm for multi-objective combinatorial
-optimization problem, application to the shortest path problem (A)""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+- To be able to apply a branch and bound algorithm to solve a bi-objective combinatorial optimization problem (A)
+- To be able to apply a dynamic programming algorithm for multi-objective combinatorial optimization problem, application to the shortest path problem (A)""" ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU310 a ex:UE ;
     rdfs:label "Programmation mathématique" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU310" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Programmation mathématique 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage) form of a mixed integer linear program (A)
--To be able to detect symmetry in a problem or model, and to know how to cope with this
-phenomenon (A-M)
+    ex:objective """- To learn classical modelization techniques on various problems using specific variables (A-M)
+- To know the different strategies applicable to solve mixed integer linear programs (M)
+- To know the major techniques used in a solver to pre-process a mixed integer linear program (A)
+- To know how to implement a cutting plane algorithm based on Gomory's cuts and MIR cuts, and the limitations of these techniques (A-M)
+-To be able to compare two formulations of the same problem, and how to strenghten inequalities using lifting technique (M)
+-To know how to distinguish between valid inequalities, faces and facets, and to know the main way to prove that an inequality is a facet (M)
+-To know how to apply these techniques to graph theory or any problem that is not given under the form of a mixed integer linear program (A)
+-To be able to detect symmetry in a problem or model, and to know how to cope with this phenomenon (A-M)
 - To apprehend Lagragian relaxation with effective implementation (M)
 - To discover the implementation of a column generation algorithm (I)
--To understand the theory of Dantzig-Wolfe decomposition and to devise a column generation
-approach for various combinatorial optimization problems (M)
+-To understand the theory of Dantzig-Wolfe decomposition and to devise a column generation approach for various combinatorial optimization problems (M)
 -To know Branch-and-Price and the different ways to make it efficient (A)
 -To know the Benders decomposition and its relation with Dantzig-Wolfe decomposition (A)
--To know how matheuristics work for both exact methods using approximate methods, and
-heuristics taking advantage of exact approaches (M)""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+-To know how matheuristics work for both exact methods using approximate methods, and heuristics taking advantage of exact approaches (M)""" ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "ROSSI ANDRE" ;
+    ex:responsible """PRZYBYLSKI ANTHONY ROSSI ANDRE
+SEVAUX MARC""" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU320 a ex:UE ;
     rdfs:label "Optimisation globale" ;
     ex:bibliography "Cf. les 60 références du polycopié de cours" ;
     ex:code "XMS3IU320" ;
-    ex:content """• Arithmétique par intervalles
+    ex:content """Ce cours présente des algorithmes de recherche déterministes pour résoudre des problèmes de satisfaction et d'optimisation non linéaires de manière rigoureuse.
+• Algorithme branch-and-bound
+• Arithmétique par intervalles
 • Techniques de réduction
 • Techniques de linéarisation
-• Certification des calculs numériques
-• Classe inversée""" ;
+• Certification des calculs numériques""" ;
     ex:evaluation "Optimisation globale 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 4h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "• Projet de développement (logiciel, cas d'étude)" ;
-    ex:objective """(résultats d'apprentissage) • Connaître les stratégies de recherche usuelles
+    ex:methods """• Classe inversée
+• Projet de développement (logiciel, cas d'étude)""" ;
+    ex:objective """• Comprendre les méthodes de calcul par intervalles et le calcul automatique de bornes d'erreurs
+• Savoir linéariser un problème non linéaire
+• Connaître les stratégies de recherche usuelles
 • Mettre en oeuvre un solveur de problèmes d'optimisation non linéaires""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "GRANVILLIERS LAURENT" ;
+    ex:responsible "PRZYBYLSKI ANTHONY GRANVILLIERS LAURENT" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU330 a ex:UE ;
     rdfs:label "Algorithmique du génome" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU330" ;
-    ex:content "Alignement de séquences" ;
+    ex:content """Introduction à l'algorithmique du génome
+Recherche exacte ou approchée de motifs avec ou sans indexation Alignement de séquences
+Applications""" ;
     ex:evaluation "Algorithmique du génome 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 10.67h TD : 13.33h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
     ex:methods "Présentiel." ;
-    ex:objective "(résultats d'apprentissage) Comprendre, reproduire et adapter les algorithmes de recherche de motifs" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:objective """Comprendre les enjeux de la génomique comparative et les défis algorithmiques associés Comprendre, reproduire et adapter les algorithmes de recherche de motifs
+Comprendre, reproduire et adapter les algorithmes d'alignement de séquences""" ;
+    ex:obtention "Pour le régime \"Ordinaire\", la note de CCE pourra contenir une part de pratique et/ou d'oral.  La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours. Pour le régime \"Dispensé d'assiduité\", la note de CCE comportera seulement la partie écrite." ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "RUSU Irena" ;
+    ex:responsible """PRZYBYLSKI ANTHONY
+RUSU Irena
+FERTIN GUILLAUME""" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU340 a ex:UE ;
     rdfs:label "Optimisation en robotique" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU340" ;
-    ex:content "demonstrates how the optimization techniques learnt throughout the Master allow solving them." ;
+    ex:content "Optimization in Robotics presents a number of optimization problems arising in robotics and demonstrates how the optimization techniques learnt throughout the Master allow solving them." ;
     ex:evaluation "Optimisation en robotique 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage)
-optimization problems (Analysis) ;
-* model a variety of robotic problems as numerical constrained optimization problems and solve
-them using an appropriate method (Synthesis) ;""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:objective """* understand the kinematic models of various serial and parallel robotic manipulators (Understanding) ;
+* describe a variety of optimization problems in robotics and identify the corresponding classes of optimization problems (Analysis) ;
+* model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis) ;""" ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "JERMANN CHRISTOPHE" ;
+    ex:responsible "PRZYBYLSKI ANTHONY JERMANN CHRISTOPHE GOLDSZTEJN ALEXANDRE" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU350 a ex:UE ;
     rdfs:label "Conférences et projet intégrateur" ;
-    ex:bibliography "" ;
     ex:code "XMS3IU350" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Conférences et projet intégrateur 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "TONNEAU QUENTIN" ;
+    ex:responsible "PRZYBYLSKI ANTHONY TONNEAU QUENTIN" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU360 a ex:UE ;
     rdfs:label "Solveurs multi-objectifs" ;
-    ex:bibliography """Inc, 2001
-• Carlos Coello Coello, Gary Lamont, David van Veldhuizen. Evolutionary Algorithms for Solving""" ;
+    ex:bibliography """• Ralph E. Steuer. Multiple Criteria Optimization : Theory, Computation, and Application. Wiley Series in Probability and Statistics, 1986.
+• Matthias Ehrgott. Multicriteria Optimization. Springer Berlin Heidelberg, 2005.
+• Matthias Ehrgott, Xavier Gandibleux. Multiple Criteria Optimization: State of the Art Annotated Bibliographic Surveys. International Series in Operations Research & Management Science, Springer New York, 2002.
+• Kalyanmoy Deb. Multi-Objective Optimization Using Evolutionary Algorithms. John Wiley & Sons Inc, 2001
+• Carlos Coello Coello, Gary Lamont, David van Veldhuizen. Evolutionary Algorithms for Solving Multi-Objective Problems. Springer, 2e edition, 2007.
+• Matthias Ehrgott, Carlos M. Fonseca, Xavier Gandibleux, Jin-Kao Hao, Marc Sevaux. Evolutionary Multi-Criterion Optimization : 5th International Conference, EMO 2009, Nantes, France, April 7-10, 2009, Proceedings. Lecture Notes in Computer Science, volume 5467, Springer Berlin Heidelberg, 2009.""" ;
     ex:code "XMS3IU360" ;
-    ex:content "• Non-dominated Sorting Genetic Algorithm 2 : NSGA-II" ;
+    ex:content """Optimisation multi-objectif (MOO)
+• Rappels
+• Des solveurs multi-objectif basés sur des algorithmes complets
+• Etude de cas
+Métaheuristiques multi-objectif (MOMH)
+• Définition
+• Dates et contributions remarquables
+• Lignée des algorithmes évolutionnaires multi-objectif (EMO)
+• Non-dominated Sorting Genetic Algorithm 2 : NSGA-II
+Questions sensibles
+• Concernant le maintien des points potentiellement non-dominés
+• Concernant une recherche locale multi-objectif
+• Concernant la mesure de la qualité d’une approximation
+Orientations
+• Des approches de résolution hybrides
+• Des solveurs multi-objectif basés sur les métaheuristiques
+Projet""" ;
     ex:evaluation "Solveurs multi-objectifs 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
-    ex:language """Anglais
-• Ralph E. Steuer. Multiple Criteria Optimization : Theory, Computation, and Application. Wiley""" ;
+    ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
-    ex:methods "• Cours ex-cathedra, exercices, mise en situation" ;
-    ex:objective """(résultats d'apprentissage)
-métaheuristique multiobjectif.
+    ex:methods """• Présentiel
+• Cours ex-cathedra, exercices, mise en situation""" ;
+    ex:objective """• Comprendre, mettre en oeuvre, contributer aux fonctionnalités d'un solveur multi-objectif.
+• Apporter une réponse algorithmique et une solution logicielle mettant en oeuvre une métaheuristique multiobjectif.
 • Appréhender et conduire des cas d'étude.""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "GANDIBLEUX XAVIER" ;
+    ex:responsible "PRZYBYLSKI ANTHONY GANDIBLEUX XAVIER" ;
     ex:semester "3" .
 
 ex:UE_XMS3WU370 a ex:UE ;
     rdfs:label "Ordonnancement et planification" ;
-    ex:bibliography "" ;
     ex:code "XMS3WU370" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Ordonnancement et planification 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "IMT Atlantique" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "Bellenguez Odile" ;
+    ex:responsible """PRZYBYLSKI ANTHONY
+Bellenguez Odile""" ;
     ex:semester "3" .
 
 ex:UE_XMS3WU380 a ex:UE ;
     rdfs:label "Transport et logistique" ;
-    ex:bibliography "" ;
     ex:code "XMS3WU380" ;
-    ex:content """- Model the core problems and their simple extensions
+    ex:content """At the end of this course, the student will be able to:
+- Identify the main optimization problems that arise in the field of transportation and logistics
+- Model the core problems and their simple extensions
 - Design some exact and heuritic solving methods for these optimization problems""" ;
     ex:evaluation "Transport et logistique 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 10h TD : 10h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "IMT Atlantique" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage) + Heuristics for vehicle routing problems M
+    ex:objective """+ Information systems and softwares in transport optimization I.
++ Modeling classical facility location and vehicle routing problems E
++ Modeling advanced facility location, network design and vehicle routing problems M
++ Heuristic solving of facility location problems I
++ Heuristics for vehicle routing problems M
 + Meta heuristics for vehicle routing problems A
 + Solving vehicle routing problems with time windows A
-+ Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean
-relaxation, column generation) I.""" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
++ Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean relaxation, column generation) I.""" ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "LEHUEDE Fabien" ;
+    ex:responsible """PRZYBYLSKI ANTHONY
+LEHUEDE Fabien""" ;
     ex:semester "3" .
 
 ex:UE_XMS3WU390 a ex:UE ;
     rdfs:label "Contraintes globales" ;
-    ex:bibliography "" ;
     ex:code "XMS3WU390" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Contraintes globales 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "IMT Atlantique" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective "(résultats d'apprentissage)" ;
-    ex:obtention "La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours." ;
+    ex:obtention """La note de CCE pourra comporter une part de pratique et d'oral.
+La répartition entre évaluation écrite/orale/pratique sera donnée à l'occasion du premier cours.""" ;
+    ex:parcours "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "BELDICEANU Nicolas" ;
+    ex:responsible """PRZYBYLSKI ANTHONY
+BELDICEANU Nicolas""" ;
     ex:semester "3" .
 
 ex:UE_XMS4IU010 a ex:UE ;
     rdfs:label "Stage" ;
-    ex:bibliography "Dernière modification par VIRGINIE BLOT, le 2024-08-22 16:10:56" ;
     ex:code "XMS4IU010" ;
-    ex:content "Méthodes d’enseignement" ;
     ex:evaluation "Stage 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Mixte" ;
     ex:level "Master" ;
     ex:location "Soutenance à la faculté des sciences et techniques" ;
-    ex:methods "Langue d’enseignement Mixte" ;
-    ex:objective """(résultats d'apprentissage) - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
-- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
-convaincante.""" ;
-    ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:objective """- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
+- Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
+    ex:obtention "Il n'y a pas de seconde session pour le stage.  Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:parcours "M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche Opérationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:parcours_code "ORO" ;
-    ex:parcours_file "ORO_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "PERRIN MATTHIEU" ;
+    ex:responsible "SKAF-MOLLI HALA PERRIN MATTHIEU" ;
     ex:semester "4" .
 

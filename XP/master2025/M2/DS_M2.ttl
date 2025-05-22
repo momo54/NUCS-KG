@@ -1,26 +1,23 @@
 @prefix ex: <http://example.org/course/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ex:UE_Inconnu a ex:UE ;
-    rdfs:label "Research methodology and case study" ;
-    ex:bibliography "Semantic knowledge representation" ;
-    ex:code "Inconnu" ;
-    ex:content "Ethics of research" ;
-    ex:evaluation "Research methodology and case study 100%" ;
-    ex:hours "TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
+ex:UE_UNKNOWN a ex:UE ;
+    ex:code "UNKNOWN" ;
+    ex:content "During the internship, the student will conduct a research work either in a university lab or in the R&D department of a private company." ;
+    ex:evaluation "Internship (DS) 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "Polytech Nantes" ;
-    ex:methods "Langue d’enseignement Anglais" ;
-    ex:objective """(résultats d'apprentissage)
-guidelines
-of the teaching unit to their work.""" ;
-    ex:obtention "Programme" ;
+    ex:objective """At the end of the intership, the student should be able to:
+1. 1. Identify and refine a research question or puzzle within an existing field of scientific inquiry and devise a plan for investigating it.
+2. Formulate a program of reading in consultation with a professional scientist to provide context for the investigation
+3. Develop a time-line for the research project and manage work to that time-line
+4. Communicate research results –both orally and in writing – in a style consistent with scientific standards
+5. Work as part of a research team""" ;
+    ex:obtention "Les étudiants doient obligatoirement assister aux conférences pour valider l'UE." ;
+    ex:parcours "M2 Data Science (DS)" ;
     ex:parcours_code "DS" ;
-    ex:parcours_file "DS_M2" ;
     ex:parcours_level "M2" ;
-    ex:parcours_string "M2 Data Science (DS)" ;
-    ex:prerequisite "(s)" ;
-    ex:responsible "Volume horaire total TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
-    ex:semester "3" .
+    ex:responsible "GELGON MARC" ;
+    ex:semester "4" .
 

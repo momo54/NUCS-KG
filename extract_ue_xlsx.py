@@ -106,7 +106,16 @@ def extract_ues_from_excel(excel_path, output_json, output_ttl=None):
         print(f"✅ Export RDF TTL dans {output_ttl}")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python extract_ues_from_excel.py chemin_du_fichier.xlsx sortie.json [sortie.ttl]")
+    import argparse
+    parser = argparse.ArgumentParser(description="Extract UE data from Excel and export as JSON or TTL")
+    parser.add_argument("excel_file", help="Path to Excel file")
+    parser.add_argument("output", help="Output file (either .json or .ttl)")
+    args = parser.parse_args()
+
+    if args.output.endswith(".json"):
+        extract_ues_from_excel(args.excel_file, args.output, None)
+    elif args.output.endswith(".ttl"):
+        extract_ues_from_excel(args.excel_file, "_tmp_ue.json", args.output)
+        os.remove("_tmp_ue.json")
     else:
-        extract_ues_from_excel(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
+        print("❌ Format de sortie non supporté. Utilisez .json ou .ttl")
