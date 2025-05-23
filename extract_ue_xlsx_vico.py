@@ -7,8 +7,13 @@ from rdflib.namespace import RDF, RDFS
 from urllib.parse import quote
 import uuid
 
+
 def normalize(text):
-    return text.strip().lower().replace("’", "'").replace("“", '"').replace("”", '"')
+    text = str(text).strip().lower()
+    text = text.replace("’", "'").replace("‘", "'")
+    text = text.replace("“", '"').replace("”", '"')
+    text = re.sub(r"\s+", " ", text)
+    return text
 
 def extract_ues_from_excel(filepath, output_json, output_ttl=None):
     df = pd.read_excel(filepath, sheet_name=0, header=None)
@@ -18,19 +23,25 @@ def extract_ues_from_excel(filepath, output_json, output_ttl=None):
     parcours_code = filename.split("_")[0] if "_" in filename else "UNKNOWN"
 
     ues = []
-    metadata_fields = {
-        "lieu d'enseignement": "location",
+    raw_metadata_fields = {
         "langue d'enseignement": "language",
+        "lieu d'enseignement": "location",
         "niveau": "level",
         "semestre": "semester",
+        "responsable de la matière": "responsible",
         "responsable de l’ue": "responsible",
         "volume horaire total": "hours",
+        "objectifs (résultats d'apprentissage)": "objective",
+        "contenu": "content",
+        "méthodes d’enseignement": "methods",
+        "bibliographie": "bibliography",
         "ue pré-requise": "prerequisite",
         "ue pré-requise(s)": "prerequisite",
         "parcours d’études comprenant l’ue": "parcours",
         "pondération pour chaque matière": "evaluation",
         "obtention de l’ue": "obtention"
     }
+    metadata_fields = {normalize(k): v for k, v in raw_metadata_fields.items()}
 
     current_ue = None
     start_parsing = False
@@ -63,10 +74,16 @@ def extract_ues_from_excel(filepath, output_json, output_ttl=None):
         elif current_ue:
             key = normalize(first_col)
             value = second_col
+            print(f"Checking key: '{key}' (raw: '{first_col}') — matches? {key in metadata_fields}")
             if not key:
                 continue
             if key in metadata_fields:
-                current_ue[metadata_fields[key]] = value
+                pred = metadata_fields[key]
+                print(f"Parsed field: {pred} -> {value}")
+                if pred in current_ue:
+                    current_ue[pred] += f" / {value}"
+                else:
+                    current_ue[pred] = value
 
     if current_ue:
         ues.append(current_ue)
@@ -88,11 +105,15 @@ def extract_ues_from_excel(filepath, output_json, output_ttl=None):
             g.add((subj, EX.code, Literal(code)))
             label = ue.get("label", "") or code
             g.add((subj, RDFS.label, Literal(label)))
-            for k, v in ue.items():
-                if k in ["code", "label"]:
+            for key, value in ue.items():
+                if key in ["code", "label"]:
                     continue
-                pred = EX[k]
-                g.add((subj, pred, Literal(v)))
+                pred = EX[key]
+                if " / " in value:
+                    for v in value.split(" / "):
+                        g.add((subj, pred, Literal(v.strip())))
+                else:
+                    g.add((subj, pred, Literal(value)))
 
         g.serialize(destination=output_ttl, format="turtle")
         print(f"✅ RDF TTL exported to {output_ttl}")
@@ -101,7 +122,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Extract UE data from Excel and export as JSON or TTL")
     parser.add_argument("excel_file", help="Path to Excel file")
-    parser.add_argument("output", help="Output file (.json or .ttl)")
+    parser.add_argument("output", help="Output file (.json or .ttl")
     args = parser.parse_args()
 
     if args.output.endswith(".json"):
