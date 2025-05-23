@@ -1,3 +1,9 @@
+#
+# Looks like a good idea,
+# but does not work well.
+# Pb: The cell formatting of tables is not respected and the parsing is not reliable. 
+#
+
 import pandas as pd
 import re
 import json
