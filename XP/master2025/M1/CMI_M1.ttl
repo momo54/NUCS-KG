@@ -22,24 +22,32 @@ ex:UE_XMS1AU000 a ex:UE ;
 • Reconnaitre et anticiper les formats de certifications d’anglais.
 • Compléter les réponses exigées par les tests de certifications.
 • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement.""" ;
+    ex:obtention "" ;
     ex:parcours """M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Ingénierie Statistique (IS),M1 Mécanique,M1 PFA Physique Fondamentale et Applications,M1 Sciences & Santé,M1 Chimie Moleculaire et Therapeutique (CMT),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 ANALYSE MOLECULES MATERIAUX MEDICAMENTS (A3M),M1 LUMIERE MOLECULE MATIERE (LUMOMAT),M1
 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Conception et réalisation des bâtiments,M1 Travaux Publics, Maritimes et Maintenance - Mention GC,M1 Travaux Publics, Maritimes et Maintenance - Mention TM,M1 Biostatistique & Epidémiologie,M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD MICAS,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD I3,M1 CMD I3,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 CMD M4R,M1 Biologie et médicaments,M1 CMI-INA,M1 CMI-OPTIM,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 CMI-ICM,M1 Technologie Marine - Parcours International Travaux publics et Maritimes""" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "KERVISION SYLVIE LABARBE LAURIE" ;
     ex:semester "1" .
 
 ex:UE_XMS1AU010 a ex:UE ;
     rdfs:label "Anglais scientifique" ;
+    ex:bibliography "" ;
     ex:code "XMS1AU010" ;
+    ex:content "" ;
     ex:evaluation "Anglais scientifique 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "LABARBE LAURIE MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "1" .
 
@@ -70,48 +78,67 @@ C. A. Shaffer - A Practical Introduction to Data Structures and Algorithm Analys
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "RUSU Irena SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU050 a ex:UE ;
     rdfs:label "Métaheuristiques" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU050" ;
+    ex:content "" ;
     ex:evaluation "Métaheuristiques 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral. L'examen pourra être écrit ou oral." ;
     ex:parcours "M1 CMI-IS,M1 Ingénierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "GANDIBLEUX XAVIER PRZYBYLSKI ANTHONY" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU060 a ex:UE ;
     rdfs:label "Analyse exploratoire de données" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU060" ;
+    ex:content "" ;
     ex:evaluation "Analyse exploratoire de données 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 5.33h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "LE CAPITAINE HOEL" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU080 a ex:UE ;
     rdfs:label "Développement et exploitation" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU080" ;
+    ex:content "" ;
     ex:evaluation "Développement et exploitation 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "BOUSSE ERWAN MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "1" .
 
@@ -147,6 +174,7 @@ ex:UE_XMS1IU200 a ex:UE ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "1" .
 
@@ -174,12 +202,14 @@ R.K. Ahuja, T.L. Magnanti, J.B. Orlin - Network Flows.""" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible """PRZYBYLSKI ANTHONY
 RUSU Irena""" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU220 a ex:UE ;
     rdfs:label "Introduction à l'optimisation non-linéaire différentiable" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU220" ;
     ex:content """* Optimisation sans contrainte
 - Recherche en ligne (méthodes de la section dorée, de Newton, de la sécante) - Modèles linéaires et quadratiques d’une fonction à plusieurs variables
@@ -208,34 +238,48 @@ ex:UE_XMS1IU220 a ex:UE ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY GOLDSZTEJN ALEXANDRE" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU230 a ex:UE ;
     rdfs:label "Optimisation discrète et combinatoire" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU230" ;
+    ex:content "" ;
     ex:evaluation "Optimisation discrète et combinatoire 100%" ;
     ex:hours "TOTAL : 48h Répartition : CM : 24h TD : 12h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral. L'examen pourra être écrit ou oral." ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY GANDIBLEUX XAVIER" ;
     ex:semester "1" .
 
 ex:UE_XMS1TU010 a ex:UE ;
     rdfs:label "Bases de comptabilité" ;
+    ex:bibliography "" ;
     ex:code "XMS1TU010" ;
+    ex:content "" ;
     ex:evaluation "Bases de comptabilité 100%" ;
     ex:hours "TOTAL : 22h Répartition : CM : 0h TD : 0h CI : 22h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 CMI-INA,M1 CMI-IS,M1 CMI-OPTIM,M1 CMI-ICM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "1" .
 
 ex:UE_XMS2AU010 a ex:UE ;
@@ -265,6 +309,7 @@ Articles et publications de recherche Anglais technique (recherche) Traduction e
 • S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
 d’abstracts et d’articles, peer-reviewing, présentation orale
 • Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel""" ;
+    ex:obtention "" ;
     ex:parcours "M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Sciences & Santé,M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 Biostatistique & Epidémiologie,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
@@ -274,20 +319,28 @@ d’abstracts et d’articles, peer-reviewing, présentation orale
 
 ex:UE_XMS2IE011 a ex:UE ;
     rdfs:label "Professionnalisation" ;
+    ex:bibliography "" ;
     ex:code "XMS2IE011" ;
+    ex:content "" ;
     ex:hours "TOTAL : 11.99h Répartition : CM : 5.33h TD : 6.66h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
     ex:responsible "TONNEAU QUENTIN" .
 
 ex:UE_XMS2IE012 a ex:UE ;
     rdfs:label "Ethique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IE012" ;
+    ex:content "" ;
     ex:hours "TOTAL : 12h Répartition : CM : 8h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
     ex:responsible "ENGUEHARD CHANTAL" .
@@ -299,46 +352,60 @@ ex:UE_XMS2IU010 a ex:UE ;
 Ethique 50%""" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 13.33h TD : 10.66h CI : 0h TP : 0h EAD : 0h" ;
     ex:level "Master" ;
-    ex:liste_des_matières """- Professionnalisation (XMS2IE011)
-- Ethique (XMS2IE012)""" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible """ENGUEHARD CHANTAL TONNEAU QUENTIN SUNYE GERSON
 MOLLI PASCAL""" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU020 a ex:UE ;
     rdfs:label "Apprentissage automatique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU020" ;
+    ex:content "" ;
     ex:evaluation "Machine Learning 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.66h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible """HERNANDEZ NICOLAS QUINIOU SOLEN
 DE LA HIGUERA COLIN LE CAPITAINE HOEL""" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU030 a ex:UE ;
     rdfs:label "Compilation" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU030" ;
+    ex:content "" ;
     ex:evaluation "Compilation 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "OUSSALAH MOURAD SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU040 a ex:UE ;
     rdfs:label "Projet de recherche" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU040" ;
     ex:content """Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
 Il s'agit de travailler sur une sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionel.
@@ -356,23 +423,33 @@ Les activités visées
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU060 a ex:UE ;
     rdfs:label "Modèles probabilistes" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU060" ;
+    ex:content "" ;
     ex:evaluation "Modèles probabilistes 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "DE LA HIGUERA COLIN" ;
     ex:semester "2" .
 
@@ -389,7 +466,8 @@ Image numérique et échantillonnage
 •
 Histogramme et transformation
 •
-Filtrage spatial et reconstruction / débruitage
+Filtrage spatial et reconstruction""",
+        """débruitage
 •
 Représentation et filtrage fréquentiel
 •
@@ -404,43 +482,58 @@ Extraction de caractéristiques et classification basique""" ;
     ex:level "Master" ;
     ex:location "UFR des sciences et des techniques" ;
     ex:methods "Les enseignements sont organisés sous la forme d'une série de 7 cours (1h20) et TD sur machine (2h40) qui permettent de traiter différente thématiques. La dernière séquence (3 TDs) concerne l'étude d'un cas pratique au travers d'un mini projet." ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PERREIRA DA SILVA MATTHIEU" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU080 a ex:UE ;
     rdfs:label "Ingénierie de la décision" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU080" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie de la décision 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY GUREVSKY EVGENY" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU090 a ex:UE ;
     rdfs:label "Informatique temps réel et embarquée" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU090" ;
+    ex:content "" ;
     ex:evaluation "Informatique temps réel et embarquée 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON SKAF-MOLLI HALA QUEUDET AUDREY" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU100 a ex:UE ;
     rdfs:label "Introduction au Traitement Automatique des Langues" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU100" ;
     ex:content "L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage." ;
     ex:evaluation "Introduction au Traitement Automatique des Langues 100%" ;
@@ -448,28 +541,39 @@ ex:UE_XMS2IU100 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "DUFOUR RICHARD" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU110 a ex:UE ;
     rdfs:label "Ingéniérie des réseaux" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU110" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie des réseaux 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON MOLLI PASCAL HAMMA SALIMA PIAMRAT KANDARAJ" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU120 a ex:UE ;
     rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU120" ;
     ex:content """Dans ce module, on cherche à concevoir des algorithmes efficaces (en temps) pour résoudre des problèmes, typiquement des problèmes d'optimisation. On y abordera trois grandes parties:
 • évaluation de la complexité d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
@@ -480,37 +584,53 @@ ex:UE_XMS2IU120 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Technqiues" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY FERTIN GUILLAUME" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU130 a ex:UE ;
     rdfs:label "stage volontaire en informatique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU130" ;
+    ex:content "" ;
     ex:evaluation "Stage volontaire en informatique 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU200 a ex:UE ;
     rdfs:label "Optimiser sous incertitude" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU200" ;
+    ex:content "" ;
     ex:evaluation "Optimiser sous incertitude 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "GUREVSKY EVGENY PRZYBYLSKI ANTHONY" ;
     ex:semester "2" .
 
@@ -537,6 +657,8 @@ L’implémentation des méthodes d’optimisation vues en cours sera faite en l
     ex:hours "TOTAL : 60h Répartition : CM : 28h TD : 32h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Au terme de cette Unité d’Enseignement, l’étudiant :
 • Formule un problème d’optimisation en dimension finie ou infinie sous contraintes et en prouve l’existence et l’unicité d’un minimum
 • Implémente sous Python les méthodes d’optimisation de Newton, de descente par gradient et par gradient stochastique, de recherche aveugle et de recuit simulé
@@ -549,6 +671,7 @@ En 2nde chance, la règle est la suivante : max(CC1*0,25+CC2*0,25+CC3*0,5 , CC2*
     ex:parcours "M1 Ingénierie Statistique (IS),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 CMI-IS,M1 CMI-OPTIM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "RIVIERE GABRIEL PHILIPPE ANNE CRESTETTO ANAIS" ;
     ex:semester "2" .
 

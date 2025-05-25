@@ -1,93 +1,11 @@
 @prefix ex: <http://example.org/course/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ex:UE_NO_CODE_3D20Computer20Grap a ex:UE ;
+ex:UE_3D%20Computer%20Graphics a ex:UE ;
+    rdfs:label "3D Computer Graphics" ;
+    ex:bibliography "" ;
     ex:code "3D Computer Graphics" ;
-    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
-    ex:level "Master" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:responsible "PICAROUGNE FABIEN" ;
-    ex:semester "3" .
-
-ex:UE_NO_CODE_Evaluation a ex:UE ;
-    ex:code "Evaluation" ;
-    ex:obtention "Continuous assessment based on presentations that will allow the evaluate the capacity of the student to write a scientific document (presentation material), his/her oral presentation skill and the quality of the work done. Final exam is an individual presentation of a scientific article that the student has to study beforehand.",
-        """Continuous assessment in the form of a project that allows to judge of the capacity of developing a pattern recognition algorithm as well as the capacity to write a scientific communication material. The continuous assessment is also done through scientific articles presentations (oral skills).
-Written exam for the 1st and 2nd sessions.""",
-        """Each student will make one or two presentation during the course.
-Projects will imply 2 or 3 students designing an experimental application related to VR or AR.""",
-        """Each student will make one or two presentation during the course.
-Projects will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question
-Written exam at the end.""",
-        "Session 1 - Continuous assessment for the « cryptography » part of the cours, based on scientific articles presentations. Written exam for the « image and video coding part ». Session 2 - Continuous assessment scores of first session are not reused for 2nd session. Written exam for the whole teaching unit." ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_French20langage20a a ex:UE ;
-    ex:code "French langage and European culture" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_Human-Computer20Int a ex:UE ;
-    ex:code "Human-Computer Interaction" ;
-    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h" ;
-    ex:level "Master" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:responsible "PRIE YANNICK" ;
-    ex:semester "3" .
-
-ex:UE_NO_CODE_Internship2028VICO a ex:UE ;
-    ex:code "Internship (VICO)" ;
-    ex:level "Master" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:semester "4" .
-
-ex:UE_NO_CODE_Lieu20dE28099ens a ex:UE ;
-    ex:code "Lieu d’enseignement" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:semester "3" .
-
-ex:UE_NO_CODE_MC3A9thodes20dE2 a ex:UE ;
-    ex:code "Méthodes d’enseignement" ;
-    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
-    ex:level "Master" ;
-    ex:location "Polytech Nantes" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:responsible "MOUCHERE HAROLD",
-        "PEIRRERA DA SILVA MATTHIEU" ;
-    ex:semester "3" ;
-    ex:yg9u15_ "Machine learning for computer vision" ;
-    ex:yg9u17_ "Perceptual computing" .
-
-ex:UE_NO_CODE_Multimedia20Communi a ex:UE ;
-    ex:code "Multimedia Communication" ;
-    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h" ;
-    ex:level "Master" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" ;
-    ex:responsible "RICORDEL VINCENT" ;
-    ex:semester "3" .
-
-ex:UE_NO_CODE_Place20de20lE280 a ex:UE ;
-    ex:code "Place de l’enseignement" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_Programme a ex:UE ;
-    ex:code "Programme" ;
-    ex:content """1- Human Computer Interaction: from intervention to UX to interaction to interfaces
-2- Designing HCI: understanding situations and humans, modeling users and interaction, prototyping and iterating
-3- Evaluating HCI: the many facets of HCI evaluation, from expert evaluations to experiments
-4- Novel interactions: gesture, voice, touch, haptic-based interactions + AR/VR (see 3D computer graphics)
-5- Project.
-10 sessions of 2 hours each, 20 hours individual work, 20 hours project work Each student will make one or two presentation during the course.
-Each project will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question""",
-        """1.   Realtime 3D general concepts
+    ex:content """1.   Realtime 3D general concepts
 2.   3D Perception
 • Visual depth perception
 • 3D and Interaction
@@ -99,38 +17,28 @@ Each project will imply 2 or 3 students designing an experimental setting and ru
 • Multi camera
 5 Applications (projcet)
 • Virtual reality at scale 1:1
-• Augmented Reality with dedicated peripherals""",
-        """1. Visual perception: physiology and theories
-• The physics of vision and physiological basis of visual perception (retina, visual pathways, visual cortex)
-• Spatial vision, Color perception, Depth perception, Visual motion perception
-• Shape and object perception. Visual perception theories: Gestalt, Brunswik's probabilistic functionalism, neurophysiological approach, Gregory's theory, Gibson's theory, Marr's computationnal approach
-2. Visual Experiments and modeling
-• Fundamentals of psychophysics, visual perception experiments with humans
-• Visual attention and eytracking experiments, cognitive aspects
-3. Applications: perceptual based processing
-• Perceptual watermarking, Video and image quality assessment, Perceptual image and video coding
-• 3D, stereo and autostereo applications""",
-        """Cryptography:
-• Pseudo-chaotic number generators
-• Symetric and Asymetric Ciphers
-• Hash Functions
-• Steganography Systems Image and video coding :
-• Principles, methods and technics of image and video compression
-• Image and video compression standards
-• Advanced image/video coding (scalability, rate-distortion optimization, coding strategy, multi- views)
-• Next generation of image and video coding (for immersive video formats)""",
-        """Discrete geometry topics :
-• Discrete topology
-• Discrete line, surface and volume
-• Mathematical morphology
-• Discrete measures
-• Discrete reconstruction
-Image analysis applications topics:
-• medical imaging
-• materials imaging
-• art imaging""",
-        "During the internship, the student will conduct a research work either in a university lab or in a private companie's R&D department.",
-        """Grammar
+• Augmented Reality with dedicated peripherals""" ;
+    ex:evaluation "3D Computer Graphics 100%" ;
+    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective "At the end of this course, the student must know the visual human mechanisms involved in the  depth perception. He will be able to use basic lightning algorithms and basic shaders programming. The student will also be able to take a critical look to 3D application and their use: he will be able to choose the interaction devices adapted to the type of rendering used and he will be able to choose a visual representation mode adapted to the a defined task with defined interaction device." ;
+    ex:obtention """Each student will make one or two presentation during the course.
+Projects will imply 2 or 3 students designing an experimental application related to VR or AR.""" ;
+    ex:parcours "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "PICAROUGNE FABIEN" ;
+    ex:semester "3" .
+
+ex:UE_French%20langage%20and%20European%20culture a ex:UE ;
+    rdfs:label "French langage and European culture" ;
+    ex:bibliography "" ;
+    ex:code "French langage and European culture" ;
+    ex:content """Grammar
 • tenses : présent, futur proche, passé proche, the imperative
 • questions and negations
 • pronouns (subject and object)
@@ -140,37 +48,210 @@ Phonetics
 • difficult vowel and consonant sounds
 • liaisons
 Culture and civilization
-• the outdoor market, Christmas, food and meals, the pace of life in France""",
+• the outdoor market, Christmas, food and meals, the pace of life in France""" ;
+    ex:evaluation "French langage and European culture 100%" ;
+    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 48h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective """Upon completing the course in French as a foreign language, students will be able to :
+• introduce themselves giving basic information about their country, family, studies
+• greet native speakers in an appropriate way
+• interact with native speakers in routine basic tasks (shopping, ordering at a restaurant)
+• fill in registration forms""" ;
+    ex:obtention "" ;
+    ex:parcours "M2 Visual Computing (VICO),M2 Data Science (DS)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "3" .
+
+ex:UE_Human-Computer%20Interaction a ex:UE ;
+    rdfs:label "Human-Computer Interaction" ;
+    ex:bibliography "" ;
+    ex:code "Human-Computer Interaction" ;
+    ex:content """1- Human Computer Interaction: from intervention to UX to interaction to interfaces
+2- Designing HCI: understanding situations and humans, modeling users and interaction, prototyping and iterating
+3- Evaluating HCI: the many facets of HCI evaluation, from expert evaluations to experiments
+4- Novel interactions: gesture, voice, touch, haptic-based interactions + AR/VR (see 3D computer graphics)
+5- Project.
+10 sessions of 2 hours each, 20 hours individual work, 20 hours project work Each student will make one or two presentation during the course.
+Each project will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question""" ;
+    ex:evaluation "Human-Computer Interaction 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective "At the end of this course, the student will be able to design an interactive system using adequate design methods. He will we able to choose an evaluation method and to carry out the evaluation of the system. He will be able to reuse the theoretical (HCI discipline, its history, its main concepts, principles and methods) and practical knowledge acquired during this course in order to write a paper in HCI." ;
+    ex:obtention """Each student will make one or two presentation during the course.
+Projects will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question
+Written exam at the end.""" ;
+    ex:parcours "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "PRIE YANNICK" ;
+    ex:semester "3" .
+
+ex:UE_Internship%20%28VICO%29 a ex:UE ;
+    rdfs:label "Internship (VICO)" ;
+    ex:bibliography "" ;
+    ex:code "Internship (VICO)" ;
+    ex:content "During the internship, the student will conduct a research work either in a university lab or in a private companie's R&D department." ;
+    ex:evaluation "Internship (VICO) 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective """At the end of the intership, the student should be able to:
+1. 1. Identify and refine a research question or puzzle within an existing field of scientific inquiry and devise a plan for investigating it.
+2. Formulate a program of reading in consultation with a professional scientist to provide context for the investigation
+3. Develop a time-line for the research project and manage work to that time-line
+4. Communicate research results –both orally and in writing – in a style consistent with scientific standards
+5. Work as part of a research team""" ;
+    ex:obtention "" ;
+    ex:parcours "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "4" .
+
+ex:UE_Multimedia%20Communication a ex:UE ;
+    rdfs:label "Multimedia Communication" ;
+    ex:bibliography "" ;
+    ex:code "Multimedia Communication" ;
+    ex:content """Cryptography:
+• Pseudo-chaotic number generators
+• Symetric and Asymetric Ciphers
+• Hash Functions
+• Steganography Systems Image and video coding :
+• Principles, methods and technics of image and video compression
+• Image and video compression standards
+• Advanced image/video coding (scalability, rate-distortion optimization, coding strategy, multi- views)
+• Next generation of image and video coding (for immersive video formats)""" ;
+    ex:evaluation "Multimedia Communication 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective """Multimedia communications require a careful design of source coding and security.
+For this purpose, this module gives advanced notions in Image and Video Coding, and in Cryptography.
+At the end of this course, the student will be able :
+In the Cryptography domain:
+• To provide principles, theory and methods for designing data security and chaos-based data security.
+• To be able to design, realize and analyse a chaos-based cryptographic systems.
+• To know applications: Images and videos security ; Network security and Network access control ; Internet of Things (IoT) security ; Mobile security.
+In the image and video coding domain:
+• To know the fundamental principles, methods and technics of image and video compression
+• To describe the caracteristics of the main image/video compression standards (JPEG, JPEG2000, H26X, MPEG-X video)
+• To implement a complete video coding/decoding chain""" ;
+    ex:obtention "Session 1 - Continuous assessment for the « cryptography » part of the cours, based on scientific articles presentations. Written exam for the « image and video coding part ». Session 2 - Continuous assessment scores of first session are not reused for 2nd session. Written exam for the whole teaching unit." ;
+    ex:parcours "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "RICORDEL VINCENT" ;
+    ex:semester "3" .
+
+ex:UE_YG9U15- a ex:UE ;
+    rdfs:label "Machine learning for computer vision" ;
+    ex:bibliography "" ;
+    ex:code "YG9U15-" ;
+    ex:content """2D grammar based system, CYK parsing)
+- Data set properties (size, diversity, labeling cost)
+• Applications :
+- Offline and Online Handwriting recognition
+- Visual object recognition""",
         """• Data preprocessing (normalization), Feature extraction
 • Classification :
 - Mixture models (GMM), Bayesienne decision
 - Neural Networks (from MLP to deep-learning), Kernel Machines (SVM), Semi-supervised learning
-- Structure recognition (spatial relation analysis, 1D / 2D grammar based system, CYK parsing)
-- Data set properties (size, diversity, labeling cost)
-• Applications :
-- Offline and Online Handwriting recognition
-- Visual object recognition""" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_Responsable20de20l a ex:UE ;
-    ex:code "Responsable de l’UE" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_UE20prC3A9-requis a ex:UE ;
-    ex:code "UE pré-requise(s)" ;
-    ex:parcours_code "VICO" ;
-    ex:parcours_level "M2" .
-
-ex:UE_NO_CODE_YXX1AU010 a ex:UE ;
-    rdfs:label "Advanced image and video processing" ;
-    ex:code "YXX1AU010" ;
+- Structure recognition (spatial relation analysis, 1D""" ;
+    ex:evaluation "Machine learning for computer vision 100%" ;
     ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
+    ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective """At the end of this course, the student will be able to go through the differents steps of a computer vision process :
+- define the subtasks a complete process
+- choose the appropriate datasets, apply necessary preprocessings
+- train, optimize and use classical machine learning tools (GMM, MLP, SVM, deeplearning)
+- evaluate the spatial relations between objects
+- understand a grammar based system to parse complex objects""" ;
+    ex:obtention """Continuous assessment in the form of a project that allows to judge of the capacity of developing a pattern recognition algorithm as well as the capacity to write a scientific communication material. The continuous assessment is also done through scientific articles presentations (oral skills).
+Written exam for the 1st and 2nd sessions.""" ;
+    ex:parcours "M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "VICO" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "MOUCHERE HAROLD" ;
+    ex:semester "3" .
+
+ex:UE_YG9U17- a ex:UE ;
+    rdfs:label "Perceptual computing" ;
+    ex:bibliography "" ;
+    ex:code "YG9U17-" ;
+    ex:content """1. Visual perception: physiology and theories
+• The physics of vision and physiological basis of visual perception (retina, visual pathways, visual cortex)
+• Spatial vision, Color perception, Depth perception, Visual motion perception
+• Shape and object perception. Visual perception theories: Gestalt, Brunswik's probabilistic functionalism, neurophysiological approach, Gregory's theory, Gibson's theory, Marr's computationnal approach
+2. Visual Experiments and modeling
+• Fundamentals of psychophysics, visual perception experiments with humans
+• Visual attention and eytracking experiments, cognitive aspects
+3. Applications: perceptual based processing
+• Perceptual watermarking, Video and image quality assessment, Perceptual image and video coding
+• 3D, stereo and autostereo applications""" ;
+    ex:evaluation "Perceptual computing 100%" ;
+    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective "At the end of this course, the student will be able to design an experiment that allows him to measure some properties of the human visual system. He should be able to analyse these measure in order to create some theoretical or computational models. He",
+        "she will also be able to reuse the theoretical and practical knowledge acquired during this course in order to design and evaluate image and video processing algorithms that take into account the properties of the human visual system." ;
+    ex:obtention "Continuous assessment based on presentations that will allow the evaluate the capacity of the student to write a scientific document (presentation material), his/her oral presentation skill and the quality of the work done. Final exam is an individual presentation of a scientific article that the student has to study beforehand." ;
+    ex:parcours "M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "PEIRRERA DA SILVA MATTHIEU" ;
+    ex:semester "3" .
+
+ex:UE_YXX1AU010 a ex:UE ;
+    rdfs:label "Advanced image and video processing" ;
+    ex:bibliography "" ;
+    ex:code "YXX1AU010" ;
+    ex:content """Discrete geometry topics :
+• Discrete topology
+• Discrete line, surface and volume
+• Mathematical morphology
+• Discrete measures
+• Discrete reconstruction
+Image analysis applications topics:
+• medical imaging
+• materials imaging
+• art imaging""" ;
+    ex:evaluation "Advanced image and video processing 100%" ;
+    ex:hours "TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "" ;
+    ex:objective """At the end of this course, the students will be able to:
+• Understand the digital objects that constitutes the basis for computation in any image field. Discrete topology theorems, algorithms for line drawing, convex shape or distance maps, morphological tools and discrete reconstruction are presented in order to be able to manage an image problem via these tools
+• Manipulate the discrete geometry concepts in a real applicative environment either for medical imaging (image acquisition, tomography, quantizing image information) or for image analysis (medical, materials, ...). A large set of examples is available from the teams projects and are applied with the previous concepts in real time constraints environments""" ;
+    ex:obtention "" ;
+    ex:parcours "M2 Visual Computing (VICO)" ;
+    ex:parcours_code "VICO" ;
+    ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "GUEDON JEAN-PIERRE" ;
     ex:semester "3" .
 

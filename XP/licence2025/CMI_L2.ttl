@@ -3,14 +3,21 @@
 
 ex:UE_XLG3AU010 a ex:UE ;
     rdfs:label "2nd year English S3" ;
+    ex:bibliography "" ;
     ex:code "XLG3AU010" ;
+    ex:content "" ;
     ex:evaluation "2nd year English S3 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS SVT Biologie Ecologie option Santé,L2 SV, Advanced Biology Training (ABT),L2 LAS Sciences de la Vie option Santé,L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 Chimie,L2 Informatique,L2 Physique,L2 Physique, Physique-Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 PHYSIQUE CHIMIE,L2 Info-  Maths CMI OPT/IM,L2 LAS Mathématiques option Santé,L2 Mathématiques,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "KERVISION SYLVIE" ;
     ex:semester "3" .
 
@@ -28,6 +35,7 @@ Ces notions sont abordées dans le cadre des structures de données vues précé
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l’issue de cette UE, l’étudiant saura :
 •
 Comprendre l'importance d'une algorithmique efficace
@@ -95,6 +103,7 @@ La note pour les dispensés d’assiduité est celle de l’examen écrit (EE)."
     ex:parcours "L2 Informatique,L2 Info-Maths CMI OPT/IM,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "DELAHAYE BENOIT JABER GUILHEM" ;
     ex:semester "3" .
 
@@ -183,14 +192,17 @@ Savoir déterminer le domaine de définition d’une fonction de plusieurs varia
 Savoir calculer des dérivées partielles de fonctions de plusieurs variables.
 •
 Déterminer les minima et les maxima locaux d’une fonction de plusieurs variables à valeurs réelles à l’aide des outils de calcul différentiel.""" ;
+    ex:obtention "" ;
     ex:parcours "L2 MIASHS, Economie,L2 Info-Maths CMI OPT/IM,L2 Physique, Physique-Mathématiques,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "PETIT ROBERT" ;
     ex:semester "3" .
 
 ex:UE_XLG3MU040 a ex:UE ;
     rdfs:label "Probabilites discretes" ;
+    ex:bibliography "" ;
     ex:code "XLG3MU040" ;
     ex:content """A l’issue de cette unité, les étudiant(e)s maîtriseront les techniques d’analyse combinatoire ainsi que les techniques du calcul des probabilités dans le contexte des univers au plus dénombrables.
 •
@@ -236,22 +248,31 @@ Savoir calculer les lois, espérances et variances de variables aléatoire discr
 Identifier les situations de dépendance en modélisation
 •
 Effectuer des calculs de probabilités conditionnelles.""" ;
+    ex:obtention "" ;
     ex:parcours "L2 MIASHS, Economie,L2 Informatique, Info-Maths,L2 Info-Maths CMI OPT/IM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "PETIT ROBERT" ;
     ex:semester "3" .
 
 ex:UE_XLG3TU010 a ex:UE ;
     rdfs:label "Methodologie et insertion professionnelle S3" ;
+    ex:bibliography "" ;
     ex:code "XLG3TU010" ;
+    ex:content "" ;
     ex:evaluation "Methodologie et insertion professsionelle : PPE 100%" ;
     ex:hours "TOTAL : 4h Répartition : CM : 0h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Blocs transversaux,L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS SVT Biologie Ecologie option Santé,L2 SV, Advanced Biology Training (ABT),L2 LAS Sciences de la Vie option Santé,L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 Chimie,L2 MIASHS, Economie,L2 Informatique,L2 Physique,L2 Physique, Physique- Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 PHYSIQUE CHIMIE,L2 Info-Maths CMI OPT/IM,L2 LAS Mathématiques option Santé,L2 Mathématiques,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "LABBE LUCILE" ;
     ex:semester "3" .
 
@@ -279,6 +300,7 @@ Partie I : Causes anthropiques des changements globaux
     ex:hours "TOTAL : 18h Répartition : CM : 12.667h TD : 5.333h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
     ex:methods """L'enseignement comprend :
 - 1 séance de TD introductive en présentiel
 - 9 séances de cours en ligne
@@ -297,76 +319,107 @@ Partie 4 - Répondre aux changements globaux
 • Identifier les pistes d’action pour induire les changements ;
 • Identifier la complexité des transformations de société et de gouvernance que suppose l’adaptation aux changements globaux.
 • Reconnaître la notion d’une « transition écologique juste » qui soit l’occasion de réduire les inégalités.""" ;
+    ex:obtention "" ;
     ex:parcours "L2 Blocs transversaux,L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS SVT Biologie Ecologie option Santé,L2 SV, Advanced Biology Training (ABT),L2 LAS Sciences de la Vie option Santé,L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 Chimie,L2 MIASHS, Economie,L2 Informatique,L2 Physique,L2 Physique, Physique- Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 PHYSIQUE CHIMIE,L2 Info-Maths CMI OPT/IM,L2 LAS Mathématiques option Santé,L2 Mathématiques,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "EUDES PHILIPPE FILALI YASMINE DUMAY JUSTINE BOUFFARD MATHIEU" ;
     ex:semester "3" .
 
 ex:UE_XLG3TU030 a ex:UE ;
     rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
     ex:code "XLG3TU030" ;
+    ex:content "" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Informatique,L2 Mathématiques,L2 SV, Advanced Biology Training (ABT),L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS Sciences de la Vie option Santé,L2 LAS SVT Biologie Ecologie option Santé,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 Physique,L2 LAS SPI EEA option Santé,L2 Sciences de la Vie,L2 LAS SPI GC option Santé,L2 LAS Mathématiques option Santé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique,L2 MIASHS, Economie,L2 Physique, Parcours Scientifique Renforcé,L2 Chimie,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 Physique CMI Physique-Mécanique,L2 LAS Physique option Santé,L2 PHYSIQUE CHIMIE,L2 Physique, Physique-Mathématiques" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "3" .
 
 ex:UE_XLG3TU050 a ex:UE ;
     rdfs:label "Stage d'immersion professionnelle en entreprise" ;
+    ex:bibliography "" ;
     ex:code "XLG3TU050" ;
+    ex:content "" ;
     ex:evaluation "Stage d'immersion professionnelle en entreprise 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention """Il s'agit de la validation du stage ayant lieu entre la fin de la L1 et le début de la L2. Le stage doit être validé séparément.
 Les étudiants ayant une dispense d'assiduité doivent réaliser ce stage pour valider l'UE.""" ;
     ex:parcours "L2 Physique CMI Physique-Mécanique,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "DERAYNAL PAUL-ERIC PATUREL ERIC" ;
     ex:semester "3" .
 
 ex:UE_XLG3TU060 a ex:UE ;
     rdfs:label "Initiation aux Outils de Gestion" ;
+    ex:bibliography "" ;
     ex:code "XLG3TU060" ;
     ex:content """Les comptes annuels
 - Les trois axes d’approche des comptes
 - Les trois documents de synthèse (comptes de résultats, bilan et tableau de financement) Comprendre le compte de résultat
 - Composition
 - Logique Comprendre le bilan
-- La logique emploi / ressources du bilan
-- La différenciation court terme / long terme
+- La logique emploi""",
+        """long terme
 - La composition d’un bilan
 Les outils de l’analyse financière
 - Analyse de rentabilité de l’entreprise
 - L’équilibre financier de l’entreprise
 - Analyse de décision
 - Analyse élémentaire de risques et définir des stratégies de gestion de ces risques
-- Analyse et synthèse""" ;
+- Analyse et synthèse""",
+        """ressources du bilan
+- La différenciation court terme""" ;
     ex:evaluation "Initiation aux Outils de Gestion 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 24h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Physique CMI Physique-Mécanique,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "PATUREL ERIC" ;
     ex:semester "3" .
 
 ex:UE_XLG4AU010 a ex:UE ;
     rdfs:label "2nd year English S4" ;
+    ex:bibliography "" ;
     ex:code "XLG4AU010" ;
+    ex:content "" ;
     ex:evaluation "2nd year English S4 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Sciences pour l'Ingénieur, EEA,L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, Génie civil,L2 SV, Advanced Biology Training (ABT),L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 Informatique,L2 Physique,L2 Physique, Physique- Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS SVT Biologie Ecologie option Santé,L2 SVT, Sciences de l'environnement,L2 SVT, Géosciences,L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 Chimie,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 PHYSIQUE CHIMIE,L2 Info-Maths CMI OPT/IM,L2 Mathématiques,L2 LAS Mathématiques option Santé,L2 Maths CMI Ingénierie Statistique,L2 LAS Sciences de la Vie option Santé" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "KERVISION SYLVIE" ;
     ex:semester "4" .
 
@@ -375,7 +428,8 @@ ex:UE_XLG4IU010 a ex:UE ;
     ex:bibliography """Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. Introduction to Algorithms. The MIT Press, 4th edition, 2022.
 Donald E. Knuth. The Art of Programming - Volume 1: Fundamental Algorithms. Addison-Wesley, 1997.""" ;
     ex:code "XLG4IU010" ;
-    ex:content """Structures de données abstraites / concrètes Structures de données linéaires (listes, piles, files)
+    ex:content "Structures de données abstraites",
+        """concrètes Structures de données linéaires (listes, piles, files)
 Structures de données non-linéaires associatives (table associative, ensemble, classe-union) Structures arborescentes en lien avec des implémentations linéaires (file avec priorité, tas, classe- union)""" ;
     ex:evaluation "Algorithmique et Structures de données 2 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 8h TD : 20h CI : 0h TP : 12h EAD : 0h" ;
@@ -441,6 +495,7 @@ La note pour les dispensés d’assiduité est celle de l’examen écrit (EE)."
     ex:parcours "L2 Informatique,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Info-Maths CMI OPT/IM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible """PERRIN MATTHIEU
 BECHET Denis""" ;
     ex:semester "4" .
@@ -455,6 +510,7 @@ ex:UE_XLG4IU030 a ex:UE ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce cours, l'étudiant doit:
 • Connaître parfaitement les concepts de base d'un système d'exploitation, leur principe de fonctionnement et leur organisation d'ensemble (Maîtrise)
 • Maîtriser les notions de processus et threads (Application)
@@ -462,6 +518,7 @@ ex:UE_XLG4IU030 a ex:UE ;
 • Etre capable d'utiliser les mécanismes de synchronisation usuels sous Linux (sémaphores, mutexes, signaux) (Application)
 • Comprendre le principe de mémoire virtuelle (Initiation)
 • Savoir gérer les entrées/sorties sous Linux (Initiation)""" ;
+    ex:obtention "" ;
     ex:parcours "L2 Informatique,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Info-Maths CMI OPT/IM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
@@ -471,6 +528,7 @@ ex:UE_XLG4IU030 a ex:UE ;
 
 ex:UE_XLG4IU040 a ex:UE ;
     rdfs:label "Bases de données" ;
+    ex:bibliography "" ;
     ex:code "XLG4IU040" ;
     ex:content """- Introduction à la modélisation Merise
 - Modèle relationnel
@@ -484,14 +542,18 @@ ex:UE_XLG4IU040 a ex:UE ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
     ex:methods "Cours – TD en îlot – TP" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 MIASHS, Economie,L2 Informatique, Info-Maths,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "DAILLE BEATRICE" ;
     ex:semester "4" .
 
 ex:UE_XLG4MU040 a ex:UE ;
     rdfs:label "S4-méthodes numériques" ;
+    ex:bibliography "" ;
     ex:code "XLG4MU040" ;
     ex:content """1- Décompositions LU et Cholesky. Application à la résolution de systèmes linéaires. Implémentation des algorithmes de décomposition LU, de Cholesky et de descente- remontée dans un langage de programmation.
 2-Méthodes d’approximation pour la résolution d’équations scalaires non linéaires. Méthode de dichotomie, de point fixe et de Newton. Implémentation des méthodes. Mise en évidence de la convergence des méthodes d’un point de vue théorique et numérique.
@@ -501,9 +563,15 @@ ex:UE_XLG4MU040 a ex:UE ;
     ex:hours "TOTAL : 42h Répartition : CM : 14h TD : 16h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Mathématiques,L2 Physique, Parcours Scientifique Renforcé,L2 LAS Mathématiques option Santé,L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique,L2 Physique CMI Physique- Mécanique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "4" .
 
 ex:UE_XLG4MU050 a ex:UE ;
@@ -548,14 +616,17 @@ Majorer, minorer des intégrales de fonctions positives
 Étudier la continuité et la dérivabilité des intégrales dépendant d'un paramètre.
 •
 Savoir calculer des intégrales doubles de fonctions à deux variables définies sur des domaines simples.""" ;
+    ex:obtention "" ;
     ex:parcours "L2 MIASHS, Economie,L2 Physique, Physique-Mathématiques,L2 Physique CMI Physique- Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 Info-Maths CMI OPT/IM" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "PETIT ROBERT" ;
     ex:semester "4" .
 
 ex:UE_XLG4TE011 a ex:UE ;
     rdfs:label "Methodologie et insertion professionnelle : PPE 1" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE011" ;
     ex:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
 - 3 TD :
@@ -569,6 +640,7 @@ ex:UE_XLG4TE011 a ex:UE ;
 - présentation de son projet""" ;
     ex:hours "TOTAL : 10.67h Répartition : CM : 0h TD : 10.67h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
     ex:methods """Utilisation de ressources numériques (supports de cours et de TD)
 Tests de réflexion sur les valeurs et l'autopositionnement des compétences (disciplinaires et soft skills)
 Partage d'expériences
@@ -585,6 +657,7 @@ Identification des critères d'évaluation d'une présentation orale/écrite (ca
 
 ex:UE_XLG4TE012 a ex:UE ;
     rdfs:label "Methodologie et insertion professionnelle : PPE 2" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE012" ;
     ex:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
 - 3 TD :
@@ -598,6 +671,7 @@ ex:UE_XLG4TE012 a ex:UE ;
 - présentation de son projet""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
     ex:methods """Utilisation de ressources numériques (supports de cours et de TD)
 Tests de réflexion sur les valeurs et l'autopositionnement des compétences (disciplinaires et soft skills)
 Partage d'expériences
@@ -609,29 +683,41 @@ Identification des critères d'évaluation d'une présentation orale/écrite (ca
 - de créer et de faire vivre ses profils numériques professionnels
 - de mener une enquête métier auprès d'un professionnel et de la restituer""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE020 a ex:UE ;
     rdfs:label "UED" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE020" ;
+    ex:content "" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 0h CI : 16h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE101 a ex:UE ;
     rdfs:label "Sport" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE101" ;
     ex:content "8 séances de 2h. 8 activités proposées : Aviron, Badminton, Boxe française, Condition Physique, Escalade, Self défense, Volleyball,   VTT" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Développer chez les étudiants (tes), au travers l’acquisition de compétences individuelles et collectives dans différentes activités sportives, leur capacité d’investissement et de progrès, leur capacité de travail en équipe. Les amener à prendre conscience de la nécessité de santé et de bien être au travers de pratiques sportives.
 Domaine de compétences identifiables par des industriels : Travail d’équipe, prise de responsabilité, tolérance, respect des règles, assiduité.""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE102 a ex:UE ;
     rdfs:label "Danse et maths" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE102" ;
     ex:content """Notre but, créer un lien entre deux mondes assez hermétiques l’un à l’autre d’habitude.  L’un des thèmes retenu pour orienter les travaux du groupe: comment la création nait de la contrainte (se fixer des règles précises n’empêche pas de voir surgir l’inattendu). Ou encore comment la contrainte peut être (ou même est) la source de la créativité.
 Une autre piste d’interaction : Rythme et quasi-périodicité deux façons différentes de parler de la même chose.
@@ -640,6 +726,8 @@ Concrètement, l’UED se déroulera sous la forme de quatre ateliers de 4h enca
 Cette UED s’insère dans un projet plus général soutenu par la DCI (direction de la culture et des initiatives de Nantes Université), la MMO (Maison des Mathématiques de l’Ouest), le TU (Théatre Universitaire) et de la DRAC (Direction Régionale des Affaires Culturelles).""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective "Capacité à utiliser les mathématiques hors du cadre académique. Créativité et   expression corporelle." ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
@@ -647,6 +735,7 @@ Cette UED s’insère dans un projet plus général soutenu par la DCI (directio
 
 ex:UE_XLG4TE103 a ex:UE ;
     rdfs:label "L'environnement est ma santé" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE103" ;
     ex:content """12h de CM – autour des thématiques très actuelles suivante :
 •
@@ -677,6 +766,8 @@ Une affiche ou poster de prévention et/ou de sensibilisation sur un facteur de 
 Une capsule vidéo de présentation/prévention d’un risque environnemental pour la santé""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Au terme de cette UE, l’étudiant(e) sera capable :
 •
 d’identifier et d’expliquer l’interconnexion entre la santé humaine, animale et les facteurs environnementaux,
@@ -698,10 +789,13 @@ de travailler en équipe afin de produire un support de diffusion scientifique d
 
 ex:UE_XLG4TE104 a ex:UE ;
     rdfs:label "Science, culture, société" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE104" ;
     ex:content "Paradigmes scientifiques et images du monde. La TSF et ses techniques. L’émergence de la relativité. Einstein et la relativité générale. L’âge des machines : Taylorisme, Fordisme. Les  critiques de la société technologique. La mécanique quantique. La radiodiffusion. La science à grande échelle. Les techniques de la 2de guerre mondiale. La conquête spatiale et la Guerre Froide. La théorie des jeux et les modèles de la rationalité. La maîtrise des systèmes complexes. Les sciences du climat et le rechauffement climatique anthropogène." ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Développer les méthodes d’analyse qui permettent de comprendre le rôle des sciences et des techniques dans la construction de l’image du monde à l’époque contemporaine (XXe-XXIe siècle).
 Domaine de compétences identifiables par des industriels : Analyse critique de documents""" ;
     ex:parcours_code "CMI" ;
@@ -710,6 +804,7 @@ Domaine de compétences identifiables par des industriels : Analyse critique de 
 
 ex:UE_XLG4TE105 a ex:UE ;
     rdfs:label "Techniques d’imagerie de l’infiniment petit" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE105" ;
     ex:content """1. Ordres de grandeurs de la matière
 2. Les divers rayonnements, domaines d’énergie et interactions avec la matière
@@ -721,33 +816,47 @@ ex:UE_XLG4TE105 a ex:UE ;
 8. Stockage et traitement informatique des données""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
     ex:responsible "GAILLOT ANNE-CLAIRE" .
 
 ex:UE_XLG4TE106 a ex:UE ;
     rdfs:label "Présentation de l'UFR Sciences et Techniques" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE106" ;
     ex:content """Formation à la construction d’un bilan personnel de formation initiale Formation à l’élaboration d’un diaporama de présentation collectif
 Formation à la prise de parole en groupe et à l’animation d’une séance de présentation dans les lycées.""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Permettre aux étudiants de participer aux actions de présentation de l’UFR sciences à destination des lycéens : séance de présentation de leur parcours post bac dans un lycée, Université à l’Essai, forums, JPO, …
 Domaine de compétences identifiables par des industriels : communication Prise de parole en public
 Construction d’un diaporama en groupe""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE107 a ex:UE ;
     rdfs:label "Publication scientifique et mécaniques du livre" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE107" ;
+    ex:content "" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE108 a ex:UE ;
     rdfs:label "Controverses scient. et techniques dans l’histoire" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE108" ;
     ex:content """Cette unité d’enseignement est centrée sur l’étude de controverses scientifiques et techniques. L’analyse des controverses est en effet un objet privilégié de l’histoire des sciences depuis les années 1980, leur étude étant vue comme une possibilité de saisir les processus de fabrication des sciences et des techniques. Elle permet d’historiciser des notions comme celles de progrès, de vérité, de preuve ou encore de rigueur et de révéler des acteurs, des arguments, des processus qui demeurent dissimulés dans les énoncés finaux. Voici quelques exemples qui pourront être analysés au cours de cet enseignement :
 -   Controverses énergétiques au cours de l’histoire □
@@ -756,6 +865,8 @@ ex:UE_XLG4TE108 a ex:UE ;
 □- Inoculation et vaccination aux XVIIIe et XIXe siècles""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Initiation aux méthodes de l’histoire des sciences
 Réflexion sur les sciences, leurs méthodes et leur place de la société Domaine de compétences identifiables par des industriels :
 Analyse critique de documents""" ;
@@ -765,18 +876,23 @@ Analyse critique de documents""" ;
 
 ex:UE_XLG4TE109 a ex:UE ;
     rdfs:label "Noyaux, particules & interactions fondamentales" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE109" ;
     ex:content """Modèle Standard et constituants élémentaires, Noyaux, Interactions fondamentales Désintégrations nucléaires (alpha, cluster, 2p), modèle de la goutte liquide Barrières de potentiel, Fusion, fission, noyaux superlourds
 Radioactivités et neutrinos Oscillation de neutrinos Plasma de quarks et de gluons
 Physique médicale, Cyclotron Arronax Energie nucléaire, réacteurs""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective "Dans cette UE, l’objectif est d’aborder des premières connaissances du monde subatomique : les noyaux, les particules élémentaires, les interactions fondamentales. On en profitera pour présenter l’actualité des recherches dans le domaine subatomique." ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE110 a ex:UE ;
     rdfs:label "Découverte de l'école primaire" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE110" ;
     ex:content """Programme - Contenu de l'UE :
 découverte de la spécificité de l’école primaire de la maternelle au cycle 3 initiation à la didactique des mathématiques
@@ -784,38 +900,50 @@ initiation à la didactique du français (dire lire écrire du Cycle 1 au Cycle 
 analyse de situations d’enseignement apprentissage""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """A l’issue de cet enseignement, l’étudiant sera capable :
 - d’appréhender la différence entre faire apprendre et enseigner
 - de commencer à analyser une situation   de classe en tenant compte des apports de la recherche en didactique et du cadre institutionnel.""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE111 a ex:UE ;
     rdfs:label "Rédaction de doc. scientifiques avec LaTex" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE111" ;
     ex:content """Les logiciels de traitement de texte grand public présentent des défauts dès qu’on souhaite écrire des documents avec des formules scientifiques dans une présentation cohérente et esthétique. Le logiciel LaTeX remédie à ces problèmes mais sa prise en main semble un peu moins intuitive. Le but de cette UED sera d’apprendre à le connaître et l’utiliser pour concevoir des documents de  meilleure qualité et avec plus d’efficacité.
 On étudiera notamment, la mise en forme d’équations mathématiques, formules scientifiques et tableaux, la numérotation automatique et le référençage des paragraphes, formules, figures, tableaux, la bibliographie.""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Apprendre à maitriser LaTeX afin d’être plus efficace lors de la rédaction de rapports scientifiques. Domaine de compétences identifiables par des industriels :
 Conception de documents scientifiques de bonne qualité avec LaTeX, pour donner des documents pdf imprimables ou visualisables en ligne .""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE112 a ex:UE ;
     rdfs:label "Médiation scientifique : créez votre exposition !" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE112" ;
     ex:content """Une fois le thème de l’exposition choisi, un travail collectif sera mené sur le dimensionnement de l’exposition (choix des supports, des sous thèmes) ainsi que sur le choix de l’unité graphique.
 Des binômes d’étudiants seront réalisés pour travailler sur chaque sous-thème. Les séances de CI permettront d’acquérir les notions de médiation scientifique, de recherche bibliographique, de référencement des sources, ainsi que des bases d’infographie.
 Les étudiants seront accompagnés pour présenter les notions scientifiques de façon ludique ou imagée.""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective "L’objectif de l’UE est de réaliser en groupe une exposition qui sera par la suite déployée dans des collèges. Le thème sera choisi collectivement parmi 2 ou 3 propositions. Les étudiants devront réaliser le dimensionnement de l’exposition (nombre de panneaux), trouver l’infographie, rédiger les textes ainsi qu’utiliser éventuellement d’autres supports (videos, interviews de chercheurs etc.) en fonction de leurs idées. Ils seront accompagnés par une chargée de communication, une enseignante-chercheuse et une infographiste." ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE113 a ex:UE ;
     rdfs:label "Radioactivité : Santé - Industrie - Environnement" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE113" ;
     ex:content """Domaine médical et de santé :
 Diagnostic, thérapie, scanner X, traceurs radioactifs, scintigraphie, tomographie par émission de positon (TEP), …
@@ -830,20 +958,26 @@ Radioprotection :
 Dose absorbée, dose équivalente, dose efficace, principe d’ALARA, risques sanitaires""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Avec l’apparition de nouvelles techniques, l’utilisation de la radioactivité (naturelle ou artificielle) ne cesse de s’intensifier. Cette Unité de Découverte a pour but de faire découvrir les applications des rayonnements ionisants X, g, a, b et neutrons en médecine nucléaire, en industrie et dans l’environnement.   Les bases de la radioprotection sont abordées.
 Domaine de compétences identifiables par des industriels :
 ·            Découvrir les applications de la radioactivité naturelle et artificielle dans le domaine de la santé, dans l’industrie et dans l’environnement.
 ·            Travailler en équipe.
 Cette UED peut constituer une première étape dans la formation aux métiers en lien avec les rayonnements ionisants.""" ;
     ex:parcours_code "CMI" ;
-    ex:parcours_level "L2" .
+    ex:parcours_level "L2" ;
+    ex:responsible "" .
 
 ex:UE_XLG4TE114 a ex:UE ;
     rdfs:label "Des anticancéreux aux revêtements antiadhésifs : le fruit de l'observation" ;
+    ex:bibliography "" ;
     ex:code "XLG4TE114" ;
     ex:content "Montrer comment des produits de la vie de tous les jours ont été découverts à travers des observations fortuites. L’objectif de ce cours est, avec des exemples (taxol (anticancéreux), téflon (matériaux antiadhésifs)), de détailler la démarche scientifique qui a permis à   partir d’une observation, le développement industriel." ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Domaine de compétences identifiables par des industriels :
 « Le hasard ne favorise que les esprits préparés » comme l’a écrit Pasteur. Pour illustrer ce propos, des exemples représentatifs seront passés en revue : la pénicilline, le taxol, l’aspirine, le téflon, les insecticides « verts » de type pyréthroïde, des édulcorants comme la saccharine et l’aspartame, la quinine, les polymères comme la bakélite, le nylon et plus récemment le kevlar, etc… et même le viagra !""" ;
     ex:parcours_code "CMI" ;
@@ -858,6 +992,8 @@ ex:UE_XLG4TE115 a ex:UE ;
 Conséquences et enjeux écologiques ou sociétaux""" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective "Clefs de compréhension des interactions homme/plantes au cours des temps historiques" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
@@ -870,8 +1006,7 @@ ex:UE_XLG4TU010 a ex:UE ;
 Methodologie et insertion professionnelle : PPE 2 0%""" ;
     ex:hours "TOTAL : 10.67h Répartition : CM : 0h TD : 10.67h CI : 0h TP : 0h EAD : 0h" ;
     ex:level "Licence" ;
-    ex:liste_des_matières """- Methodologie et insertion professionnelle : PPE 1 (XLG4TE011)
-- Methodologie et insertion professionnelle : PPE 2 (XLG4TE012)""" ;
+    ex:location "" ;
     ex:obtention """La forme des évaluations est la suivante :
 • une évaluation orale lors de l'entretien de 30mn en individuel de la présentation de leur projet professionnel (+ évaluation de la restitution écrite des éléments de leur projet professionnel, cet écrit étant rendu lors de l'entretien)
 • une évaluation de la restitution de leur poster métier (suite à un entretien avec un professionnel, les étudiants, en groupe de 3 à 4, doivent en faire une restitution avec support et présentation orale).
@@ -879,6 +1014,7 @@ Les évaluations donneront lieu à une seule note globale.""" ;
     ex:parcours "L2 Blocs transversaux,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, Génie civil,L2 SV, Advanced Biology Training (ABT),L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 MIASHS, Economie,L2 Informatique,L2 Physique,L2 Physique, Physique-Mathématiques,L2 LAS Physique option Santé,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 LAS SVT Biologie Ecologie option Santé,L2 SVT, Sciences de l'environnement,L2 SVT, Géosciences,L2 SVT, Biologie Ecologie ,L2   SVT, Enseigner les SVT,L2 Chimie,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 PHYSIQUE CHIMIE,L2 Info-Maths CMI OPT/IM,L2 Mathématiques,L2 LAS Mathématiques option Santé,L2 Maths CMI Ingénierie Statistique,L2 LAS Sciences de la Vie option Santé" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "LABBE LUCILE" ;
     ex:semester "4" .
 
@@ -894,49 +1030,52 @@ Des anticancéreux aux revêtements antiadhésifs : le fruit de l'observation 0%
 Les espèces végétales exotiques invasives 0%""" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 0h CI : 16h TP : 0h EAD : 0h" ;
     ex:level "Licence" ;
-    ex:liste_des_matières """- UED (XLG4TE020)
-- Sport (XLG4TE101)
-- Danse et maths (XLG4TE102)
-- L'environnement est ma santé (XLG4TE103)
-- Science, culture, société (XLG4TE104)
-- Techniques d’imagerie de l’infiniment petit (XLG4TE105)
-- Présentation de l'UFR Sciences et Techniques (XLG4TE106)
-- Publication scientifique et mécaniques du livre (XLG4TE107)
-- Controverses scient. et techniques dans l’histoire (XLG4TE108)
-- Noyaux, particules & interactions fondamentales (XLG4TE109)
-- Découverte de l'école primaire (XLG4TE110)
-- Rédaction de doc. scientifiques avec LaTex (XLG4TE111)
-- Médiation scientifique : créez votre exposition ! (XLG4TE112)
-- Radioactivité : Santé - Industrie - Environnement (XLG4TE113)
-- Des anticancéreux aux revêtements antiadhésifs : le fruit de l'observation (XLG4TE114)
-- Les espèces végétales exotiques invasives (XLG4TE115)""" ;
+    ex:location "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Blocs transversaux,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences de la Vie,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS SVT Biologie Ecologie option Santé,L2 SV, Advanced Biology Training (ABT),L2 LAS Sciences de la Vie option Santé,L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 LAS SPI EEA option Santé,L2 LAS SPI GC option Santé,L2 MIASHS, Economie,L2 LAS Chimie option Santé,L2 Chimie,L2 Chimie, Chimie-Biologie,L2 Informatique,L2 Physique,L2 Physique, Physique-Mathématiques,L2 LAS Physique option Santé,L2 Mathématiques,L2 Physique CMI Physique-Mécanique,L2 Physique, Parcours Scientifique Renforcé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 PHYSIQUE CHIMIE,L2 Info-Maths CMI OPT/IM,L2 LAS Mathématiques option Santé,L2 Maths CMI Ingénierie Statistique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "4" .
 
 ex:UE_XLG4TU030 a ex:UE ;
     rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
     ex:code "XLG4TU030" ;
+    ex:content "" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Informatique,L2 SV, Advanced Biology Training (ABT),L2 SV, Biologie Vétérinaire Agronomie (BVA),L2 SVT, Biologie Ecologie ,L2 SVT, Enseigner les SVT,L2 SVT, Géosciences,L2 LAS Mathématiques option Santé,L2 LAS Sciences de la Vie option Santé,L2 LAS SVT Biologie Ecologie option Santé,L2 Sciences pour l'Ingénieur, EEA,L2 Sciences pour l'Ingénieur, Génie civil,L2 SVT, Sciences de l'environnement,L2 LAS SPI EEA option Santé,L2 Sciences de la Vie,L2 LAS SPI GC option Santé,L2 Informatique, Info-Maths,L2 LAS Informatique option santé,L2 Info-Maths CMI OPT/IM,L2 MIASHS, Economie,L2 Physique, Parcours Scientifique Renforcé,L2 Mathématiques,L2 Physique,L2 Maths CMI Ingénierie Statistique,L2 Chimie,L2 LAS Chimie option Santé,L2 Chimie, Chimie-Biologie,L2 Physique CMI Physique-Mécanique,L2 LAS Physique option Santé,L2 PHYSIQUE CHIMIE,L2 Physique, Physique-Mathématiques" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "4" .
 
 ex:UE_XLG4TU040 a ex:UE ;
     rdfs:label "Projet de Recherche Biblio CMI" ;
+    ex:bibliography "" ;
     ex:code "XLG4TU040" ;
+    ex:content "" ;
     ex:evaluation "1" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L2 Info-Maths CMI OPT/IM,L2 Maths CMI Ingénierie Statistique,L2 Physique CMI Physique- Mécanique" ;
     ex:parcours_code "CMI" ;
     ex:parcours_level "L2" ;
+    ex:prerequisite "" ;
     ex:responsible "JABER GUILHEM PATUREL ERIC" ;
     ex:semester "4" .
 

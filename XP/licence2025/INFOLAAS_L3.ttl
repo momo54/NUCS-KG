@@ -1,6 +1,123 @@
 @prefix ex: <http://example.org/course/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+ex:UE_M3OS301 a ex:UE ;
+    rdfs:label "Biologie moléculaire LAS3" ;
+    ex:bibliography "" ;
+    ex:code "M3OS301" ;
+    ex:content "" ;
+    ex:evaluation """Biologie moléculaire LAS3 %
+Biologie moléculaire LAS3 100%""" ;
+    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Maths LAS3,L3 Info : Informatique" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
+ex:UE_M3OS302 a ex:UE ;
+    rdfs:label "Anatomie LAS3" ;
+    ex:bibliography "" ;
+    ex:code "M3OS302" ;
+    ex:content "" ;
+    ex:evaluation "Anatomie LAS3 100%" ;
+    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Maths LAS3,L3 Info : Informatique" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
+ex:UE_M3OS303 a ex:UE ;
+    rdfs:label "Biophysique LAS3" ;
+    ex:bibliography "" ;
+    ex:code "M3OS303" ;
+    ex:content "" ;
+    ex:evaluation """Biophysique LAS3 %
+Biophysique LAS3 100%""" ;
+    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Maths LAS3,L3 Info : Informatique" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
+ex:UE_M3OS304 a ex:UE ;
+    rdfs:label "Microbiologie LAS3" ;
+    ex:bibliography "" ;
+    ex:code "M3OS304" ;
+    ex:content "" ;
+    ex:evaluation "Microbiologie LAS3 100%" ;
+    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Maths LAS3,L3 Info : Informatique" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
+ex:UE_M3OS305 a ex:UE ;
+    rdfs:label "Physiologie LAS3" ;
+    ex:bibliography "" ;
+    ex:code "M3OS305" ;
+    ex:content "" ;
+    ex:evaluation "Physiologie LAS3 100%" ;
+    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Maths LAS3,L3 Info : Informatique" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
 ex:UE_X31A060 a ex:UE ;
     rdfs:label "Anglais pour la communication scientifique (info)" ;
     ex:bibliography "Aucun ouvrage obligatoire." ;
@@ -26,7 +143,11 @@ ex:UE_X31A060 a ex:UE ;
 on everything you do in class, and directly on
 • an in-class test
 • your project work""" ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Anglais 3 et 4, ou équivalent." ;
@@ -35,6 +156,7 @@ on everything you do in class, and directly on
 
 ex:UE_X31I010 a ex:UE ;
     rdfs:label "Etude des algorithmes" ;
+    ex:bibliography "" ;
     ex:code "X31I010" ;
     ex:content """Analyse de problèmes de décision : présentation des notions de décidabilité, introduction des classes de complexité P, NP et Pspace. Présentation la Karp-réduction et de problèmes NP-Dur et NP-Complets.
 Vérification de programme
@@ -45,6 +167,7 @@ Vérification de programme
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue du module, l'étudiant sera initié à
 - Savoir choisir choisir des techniques de réduction adaptées aux propriétés à préserver
 - Savoir classer des problèmes de décision
@@ -54,7 +177,11 @@ Vérification de programme
 - Savoir écrire, pour des algorithmes simples, des preuves de correction et des preuves de complexité temporelle
 - Être capable de travailler en groupe""" ;
     ex:obtention "La note de contrôle continu peut contenir éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Informatique fondamentale 1 (X21I010) Logique pour l'informatique (X22I010)" ;
@@ -99,7 +226,12 @@ résoudre des problèmes simples de la théorie des graphes en employant une app
 calculer la complexité d'un algorithme en fonction des structures de données choisies (Synthèse) ;
 • choisir la structure de données la plus efficace pour la résolution d'un problème (Synthèse) ;""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI- IS,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI Ingéniérie Statistique _ CMI- IS,L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Maths : Maths",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite """• Algorithmique et structures de données 2 (913 17 LG 4 INF UE 1161)
@@ -109,6 +241,7 @@ calculer la complexité d'un algorithme en fonction des structures de données c
 
 ex:UE_X31I030 a ex:UE ;
     rdfs:label "Langage et automates" ;
+    ex:bibliography "" ;
     ex:code "X31I030" ;
     ex:content """Automates finis et analyse lexicale : langages et opérations, langages rationnels, automates finis, automates finis déterministes. Équivalence des expressions rationnelles et des automates finis. Analyse lexicale, expressions rationnelles étendues.
 Grammaires formelles : classification, grammaires hors contexte, arbre de dérivation, ambiguïté, formes normales. Automates à pile et transducteurs finis.
@@ -119,6 +252,7 @@ Travaux Pratiques : Lex et Yacc""" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue du module, l'étudiant sera initié à
 - Savoir utiliser les logiciels flex et bison Il maîtrisera les concepts:
 - Savoir raisonner sur les langages formels
@@ -133,14 +267,20 @@ Travaux Pratiques : Lex et Yacc""" ;
 - Savoir si un mot est accepté par un automate fini
 - Savoir transformer une grammaire rationnelle en une expression rationnelle ou en un automate fini et inversement""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "BECHET Denis PERRIN MATTHIEU" ;
     ex:semester "5" .
 
 ex:UE_X31I040 a ex:UE ;
     rdfs:label "Réseaux et Télécoms" ;
+    ex:bibliography "" ;
     ex:code "X31I040" ;
     ex:content """Programme - Contenu de l'UE : Internet : comment ça marche.
 • Introduction : les chiffres de l'Internet, histoire et perspectives.
@@ -157,12 +297,15 @@ ex:UE_X31I040 a ex:UE ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce cours, l'étudiant doit:
 • Acquérir une vue globale des mécanismes mis en jeu dans l’Internet (« Internet : comment ça marche ? » ) ;
 • Comprendre les mécanismes de base des protocoles de l’Internet (http, tcp, ip, arp);
 • Connaître les défis techniques et sociétaux liés aux déploiements des réseaux;""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Informatique" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Fonctionnement des ordinateurs (X12I020) Systèmes d'exploitation (X22I030)" ;
@@ -171,6 +314,7 @@ ex:UE_X31I040 a ex:UE ;
 
 ex:UE_X31I050 a ex:UE ;
     rdfs:label "Architecture des ordinateurs" ;
+    ex:bibliography "" ;
     ex:code "X31I050" ;
     ex:content """Programme   :
 * Représentation de l'information: codage des caractères, entiers, réels, instructions.
@@ -186,6 +330,7 @@ Les travaux pratiques sont en C/C++ et en assembleur MIPS. Une partie importante
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce cours, l'étudiant doit:
 • connaître la représentation des informations en binaire dans les machines (entiers, réels au format IEEE 754, caractères et chaînes de caractères, instructions);
 • savoir manipuler les nombres entiers et réels dans différentes bases et passer d'une base à l'autre;
@@ -197,7 +342,9 @@ Les travaux pratiques sont en C/C++ et en assembleur MIPS. Une partie importante
 • connaître les principes sous-tendant les processeurs multicycles et les architectures pipelinées
 • connaître la notion de cache mémoire et ses différentes implémentations, et en connaître les impacts sur les algorithmes.""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Informatique" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Fonctionnement des ordinateurs (X12I020) Systèmes d'exploitation (X22I030)" ;
@@ -209,15 +356,7 @@ ex:UE_X31T060 a ex:UE ;
     ex:bibliography """Site CareerCenter : http://univ-nantes.jobteaser.com/fr/backend Lien LinkedIn : https://fr.linkedin.com/
 Lien ResearchGate : https://www.researchgate.net/""" ;
     ex:code "X31T060" ;
-    ex:content """L’enseignement de cette UE est réparti comme suit :
-1. Des séances de TD permettant de travailler en mode projet sur la recherche de stage et la communication orale : méthodologie, CV, lettre de motivation, utilisation du réseau professionnel LinkedIn, de l’outil CareerCenter et certains réseaux pour les scientifiques tels que Researchgate.
-2. Des séances de TD permettant de vivre et de comprendre le fonctionnement d’une structure professionnelle. Ces séances permettront également à l’étudiant de réfléchir à son positionnement en tant que stagiaire dans un environnement professionnel.
-2h40 : TD 1 : Méthodologie de recherche de stage : réflexion sur les objectifs pour ce stage, construction des différentes étapes de la recherche, décryptage d’une offre, mise à jour des compétences, du CV et personnalisation de la lettre de motivation.
-1h20 : TD 2 : Outils de recherche de stage : CareerCenter, LinkedIn : présentation et temps pour remplir son profil.
-2h40 : TD 3 : Communication orale : les fondamentaux de la communication, le non verbal, comment construire une présentation professionnelle pour se présenter à un recruteur (pitch), adopter une posture professionnelle.
-4h00 : TD 4 : Simulations d’entretiens en sous-groupes autonomes et présentation du pitch
-(évaluation).
-4h00 : TD 5 : Les différentes structures et organisations possibles dans le monde du travail / Droits et devoirs du stagiaire.
+    ex:content """Droits et devoirs du stagiaire.
 1h20 : TD 6 : L’après licence : en sous-groupes, argumentation de ses perspectives post-licence.
 Enseignement en distanciel
 Avant certaines séances de TD (TD1, TD2, TD3, TD5), un enseignement en distanciel sera proposé aux étudiants :
@@ -225,11 +364,21 @@ Outils de mise en réflexion sur les objectifs du stage recherchés ;
 Documents à lire de façon à pouvoir les mettre en œuvre autour de la méthodologie de recherche de stage ;
 Power points à visionner sur les outils Career Center et LinkedIn ;
 Vidéos à visionner sur les différentes organisations et types de métiers exercés dans une organisation ;
-Quizz à réaliser sur les droits et devoirs du stagiaire.""" ;
+Quizz à réaliser sur les droits et devoirs du stagiaire.""",
+        """L’enseignement de cette UE est réparti comme suit :
+1. Des séances de TD permettant de travailler en mode projet sur la recherche de stage et la communication orale : méthodologie, CV, lettre de motivation, utilisation du réseau professionnel LinkedIn, de l’outil CareerCenter et certains réseaux pour les scientifiques tels que Researchgate.
+2. Des séances de TD permettant de vivre et de comprendre le fonctionnement d’une structure professionnelle. Ces séances permettront également à l’étudiant de réfléchir à son positionnement en tant que stagiaire dans un environnement professionnel.
+2h40 : TD 1 : Méthodologie de recherche de stage : réflexion sur les objectifs pour ce stage, construction des différentes étapes de la recherche, décryptage d’une offre, mise à jour des compétences, du CV et personnalisation de la lettre de motivation.
+1h20 : TD 2 : Outils de recherche de stage : CareerCenter, LinkedIn : présentation et temps pour remplir son profil.
+2h40 : TD 3 : Communication orale : les fondamentaux de la communication, le non verbal, comment construire une présentation professionnelle pour se présenter à un recruteur (pitch), adopter une posture professionnelle.
+4h00 : TD 4 : Simulations d’entretiens en sous-groupes autonomes et présentation du pitch
+(évaluation).
+4h00 : TD 5 : Les différentes structures et organisations possibles dans le monde du travail""" ;
     ex:evaluation "Ouverture professionnelle - Informatique 100%" ;
     ex:hours "TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
     ex:methods """• Travaux en groupe de TD et en sous-groupe (par 3 ou par 6).
 • Mise à disposition d’outils de réflexion personnelle et de sources d’information.
 • Pédagogie inversée : réflexion individuelle à partir de supports. de réflexion et restitution en groupe, présentations orales faites par les étudiants.
@@ -249,7 +398,12 @@ A l’issue de cette UE, l’étudiant aura :
 Au terme de l’UE ‘Ouverture Professionnelle’, l’étudiant connaitra :
 - les principes fondamentaux de la communication systémique et interpersonnelle, utiles pour communiquer en milieu professionnel
 - la manière d'exprimer un message clair, précis, bienveillant, à la reformulation et à l’expression d’un feedback""" ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:obtention "" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "L’UE 'Découverte et connaissance du monde du travail - Communication professionnelle' est en continuité de l’UE   'Projet Professionnel de l'Etudiant', en permettant à l’étudiant de mettre à jour ses compétences et de poursuivre sa réflexion sur son projet professionnel, initiées en Licence 2. Les étudiants arrivant d’autres facultés et n’ayant pas bénéficié d’un enseignement en lien avec la construction de leur projet professionnel auront un accompagnement spécifique pour avoir tous les éléments nécessaires à la réflexion." ;
@@ -282,14 +436,20 @@ ex:UE_X32A060 a ex:UE ;
     ex:obtention """The module will be assessed through
 • an in-class test (listening comprehension)
 • your project work""" ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Anglais 3 et 4, ou équivalent." ;
+    ex:responsible "" ;
     ex:semester "6" .
 
 ex:UE_X32I010 a ex:UE ;
     rdfs:label "Informatique Fondamentale 2" ;
+    ex:bibliography "" ;
     ex:code "X32I010" ;
     ex:content """Cadres généraux de calcul
 Systèmes de transitions et automates formels : automates et transducteurs finis, automates à piles et à compteurs, machines de Turing.
@@ -304,12 +464,13 @@ Systèmes équationnels. Sémantiques algébrique et opérationnelle. Probl
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce module, l'étudiant saura:
 - connaître les propriétés des langages algébriques
 - concevoir un automate à pile à partir d'une grammaire algébrique
 - savoir démontrer qu'un langage n'est pas algébrique à l'aide du lemme d'itération
-- savoir démontrer qu'un ensemble est dénombrable / indénombrable
-- concevoir une machine de Turing qui accepte / décide un langage
+- savoir démontrer qu'un ensemble est dénombrable""",
+        """décide un langage
 - distinguer un problème décidable d'un problème indécidable
 - comprendre la résolution de problèmes par réduction
 - comprendre la construction des fonctions et prédicats récursifs primitifs
@@ -317,9 +478,15 @@ Systèmes équationnels. Sémantiques algébrique et opérationnelle. Probl
 - savoir construire des objets inductivement
 - savoir construire des termes, les manipuler, et les transformer
 - comprendre le mécanisme d'unification
-- savoir ordonner des termes""" ;
+- savoir ordonner des termes""",
+        """indénombrable
+- concevoir une machine de Turing qui accepte""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Informatique fondamentale 1 (X21I010) Logique pour l'informatique (X22I010)" ;
@@ -328,6 +495,7 @@ Systèmes équationnels. Sémantiques algébrique et opérationnelle. Probl
 
 ex:UE_X32I020 a ex:UE ;
     rdfs:label "Programmation fonctionnelle" ;
+    ex:bibliography "" ;
     ex:code "X32I020" ;
     ex:content """Programme :
 •
@@ -386,7 +554,11 @@ concevoir et employer des fonctions d’ordre supérieure (Application) ;
 employer la programmation par filtrage de motifs pour les traitements symboliques (Application) ;
 • expliquer et savoir simuler le mécanisme d’inférence de type (Compréhension) ;""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Info : Maths Info" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite """• Algorithmique et structures de données 3 (913 17 LG 5 INF UE 1163)
@@ -397,6 +569,7 @@ employer la programmation par filtrage de motifs pour les traitements symbolique
 
 ex:UE_X32I030 a ex:UE ;
     rdfs:label "Recherche opérationnelle" ;
+    ex:bibliography "" ;
     ex:code "X32I030" ;
     ex:content """Ce cours d'introduction à la Recherche Opérationnelle (RO) est composé de deux parties :
 •
@@ -438,6 +611,7 @@ Introduction aux métaheuristiques""" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de cette UE, l'étudiant devra
 - Etre capable de modéliser des programmes linéaires (variables continues et entières), et de reconnaître les principales structures de problème (structure de recette, structure de couverture, structure de mélange, structure multi-période) (A - M)
 - Etre capable d'utiliser des variables binaires pour modéliser des problèmes d'optimisation combinatoire, et de reconnaître certaines structures combinatoires (A - M)
@@ -462,14 +636,21 @@ Introduction aux métaheuristiques""" ;
 - Utilisation d'un solveur MIP : comprendre l'utilisation d'un solveur MIP en tant que bibliothèque de fonction et être capable de l'utiliser pour résoudre un unique problème de programmation linéaire en variables mixtes (A)
 - Utilisation d'un solveur MIP : être capable d'implémenter un algorithme donné, en faisant des appels successifs à un solveur MIP pour résoudre un problème de programmation linéaire en variables mixtes (A)""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Maths Info / mineure Maths Info,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info",
+        "mineure CMI OPTIM,L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Maths : Maths" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY" ;
     ex:semester "6" .
 
 ex:UE_X32I040 a ex:UE ;
     rdfs:label "Bases de données 2" ;
+    ex:bibliography "" ;
     ex:code "X32I040" ;
     ex:content """Introduction aux systèmes de Gestion de Bases de données (architecture, évaluation et optimisation de requêtes, gestion des transactions et contrôle de concurrence, sensibilisation à la gestion des gros volumes de données)
 Extension procédurale de SQL (PL/SQL) , BD actives (Déclencheurs) Interrogation d'une base avec JDBC
@@ -479,6 +660,7 @@ Modèle objet-relationnel""" ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce module, l'étudiant devra:
 • Comprendre les dépendances fonctionnelles
 • Comprendre la normalisation des relations d’une base de données (formes normales) et l’impact opérationnel d’une normalisation.
@@ -496,7 +678,9 @@ Modèle objet-relationnel""" ;
 • Comprendre un plan d’exécution d’une requête
 • Connaître les structures accélératrices d’accès aux données (indexes)""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Informatique" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite """Bases de données 1 (X12I030)
@@ -506,6 +690,7 @@ Introduction aux systèmes d'information (X21I040)""" ;
 
 ex:UE_X32I050 a ex:UE ;
     rdfs:label "Construction et évolution de logiciels" ;
+    ex:bibliography "" ;
     ex:code "X32I050" ;
     ex:content "L'objectif de ce module est de maîtriser les étapes de développement logiciel, qu'il s'agisse de sa conception, sa construction, son développement, ses tests, son évolution mais aussi de sa modernisation. Les principes de travail dans une équipe de développement en entreprise. La rédaction de documentation logicielle, la maintenance logicielle, l'analyse de code et la gestion d'exception seront aussi abordés dans ce module." ;
     ex:evaluation "Construction et évolution de logiciels 100%" ;
@@ -513,6 +698,7 @@ ex:UE_X32I050 a ex:UE ;
     ex:language "Français" ;
     ex:level "Licence" ;
     ex:location "Lombarderie" ;
+    ex:methods "" ;
     ex:objective """A l'issue de ce module, l'étudiant devra:
 • Comprendre les principaux enjeux de la construction et de l'évolution de logiciels.
 • Comprendre les approches de modernisation de logiciels, comme la rétro ingénierie, la réingénierie, le salvaging et la restructuration.
@@ -526,7 +712,9 @@ ex:UE_X32I050 a ex:UE ;
 • Être capable d'utiliser des outils d'analyse de code source pour appréhender un logiciel existant.
 • Être capable d'utiliser la gestion d'exception, ainsi que d'autre techniques spécifiques aux langages de programmation pour améliorer la tolérance aux fautes.""" ;
     ex:obtention "La note de contrôle continu peut contenir une ou plusieurs composantes pratiques et éventuellement une composante distancielle." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Informatique" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
     ex:prerequisite "Introduction au développement logiciel (X12I040) Introduction aux systèmes d'information (X21I040)" ;
@@ -535,15 +723,23 @@ ex:UE_X32I050 a ex:UE ;
 
 ex:UE_X32T060 a ex:UE ;
     rdfs:label "Stage" ;
+    ex:bibliography "" ;
     ex:code "X32T060" ;
+    ex:content "" ;
     ex:evaluation "Stage 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note du stage combine une présentation écrite, une présentation orale et une évaluation des encadrants du stage." ;
-    ex:parcours "L3 Info : Informatique / mineure Informatique,L3 Info : Informatique / mineure Informatique LAS3" ;
+    ex:parcours "L3 Info : Informatique",
+        "mineure Informatique LAS3",
+        "mineure Informatique,L3 Info : Informatique" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible """PIAMRAT KANDARAJ
 SERRANO-ALVARADO PATRICIA JEAN GERALDINE
 GOUALARD FREDERIC""" ;
@@ -551,30 +747,72 @@ GOUALARD FREDERIC""" ;
 
 ex:UE_XLG5TU200 a ex:UE ;
     rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
     ex:code "XLG5TU200" ;
-    ex:evaluation "Anatomie LAS3 100%" ;
-    ex:hours "TOTAL : 10h Répartition : CM : 10h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
-    ex:language "Français" ;
-    ex:level "Licence" ;
-    ex:m3os301 "Biologie moléculaire LAS3" ;
-    ex:m3os302 "Anatomie LAS3" ;
-    ex:m3os303 "Biophysique LAS3" ;
-    ex:m3os304 "Microbiologie LAS3" ;
-    ex:m3os305 "Physiologie LAS3" ;
-    ex:parcours "L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths / mineure Maths LAS3,L3 Info : Informatique / mineure Informatique LAS3,L3 _ Bloc Santé 3 pour L.AS   3,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 Chimie option Santé,2025 L3 Maths L.AS Maths,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé" ;
-    ex:parcours_code "INFOLAAS" ;
-    ex:parcours_level "L3" ;
-    ex:semester "5" .
-
-ex:UE_XLG6TU200 a ex:UE ;
-    rdfs:label "Stage libre" ;
-    ex:code "XLG6TU200" ;
+    ex:content "" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:parcours "L3 Chimie : Chimie / mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info / mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique / mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info / mineure Maths Info,L3 Maths : Maths / mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique / mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths / mineure Maths LAS3,L3 Info : Informatique / mineure Informatique LAS3,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV: Advanced Biology Training,2025 L3SV ABT S5 100% Anglais,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3 MIASHS - parcours economie,2025 L3 INFO Informatique  mathématiques,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 INFO Informatique,2025 L3 INFO option santé (L.AS 3),2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3   SPI EEA option Santé" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 Chimie : Chimie",
+        """mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info
+: Maths Info""",
+        "mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths",
+        "mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Informatique LAS3,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3 INFO Informatique,2025 L3 INFO Informatique mathématiques,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3SV:  Advanced Biology Training,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 INFO CMI OPT/IM,2025 L3SV ABT S5 100% Anglais,2025 L3 MIASHS - parcours economie,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Maths : Maths",
+        "mineure Maths LAS3,L3 Info : Informatique",
+        "mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique",
+        "mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA" ;
     ex:parcours_code "INFOLAAS" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
+    ex:semester "5" .
+
+ex:UE_XLG6TU200 a ex:UE ;
+    rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
+    ex:code "XLG6TU200" ;
+    ex:content "" ;
+    ex:evaluation "Stage libre 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 Chimie : Chimie",
+        "mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info",
+        "mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths",
+        "mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Informatique LAS3,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV: Advanced Biology Training,2025 L3SV ABT S5 100% Anglais,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3 MIASHS - parcours economie,2025 L3 INFO Informatique  mathématiques,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 INFO Informatique,2025 L3 INFO option santé (L.AS 3),2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3   SPI EEA option Santé",
+        "mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Maths : Maths",
+        "mineure Maths LAS3,L3 Info : Informatique",
+        "mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique",
+        "mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA" ;
+    ex:parcours_code "INFOLAAS" ;
+    ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "6" .
 

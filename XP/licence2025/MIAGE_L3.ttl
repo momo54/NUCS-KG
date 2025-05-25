@@ -3,18 +3,27 @@
 
 ex:UE_XLG5AU010 a ex:UE ;
     rdfs:label "Anglais" ;
+    ex:bibliography "" ;
     ex:code "XLG5AU010" ;
+    ex:content "" ;
     ex:evaluation "Anglais 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU010 a ex:UE ;
     rdfs:label "Introduction à l'architecture des ordinateurs" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU010" ;
     ex:content """Le module se déclinera en 4 grandes parties:
 • Représentation de l'information
@@ -25,40 +34,60 @@ ex:UE_XLG5IU010 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 10h TD : 10h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME GOUALARD FREDERIC" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU020 a ex:UE ;
     rdfs:label "Ingénierie des exigences" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU020" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie des exigences 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 13.33h TD : 22.67h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "JEAN GERALDINE" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU030 a ex:UE ;
     rdfs:label "Comptabilité financière" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU030" ;
+    ex:content "" ;
     ex:evaluation "Comptabilité financière 100%" ;
     ex:hours "TOTAL : 56h Répartition : CM : 0h TD : 56h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "SUAUDEAU CHRISTOPHE" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU040 a ex:UE ;
     rdfs:label "Optimisation & Automates finis" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU040" ;
     ex:content """Ce cours comporte deux parties, l'une sur sur les automates finis et l'autre sur l'optimisation.
 • La partie sur les automates finis porte sur les langages rationnels que l'on manipulent ou modélisent avec les expressions rationnelles et les automates finis.
@@ -67,36 +96,49 @@ ex:UE_XLG5IU040 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 8h TD : 16h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU050 a ex:UE ;
     rdfs:label "Structures Linéaires" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU050" ;
     ex:content """Ce module a pour objectifs :
 - de présenter les données dynamiques (listes chainées)
-- de présenter les structures linéraires abstraites et concrètes (liste / pile / file)
-afin d'être capable de choisir la(ou les) structure(s) les plus adaptée(s) pour répondre à un problème donné""" ;
+- de présenter les structures linéraires abstraites et concrètes (liste""",
+        """file)
+afin d'être capable de choisir la(ou les) structure(s) les plus adaptée(s) pour répondre à un problème donné""",
+        "pile" ;
     ex:evaluation "Structures Linéaires 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 0h TD : 32h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Comprendre la gestion de la mémoire (pointeurs, allocation dynamique) Comprendre les notions de structures de données abstraites et concrètes
 Savoir utiliser et implémenter les structures de données linéaires classiques (liste, pile et file) Etre capable de choisir une structure de données adaptée à un problème
 Comprendre la différence entre données structurées et dynamiques Être capable de bien documenter un programme
 Être capable de gérer un projet de programmation et de le documenter
 Être capable de concevoir et développer des applications de tailles moyennes""" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU060 a ex:UE ;
     rdfs:label "BD & Web" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU060" ;
     ex:content """Ce module a pour objectifs à travers un projet de développement d'un site web :
 -   de revoir les notions de modélisation d'un problème, les notions de base de Données (BD) et de Système de Gestion de BD
@@ -106,104 +148,176 @@ ex:UE_XLG5IU060 a ex:UE ;
     ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 24h CI : 0h TP : 16h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "DESMONTILS EMMANUEL" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU070 a ex:UE ;
     rdfs:label "Professionalisation" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU070" ;
+    ex:content "" ;
     ex:evaluation "Professionnalisation 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "SUAUDEAU CHRISTOPHE" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU110 a ex:UE ;
     rdfs:label "Gestion de Projet" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU110" ;
+    ex:content "" ;
     ex:evaluation "Gestion de Projet 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 12h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "5" .
 
 ex:UE_XLG5TU200 a ex:UE ;
     rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
     ex:code "XLG5TU200" ;
+    ex:content "" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:parcours """L3 Chimie : Chimie / mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info
-: Maths Info / mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique / mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info / mineure Maths Info,L3 Maths : Maths / mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique / mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths / mineure Maths LAS3,L3 Info : Informatique / mineure Informatique LAS3,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3 INFO Informatique,2025 L3 INFO Informatique mathématiques,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3SV:  Advanced Biology Training,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 INFO CMI OPT/IM,2025 L3SV ABT S5 100% Anglais,2025 L3 MIASHS - parcours economie,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé""" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 Chimie : Chimie",
+        """mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info
+: Maths Info""",
+        "mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths",
+        "mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Informatique LAS3,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3 INFO Informatique,2025 L3 INFO Informatique mathématiques,2025 L3 INFO option santé (L.AS 3),2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3SV:  Advanced Biology Training,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3 INFO CMI OPT/IM,2025 L3SV ABT S5 100% Anglais,2025 L3 MIASHS - parcours economie,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3 SPI EEA option Santé",
+        "mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Maths : Maths",
+        "mineure Maths LAS3,L3 Info : Informatique",
+        "mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique",
+        "mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "5" .
 
 ex:UE_XLG6AU010 a ex:UE ;
     rdfs:label "Anglais" ;
+    ex:bibliography "" ;
     ex:code "XLG6AU010" ;
+    ex:content "" ;
     ex:evaluation "Anglais 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "6" .
 
 ex:UE_XLG6IE010 a ex:UE ;
     rdfs:label "Réseaux" ;
+    ex:bibliography "" ;
     ex:code "XLG6IE010" ;
+    ex:content "" ;
     ex:evaluation "Réseaux 100%" ;
     ex:hours "TOTAL : 30h Répartition : CM : 0h TD : 19.33h CI : 0h TP : 10.67h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "PIAMRAT KANDARAJ" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU020 a ex:UE ;
     rdfs:label "Administration des BD" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU020" ;
+    ex:content "" ;
     ex:evaluation "Administration des BD 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 24h CI : 0h TP : 16h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU030 a ex:UE ;
     rdfs:label "Controle de Gestion" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU030" ;
+    ex:content "" ;
     ex:evaluation "Contrôle de Gestion 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 0h TD : 40h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "CATALO MARIE" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU060 a ex:UE ;
     rdfs:label "Langage & Compilation" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU060" ;
     ex:content """Ce module a pour objectifs :
 - de présenter la notion de langages informatiques et des grammaires associées,
@@ -213,53 +327,80 @@ ex:UE_XLG6IU060 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 0h TD : 20h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "BECHET Denis PERRIN MATTHIEU" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU080 a ex:UE ;
     rdfs:label "Stage" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU080" ;
+    ex:content "" ;
     ex:evaluation "Stage 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "GOUALARD FREDERIC" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU120 a ex:UE ;
     rdfs:label "Digitalisation des organisations" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU120" ;
+    ex:content "" ;
     ex:evaluation "Digitalisation des organisations 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "CATALO MARIE" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU130 a ex:UE ;
     rdfs:label "Développement Web back-end" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU130" ;
+    ex:content "" ;
     ex:evaluation "Développement Web 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 14.67h TD : 8h CI : 0h TP : 21.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "LARHLIMI ABDELHALIM" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU140 a ex:UE ;
     rdfs:label "Conception et Analyse d'Algorithmes" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU140" ;
     ex:content """A l'issue de cet enseignement, on s'attend à ce que l'étudiant.e qui l'a suivi:
 • soit capable de concevoir des algorithmes répondant à un cahier des charges précis
@@ -272,21 +413,49 @@ ex:UE_XLG6IU140 a ex:UE ;
     ex:hours "TOTAL : 44h Répartition : CM : 12h TD : 24h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE - CLASSIQUE" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "6" .
 
 ex:UE_XLG6TU200 a ex:UE ;
     rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
     ex:code "XLG6TU200" ;
+    ex:content "" ;
     ex:evaluation "Stage libre 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
-    ex:parcours "L3 Chimie : Chimie / mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info / mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique / mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info / mineure Maths Info,L3 Maths : Maths / mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique / mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE / mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths / mineure Maths LAS3,L3 Info : Informatique / mineure Informatique LAS3,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV: Advanced Biology Training,2025 L3SV ABT S5 100% Anglais,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3 MIASHS - parcours economie,2025 L3 INFO Informatique  mathématiques,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 INFO Informatique,2025 L3 INFO option santé (L.AS 3),2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3   SPI EEA option Santé" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
+    ex:parcours "L3 Chimie : Chimie",
+        "mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info",
+        "mineure CMI OPTIM,L3 SPI : Electronique, Energie Electrique, Automatique _ EEA,2025 L3 SPI Génie Civil,L3 Info : Informatique",
+        "mineure Chimie Avancée LAS3,L3 Physique : Physique LAS3,L3 Maths : Maths",
+        "mineure Chimie Avancée, L3 Chimie : Chimie Biologie,L3 Chimie : Chimie- Physique DOUBLE DIPLOME,L3 Chimie : Chimie /mineure Enseigner à l'Ecole Primaire EEP,L3 Physique : Physique - CMI Ingé. Nuclé. et Appli. _ CMI-INA,L3 Maths : Maths",
+        "mineure Enseigner les SVT,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 Physique : Physique-Chimie DOUBLE DIPLOME,L3 Physique : Mécanique,L3 SV : Advanced Biology Training ABT,L3 SV : Biologie Cellulaire et Moléculaire BCM,L3 SV : Biologie Cellulaire et Physiologie Animale BCPA,L3 SV : Sciences du Végétal et de l'Aliment SVA",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SV : Biologie Cellulaire Véto Agro BCVA,L3 SVT : Biologie Écologie _BE,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Enseigner à l'Ecole Primaire _ EEP,L3 SVT : Biologie, Géologie, Environnement BGE",
+        "mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie Écologie _BE LAS3, L3 Chimie : Chimie",
+        "mineure Informatique LAS3,L3 Physique : Mécanique - CMI Ingé. Calcul Méca. _ CMI-ICM,2025 L3 SPI EEA,2025 L3 SVT Biologie Ecologie,2025 L3 SVT Enseigner les SVT,2025 L3 SVT Géosciences,2025 L3 SVT LAS 3 Biologie Ecologie,2025 L3 SVT Sciences de l'environnement,2025 L3SV : Biologie Cellulaire et Physiologie Animale,2025 L3SV : Sciences du Végétal et de l'Aliment,2025 L3SV : Biologie Vétérinaire Agronomie,2025 L3SV: Advanced Biology Training,2025 L3SV ABT S5 100% Anglais,2025 L3SV : Licence SV Accès Santé - LAS3 - ,2025 L3SV : Biologie Cellulaire et Moléculaire,2025 L3 MIASHS - parcours economie,2025 L3 INFO Informatique  mathématiques,2025 L3 Mathématiques,2025 L3 Maths L.AS Maths,2025 L3 MATHS CMI IS,2025 L3 Physique Chimie,2025 L3 Chimie,2025 L3 Chimie option Santé,2025 L3 Chimie-Biologie,2025 L3 INFO Informatique,2025 L3 INFO option santé (L.AS 3),2025 L3 Physique - CMI INA,2025 L3 Physique,2025 L3 Mécanique - CMI ICM,2025 L3 Mécanique,2025 L3 Physique OPTION SANTE,L3 SPI Génie Civil,L3 SPI Génie Civil option SANTE,2025 L3 SPI Génie Civil option SANTE,2025 L3   SPI EEA option Santé",
+        "mineure Informatique,L3 Maths : Maths Economie,L3 Info : Maths Info",
+        "mineure Maths Info,L3 Maths : Maths",
+        "mineure Maths LAS3,L3 Info : Informatique",
+        "mineure Maths,L3 Info : MIAGE - CLASSIQUE,L3 Physique : Physique,L3 Physique : Physique",
+        "mineure SVA,L3 SV : Sciences du Végétal et de l'Aliment SVA" ;
     ex:parcours_code "MIAGE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "6" .
 

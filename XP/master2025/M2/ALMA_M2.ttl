@@ -3,11 +3,15 @@
 
 ex:UE_XMS3IU010 a ex:UE ;
     rdfs:label "Middleware" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU010" ;
+    ex:content "" ;
     ex:evaluation "Middleware 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 6h CI : 0h TP : 6h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """- Comprendre les fondements de la synchronisation liés à la concurrence
 - Comprendre les architecture n-tiers (e.g. J2E) et les technologies associées
 - Connaître les limites théoriques des applications distribuées
@@ -17,19 +21,25 @@ ex:UE_XMS3IU010 a ex:UE ;
 - Etre capable de créer un web service en utilisant le framework Spring
 - Comprendre les concepts d'authentification et de sécurité
 - Comprendre les concepts de services basés composants et de micro services""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "MOSTEFAOUI ACHOUR" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU020 a ex:UE ;
     rdfs:label "Gestion des données distribuées à large échelle" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU020" ;
+    ex:content "" ;
     ex:evaluation "Gestion des données distribuées à large échelle 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """• To understand how big are big data and how distributed infrastructures are able to handle them
 • To understand why traditional databases cannot handle big data
 • To know online transaction processing, online analytical processing and streaming processing on big data.
@@ -39,50 +49,70 @@ ex:UE_XMS3IU020 a ex:UE ;
 • To know multi-version concurrency control and consistency issues in large scale datastore
 • To be able to understand how current datastore are built, what they can do and what are their limitations.
 • To be able to use large scale datastore for OLTP, OLAP and stream processing.""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU030 a ex:UE ;
     rdfs:label "Deep Learning and Intensive Software Systems (EMN)" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU030" ;
+    ex:content "" ;
     ex:evaluation "Deep Learning and Intensive Software Systems (EMN) 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU040 a ex:UE ;
     rdfs:label "Architectures réparties" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU040" ;
+    ex:content "" ;
     ex:evaluation "Architectures réparties 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """• To understand the vision of the decentralized web
 • To understand data integration problems
 • To know how to build distributed data integration systems with GAV (Global as View), LAV, GLAV and distributed query processing
 • To know personal information systems and small data ie. Solid
 • To know federated query processing over semantic web: FedX, Anapsid To know
 • To be able to solve data integration problems on the web""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL SKAF-MOLLI HALA" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU050 a ex:UE ;
     rdfs:label "Ingénierie dirigée par les modèles" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU050" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie dirigée par les modèles 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """1. Comprendre les principes et les objectifs de l'ingénierie dirigée par sur les modèles.
 2. Comprendre les différences entre la modélisation et la méta-modélisation.
 3. Comprendre les différences entre les langages spécifiques au domaine et les langages génériques.
@@ -91,36 +121,48 @@ ex:UE_XMS3IU050 a ex:UE ;
 6. Être capable d'intégrer l'ingénierie basée sur les modèles dans le processus de développement logiciel.
 7. Être capable de réaliser des transformations de modèle à modèle.
 8. Être capable de réaliser effectuer des transformations de modèle à texte (génération de code).""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU060 a ex:UE ;
     rdfs:label "Gestion des logiciels" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU060" ;
+    ex:content "" ;
     ex:evaluation "Gestion des logiciels 100%" ;
     ex:hours "TOTAL : 45h Répartition : CM : 33h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """- Etre capable d'appliquer les méthodes et outils pour développer un "Senior Capstone Project" t (A)
 - Etre capable d'identifier les différentes étapes de gestion d'un projet   (M)
 - Etre capable d'estimer les couts et durées d'un projet (M)
 - Comprendre les outils et l'organisation d'un travail collaboratif   (M).""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU070 a ex:UE ;
     rdfs:label "Services de communication et systèmes distribués" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU070" ;
+    ex:content "" ;
     ex:evaluation "Services de communication et systèmes distribués 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """- Comprendre la notion de service ainsi que ses différents paradigmes
 - Connaître les principes SOA et son implémentation modulaire via les web-services
 - Connaître les technologies relatives aux web-services (e.g. SOAP, WSDL, UDI)
@@ -128,28 +170,37 @@ ex:UE_XMS3IU070 a ex:UE ;
 - Etre capable de développer un service dans une architecture monolithique simple
 - Etre capable d'utiliser un Domain Drived Design (DDD) pour implémenter une architecture orientée services
 - Comprendre les paradigmes nés de l’expansion du cloud et de l’exploitation des services (e.g. SaaS, Xaas)""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "MOSTEFAOUI ACHOUR" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU080 a ex:UE ;
     rdfs:label "Modélisation et vérification des systèmes concurrents" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU080" ;
     ex:content "Le cours est consacré à la modélisation et à la vérification par model-checking de systèmes concurrents" ;
     ex:evaluation "Modélisation et vérification des systèmes concurrents 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "CANTIN GUILLAUME JABER GUILHEM" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU090 a ex:UE ;
     rdfs:label "Architectures et styles d'architectures" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU090" ;
     ex:content """- Introduction aux paradigmes objet, composant,agent, service et modèle dans les Architectures logicielles
 - Introduction aux styles Architecturaux
@@ -161,41 +212,53 @@ ex:UE_XMS3IU090 a ex:UE ;
     ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """- Comprendre les concepts clés des Architectures Logicielles (I)
 - Comprendre et savoir classifier les langages de modèlisation d'architectures en soulignant leurs différents modes de représentation, leurs supports de conception et leurs mécanismes d'adaptation (M)
 - Etre capable d'identifier et de développer différents styles architecturaux   (A)
 - Comprendre les principales difficultés qui interviennent lors du passage à l'echelle(A)
 - Etre capable de maitriser la complexité des architectures logicielles à un haut niveau d'abstraction   (M)
 - Comprendre et distinguer les différents styles architecturaux orientés agents, objets, composants et modèles.(M)""" ;
+    ex:obtention "" ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "OUSSALAH MOURAD" ;
     ex:semester "3" .
 
 ex:UE_XMS3IU100 a ex:UE ;
     rdfs:label "Conferences" ;
+    ex:bibliography "" ;
     ex:code "XMS3IU100" ;
+    ex:content "" ;
     ex:evaluation "Conferences 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
     ex:parcours "M2 Architectures Logicielles (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA" ;
     ex:semester "3" .
 
 ex:UE_XMS4IU010 a ex:UE ;
     rdfs:label "Stage" ;
+    ex:bibliography "" ;
     ex:code "XMS4IU010" ;
+    ex:content "" ;
     ex:evaluation "Stage 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Mixte" ;
     ex:level "Master" ;
     ex:location "Soutenance à la faculté des sciences et techniques" ;
+    ex:methods "" ;
     ex:objective """- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
 - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
@@ -203,6 +266,7 @@ ex:UE_XMS4IU010 a ex:UE ;
     ex:parcours "M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche Opérationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M2" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA PERRIN MATTHIEU" ;
     ex:semester "4" .
 

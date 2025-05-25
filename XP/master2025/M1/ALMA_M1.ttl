@@ -3,20 +3,27 @@
 
 ex:UE_XMS1AU010 a ex:UE ;
     rdfs:label "Anglais scientifique" ;
+    ex:bibliography "" ;
     ex:code "XMS1AU010" ;
+    ex:content "" ;
     ex:evaluation "Anglais scientifique 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Anglais" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "LABARBE LAURIE MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "1" .
 
 ex:UE_XMS1IE071 a ex:UE ;
     rdfs:label "Données massives et cloud" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE071" ;
     ex:content """• Indentifier les services fournis pour une infrastructure de type cloud
 • Evaluer sur une applciation passe à l’échelle dans le cloud,
@@ -28,12 +35,15 @@ ex:UE_XMS1IE071 a ex:UE ;
     ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 8h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
     ex:responsible "MOLLI PASCAL" .
 
 ex:UE_XMS1IE072 a ex:UE ;
     rdfs:label "Web sémantique - Web des données" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE072" ;
     ex:content """Contenu:
 • Modèle de données RDF (Ressources Description Framework)
@@ -44,6 +54,7 @@ ex:UE_XMS1IE072 a ex:UE ;
     ex:hours "TOTAL : 24.65h Répartition : CM : 9.33h TD : 6.66h CI : 0h TP : 8.66h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences" ;
+    ex:methods "" ;
     ex:objective """- Comprendre le modèle de données RDF (Ressources Description Framework)
 - Comprendre les langages de description des vocabulaires RDFS (RDF Schema)
 - Comprendre les langages de description d’ontologie OWL (Web Ontology Language)
@@ -57,6 +68,7 @@ ex:UE_XMS1IE072 a ex:UE ;
 
 ex:UE_XMS1IE301 a ex:UE ;
     rdfs:label "Test logiciel" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE301" ;
     ex:content """• Notions de besoins, d'exigences, de vérification, de validation
 • Concepts généraux du test logiciel : processus, scénario de test, architecture d'un framework de test logiciel
@@ -73,9 +85,7 @@ ex:UE_XMS1IE301 a ex:UE ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 9.33h TD : 6.66h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "FST" ;
-    ex:methods """• Fonctionnement
-- En séance : cours magistraux pour la théorie (avec support de cours complet en version web et papier), travaux dirigés pour l'application "sur papier", travaux pratiques pour l'application sur machine
-- En distanciel / autonomie : travaux pratiques complémentaires, lecture et compréhension en autonomie d'un chapitre non étudié en séance.
+    ex:methods """autonomie : travaux pratiques complémentaires, lecture et compréhension en autonomie d'un chapitre non étudié en séance.
 • Évaluation
 - Controle Continu Écrit (CCE) en deux épreuves (mi semestre puis fin de semestre)
 - Contrôle Continu Pratique (CCP).
@@ -84,7 +94,10 @@ ex:UE_XMS1IE301 a ex:UE ;
 - Outside class: additional practical work, reading and understanding an additional chapter not studied in class, group work on a project given at the end of the semester (see below)
 • Evaluation
 - Two written tests (mid semester then end of semester)
-- One evaluated project to be submitted at the end of the semester""" ;
+- One evaluated project to be submitted at the end of the semester""",
+        """• Fonctionnement
+- En séance : cours magistraux pour la théorie (avec support de cours complet en version web et papier), travaux dirigés pour l'application "sur papier", travaux pratiques pour l'application sur machine
+- En distanciel""" ;
     ex:objective """• Motiver et et définir la vérification et validation :
 - notions de besoin et de spécification,
 - notions de défaillance, de défaut, d’erreur,
@@ -143,26 +156,35 @@ ex:UE_XMS1IE301 a ex:UE ;
 
 ex:UE_XMS1IE302 a ex:UE ;
     rdfs:label "Conception de logiciels" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE302" ;
+    ex:content "" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
     ex:responsible "SUNYE GERSON" .
 
 ex:UE_XMS1IE312 a ex:UE ;
     rdfs:label "Programmation concurrente en multi-threads" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE312" ;
+    ex:content "" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 12h TD : 6.66h CI : 0h TP : 5.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
     ex:responsible "PERRIN MATTHIEU" .
 
 ex:UE_XMS1IE313 a ex:UE ;
     rdfs:label "Preuves et Constructions Formelles" ;
+    ex:bibliography "" ;
     ex:code "XMS1IE313" ;
     ex:content """Une préoccupation de l'Informaticien, quel que soit son domaine, est de comprendre les besoins et les exigences d'un projet, de les analyser, de les modéliser, de les structurer, de les stocker, de les programmer. Ce module donne des bases sur ces aspects Logiciel ; ces bases sont nécessaires dans le socle de connaissances de tout étudiant du secteur Logiciel, qui va forcément se confronter au "logiciel". On retrouve ces bases dans les curricula de l'ACM ou de l'IEEE (Software engineering body of knowledge) pour le niveau Master.
 Le contenu couvre aussi bien des aspects fondamentaux que ceux directement liés aux environnements professionnels industriels.
@@ -188,6 +210,8 @@ Découvrir les techniques d'analyse du logiciel (model-checking) et pour permett
 Découvrir techniques et outils d'aide au passage des modèles aux logiciels""" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 6.66h TD : 5.33h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Français" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """1. Maîtriser et savoir manipuler les formalismes théoriques pour la modélisation de problèmes logiciels à base d'automates et logiques.
 2. Comprendre le concept de vérification formelle et être capable d'utiliser des techniques adaptées telles que le model checking ou le theorem proving.
 3. Etre capable de mettre en oeuvre les techniques de modélisation et de vérification formelle à l'aide d'outils adaptés, par ex. Uppaal et CoQ.""" ;
@@ -222,6 +246,7 @@ C. A. Shaffer - A Practical Introduction to Data Structures and Algorithm Analys
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "RUSU Irena SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "1" .
 
@@ -232,26 +257,32 @@ ex:UE_XMS1IU070 a ex:UE ;
 Web sémantique - Web des données 50%""" ;
     ex:hours "TOTAL : 48.65h Répartition : CM : 17.33h TD : 14.66h CI : 0h TP : 16.66h EAD : 0h" ;
     ex:level "Master" ;
-    ex:liste_des_matières """- Données massives et cloud (XMS1IE071)
-- Web sémantique - Web des données (XMS1IE072)""" ;
     ex:location "UFR Sciences" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU080 a ex:UE ;
     rdfs:label "Développement et exploitation" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU080" ;
+    ex:content "" ;
     ex:evaluation "Développement et exploitation 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "BOUSSE ERWAN MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "1" .
 
@@ -262,12 +293,13 @@ ex:UE_XMS1IU300 a ex:UE ;
 Conception de logiciels 50%""" ;
     ex:hours "TOTAL : 47.98h Répartition : CM : 19.99h TD : 6.66h CI : 0h TP : 21.33h EAD : 0h" ;
     ex:level "Master" ;
-    ex:liste_des_matières """- Test logiciel (XMS1IE301)
-- Conception de logiciels (XMS1IE302)""" ;
     ex:location "FST,UFR Sciences" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU310 a ex:UE ;
@@ -277,26 +309,32 @@ ex:UE_XMS1IU310 a ex:UE ;
 Programmation concurrente en multi-threads 50%""" ;
     ex:hours "TOTAL : 47.98h Répartition : CM : 18.66h TD : 11.99h CI : 0h TP : 17.33h EAD : 0h" ;
     ex:level "Master" ;
-    ex:liste_des_matières """- Preuves et Constructions Formelles (XMS1IE313)
-- Programmation concurrente en multi-threads (XMS1IE312)""" ;
     ex:location "UFR Sciences" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "JABER GUILHEM PERRIN MATTHIEU SKAF-MOLLI HALA SUNYE GERSON" ;
     ex:semester "1" .
 
 ex:UE_XMS1IU320 a ex:UE ;
     rdfs:label "Projet transversal" ;
+    ex:bibliography "" ;
     ex:code "XMS1IU320" ;
+    ex:content "" ;
     ex:evaluation "Projet transversal 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 0h CI : 0h TP : 16h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON SKAF-MOLLI HALA" ;
     ex:semester "1" .
 
@@ -316,32 +354,43 @@ ex:UE_XMS2AU000 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
+    ex:methods "" ;
     ex:objective """A l’issue de cet enseignement, les étudiants seront capables de :
 • Reconnaitre et anticiper les formats de certifications d’anglais.
 • Compléter les réponses exigées par les tests de certifications.
 • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement.""" ;
+    ex:obtention "" ;
     ex:parcours "M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD MICAS,M1 CMD M4R,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 Biostatistique & Epidémiologie,M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Biologie et médicaments" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "2" .
 
 ex:UE_XMS2IE011 a ex:UE ;
     rdfs:label "Professionnalisation" ;
+    ex:bibliography "" ;
     ex:code "XMS2IE011" ;
+    ex:content "" ;
     ex:hours "TOTAL : 11.99h Répartition : CM : 5.33h TD : 6.66h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
     ex:responsible "TONNEAU QUENTIN" .
 
 ex:UE_XMS2IE012 a ex:UE ;
     rdfs:label "Ethique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IE012" ;
+    ex:content "" ;
     ex:hours "TOTAL : 12h Répartition : CM : 8h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
     ex:responsible "ENGUEHARD CHANTAL" .
@@ -353,46 +402,60 @@ ex:UE_XMS2IU010 a ex:UE ;
 Ethique 50%""" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 13.33h TD : 10.66h CI : 0h TP : 0h EAD : 0h" ;
     ex:level "Master" ;
-    ex:liste_des_matières """- Professionnalisation (XMS2IE011)
-- Ethique (XMS2IE012)""" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible """ENGUEHARD CHANTAL TONNEAU QUENTIN SUNYE GERSON
 MOLLI PASCAL""" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU020 a ex:UE ;
     rdfs:label "Apprentissage automatique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU020" ;
+    ex:content "" ;
     ex:evaluation "Machine Learning 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.66h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible """HERNANDEZ NICOLAS QUINIOU SOLEN
 DE LA HIGUERA COLIN LE CAPITAINE HOEL""" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU030 a ex:UE ;
     rdfs:label "Compilation" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU030" ;
+    ex:content "" ;
     ex:evaluation "Compilation 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "OUSSALAH MOURAD SUNYE GERSON MOLLI PASCAL" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU040 a ex:UE ;
     rdfs:label "Projet de recherche" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU040" ;
     ex:content """Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
 Il s'agit de travailler sur une sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionel.
@@ -410,9 +473,13 @@ Les activités visées
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "Nantes" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "2" .
 
@@ -429,7 +496,8 @@ Image numérique et échantillonnage
 •
 Histogramme et transformation
 •
-Filtrage spatial et reconstruction / débruitage
+Filtrage spatial et reconstruction""",
+        """débruitage
 •
 Représentation et filtrage fréquentiel
 •
@@ -444,43 +512,58 @@ Extraction de caractéristiques et classification basique""" ;
     ex:level "Master" ;
     ex:location "UFR des sciences et des techniques" ;
     ex:methods "Les enseignements sont organisés sous la forme d'une série de 7 cours (1h20) et TD sur machine (2h40) qui permettent de traiter différente thématiques. La dernière séquence (3 TDs) concerne l'étude d'un cas pratique au travers d'un mini projet." ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PERREIRA DA SILVA MATTHIEU" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU080 a ex:UE ;
     rdfs:label "Ingénierie de la décision" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU080" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie de la décision 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
     ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY GUREVSKY EVGENY" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU090 a ex:UE ;
     rdfs:label "Informatique temps réel et embarquée" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU090" ;
+    ex:content "" ;
     ex:evaluation "Informatique temps réel et embarquée 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON SKAF-MOLLI HALA QUEUDET AUDREY" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU100 a ex:UE ;
     rdfs:label "Introduction au Traitement Automatique des Langues" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU100" ;
     ex:content "L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage." ;
     ex:evaluation "Introduction au Traitement Automatique des Langues 100%" ;
@@ -488,28 +571,39 @@ ex:UE_XMS2IU100 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "DUFOUR RICHARD" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU110 a ex:UE ;
     rdfs:label "Ingéniérie des réseaux" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU110" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie des réseaux 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR Sciences et techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SUNYE GERSON MOLLI PASCAL HAMMA SALIMA PIAMRAT KANDARAJ" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU120 a ex:UE ;
     rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU120" ;
     ex:content """Dans ce module, on cherche à concevoir des algorithmes efficaces (en temps) pour résoudre des problèmes, typiquement des problèmes d'optimisation. On y abordera trois grandes parties:
 • évaluation de la complexité d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
@@ -520,50 +614,73 @@ ex:UE_XMS2IU120 a ex:UE ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Technqiues" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "PRZYBYLSKI ANTHONY FERTIN GUILLAUME" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU130 a ex:UE ;
     rdfs:label "stage volontaire en informatique" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU130" ;
+    ex:content "" ;
     ex:evaluation "Stage volontaire en informatique 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "MOLLI PASCAL SUNYE GERSON" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU310 a ex:UE ;
     rdfs:label "Programmation distribuée" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU310" ;
+    ex:content "" ;
     ex:evaluation "Programmation distribuée 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA SUNYE GERSON MOSTEFAOUI ACHOUR" ;
     ex:semester "2" .
 
 ex:UE_XMS2IU320 a ex:UE ;
     rdfs:label "Conception pilotée par le domaine" ;
+    ex:bibliography "" ;
     ex:code "XMS2IU320" ;
+    ex:content "" ;
     ex:evaluation "Conception pilotée par le domaine 100%" ;
     ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Master" ;
     ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "M1 Architecture Logicielle (ALMA)" ;
     ex:parcours_code "ALMA" ;
     ex:parcours_level "M1" ;
+    ex:prerequisite "" ;
     ex:responsible "SKAF-MOLLI HALA SUNYE GERSON" ;
     ex:semester "2" .
 

@@ -3,31 +3,47 @@
 
 ex:UE_XLG5AU210 a ex:UE ;
     rdfs:label "Anglais ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5AU210" ;
+    ex:content "" ;
     ex:evaluation "Anglais ALT 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "5" .
 
 ex:UE_XLG5IE120 a ex:UE ;
     rdfs:label "Périodes PRO alternées" ;
+    ex:bibliography "" ;
     ex:code "XLG5IE120" ;
+    ex:content "" ;
     ex:evaluation "Périodes PRO alternées 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "LARHLIMI ABDELHALIM" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU210 a ex:UE ;
     rdfs:label "Introduction à l'architecture des ordinateurs ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU210" ;
     ex:content """Le module se déclinera en 4 grandes parties:
 • Représentation de l'information
@@ -38,40 +54,60 @@ ex:UE_XLG5IU210 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 10h TD : 10h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME GOUALARD FREDERIC" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU220 a ex:UE ;
     rdfs:label "Ingénierie des exigences ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU220" ;
+    ex:content "" ;
     ex:evaluation "Ingénierie des exigences ALT 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 13.33h TD : 22.67h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "JEAN GERALDINE" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU230 a ex:UE ;
     rdfs:label "Comptabilité financière ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU230" ;
+    ex:content "" ;
     ex:evaluation "Comptabilité financière ALT 100%" ;
     ex:hours "TOTAL : 56h Répartition : CM : 0h TD : 56h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "SUAUDEAU CHRISTOPHE" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU240 a ex:UE ;
     rdfs:label "Optimisation & Automates Finis ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU240" ;
     ex:content """Ce cours comporte deux parties, l'une sur sur les automates finis et l'autre sur l'optimisation.
 • La partie sur les automates finis porte sur les langages rationnels que l'on manipulent ou modélisent avec les expressions rationnelles et les automates finis.
@@ -80,36 +116,49 @@ ex:UE_XLG5IU240 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 8h TD : 16h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU250 a ex:UE ;
     rdfs:label "Structures Linéaires ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU250" ;
     ex:content """Ce module a pour objectifs :
 - de présenter les données dynamiques (listes chainées)
-- de présenter les structures linéraires abstraites et concrètes (liste / pile / file)
-afin d'être capable de choisir la(ou les) structure(s) les plus adaptée(s) pour répondre à un problème donné""" ;
+- de présenter les structures linéraires abstraites et concrètes (liste""",
+        """file)
+afin d'être capable de choisir la(ou les) structure(s) les plus adaptée(s) pour répondre à un problème donné""",
+        "pile" ;
     ex:evaluation "Structures Linéaires ALT 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 0h TD : 32h CI : 0h TP : 12h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
     ex:objective """Comprendre la gestion de la mémoire (pointeurs, allocation dynamique) Comprendre les notions de structures de données abstraites et concrètes
 Savoir utiliser et implémenter les structures de données linéaires classiques (liste, pile et file) Etre capable de choisir une structure de données adaptée à un problème
 Comprendre la différence entre données structurées et dynamiques Être capable de bien documenter un programme
 Être capable de gérer un projet de programmation et de le documenter
 Être capable de concevoir et développer des applications de tailles moyennes""" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU260 a ex:UE ;
     rdfs:label "BD & Web ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU260" ;
     ex:content """Ce module a pour objectifs à travers un projet de développement d'un site web :
 -   de revoir les notions de modélisation d'un problème, les notions de base de Données (BD) et de Système de Gestion de BD
@@ -119,91 +168,140 @@ ex:UE_XLG5IU260 a ex:UE ;
     ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 24h CI : 0h TP : 16h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "DESMONTILS EMMANUEL" ;
     ex:semester "5" .
 
 ex:UE_XLG5IU270 a ex:UE ;
     rdfs:label "Gestion de Projet ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG5IU270" ;
+    ex:content "" ;
     ex:evaluation "Gestion de Projet ALT 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 12h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "5" .
 
 ex:UE_XLG6AU210 a ex:UE ;
     rdfs:label "Anglais ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6AU210" ;
+    ex:content "" ;
     ex:evaluation "Anglais ALT 100%" ;
     ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
+    ex:responsible "" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU110 a ex:UE ;
     rdfs:label "Périodes PRO alterrnées" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU110" ;
+    ex:content "" ;
     ex:evaluation "Périodes PRO alterrnées 100%" ;
     ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "LARHLIMI ABDELHALIM" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU210 a ex:UE ;
     rdfs:label "Réseaux ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU210" ;
+    ex:content "" ;
     ex:evaluation "Réseaux ALT 100%" ;
     ex:hours "TOTAL : 34h Répartition : CM : 4h TD : 19.33h CI : 0h TP : 10.67h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "PIAMRAT KANDARAJ TONNEAU QUENTIN HAMMA SALIMA" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU220 a ex:UE ;
     rdfs:label "Administration des BD ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU220" ;
+    ex:content "" ;
     ex:evaluation "Administration des BD ALT 100%" ;
     ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 24h CI : 0h TP : 16h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "MONCEAUX-CACHARD LAURA" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU230 a ex:UE ;
     rdfs:label "Contrôle de Gestion ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU230" ;
+    ex:content "" ;
     ex:evaluation "Contrôle de Gestion ALT 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 0h TD : 40h CI : 0h TP : 4h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "CATALO MARIE" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU260 a ex:UE ;
     rdfs:label "Langage & Compilation ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU260" ;
     ex:content """Ce module a pour objectifs :
 - de présenter la notion de langages informatiques et des grammaires associées,
@@ -213,40 +311,60 @@ ex:UE_XLG6IU260 a ex:UE ;
     ex:hours "TOTAL : 28h Répartition : CM : 0h TD : 20h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "BECHET Denis PERRIN MATTHIEU" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU300 a ex:UE ;
     rdfs:label "Digitalisation des organisations ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU300" ;
+    ex:content "" ;
     ex:evaluation "Digitalisation des organisations ALT 100%" ;
     ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "CATALO MARIE" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU310 a ex:UE ;
     rdfs:label "Dev Web back-end ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU310" ;
+    ex:content "" ;
     ex:evaluation "Développement Web ALT 100%" ;
     ex:hours "TOTAL : 44h Répartition : CM : 14.67h TD : 8h CI : 0h TP : 21.33h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "LARHLIMI ABDELHALIM" ;
     ex:semester "6" .
 
 ex:UE_XLG6IU320 a ex:UE ;
     rdfs:label "Conception et Analyse d'Algorithmes ALT" ;
+    ex:bibliography "" ;
     ex:code "XLG6IU320" ;
     ex:content """A l'issue de cet enseignement, on s'attend à ce que l'étudiant.e qui l'a suivi:
 • soit capable de concevoir des algorithmes répondant à un cahier des charges précis
@@ -259,9 +377,14 @@ ex:UE_XLG6IU320 a ex:UE ;
     ex:hours "TOTAL : 44h Répartition : CM : 12h TD : 24h CI : 0h TP : 8h EAD : 0h" ;
     ex:language "Français" ;
     ex:level "Licence" ;
+    ex:location "" ;
+    ex:methods "" ;
+    ex:objective "" ;
+    ex:obtention "" ;
     ex:parcours "L3 Info : MIAGE Alternance" ;
     ex:parcours_code "MIAGEALTERNANCE" ;
     ex:parcours_level "L3" ;
+    ex:prerequisite "" ;
     ex:responsible "FERTIN GUILLAUME" ;
     ex:semester "6" .
 
